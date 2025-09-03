@@ -97,6 +97,23 @@ Motherboard that supports most modern upgrades
 
 The parts we were able to purchase are as follows
 
+| **Component**    | **Upgrade Option**                         | **Cost**  |
+|------------------|--------------------------------------------|-----------|
+| **CPU**          | Mid-range 6-core processor                  | $150      |
+|                  | High-end 8-core processor                   | $300      |
+| **RAM**          | 16 GB total RAM                            | $150      |
+|                  | 32 GB total RAM                            | $300      |
+| **Storage**      | 512 GB SSD                                | $150      |
+|                  | 1 TB SSD                                  | $250      |
+|                  | 2 TB HDD (extra, for bulk storage)        | $100      |
+| **GPU**          | Mid-range graphics card (good for gaming, video) | $250      |
+|                  | High-end graphics card (best for gaming, ML) | $400      |
+| **Cooling System** | Enhanced air cooling                      | $100      |
+|                  | Liquid cooling system                      | $200      |
+| **NIC**          | 2.5 Gbps network card                      | $100      |
+| **Other**        | Extra case fans, RGB lighting, style upgrades | $50       |
+
+
 Metal to magic reflection
 
 
