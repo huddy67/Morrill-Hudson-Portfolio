@@ -67,6 +67,9 @@ hardware flowchart
 
 ![Hardware Flowchart](image.jpeg)
 
+
+In general, I thought that I did a good job with figuring out what components work with what, but I also think this could have been organized better since there are lots of arrows in one place. 
+
 software flowchart
 
 (image)
