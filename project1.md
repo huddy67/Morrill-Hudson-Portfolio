@@ -64,7 +64,7 @@ paragraph
 
 hardware flowchart
 
-(image)
+[Hardware Flowchart](image.jpg)
 
 software flowchart
 
