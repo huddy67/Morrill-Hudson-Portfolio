@@ -113,6 +113,8 @@ The parts we were able to purchase are as follows
 | **NIC**          | 2.5 Gbps network card                      | $100      |
 | **Other**        | Extra case fans, RGB lighting, style upgrades | $50       |
 
+I chose that I was going to make a PC focused on 4k video editing. I felt like the componenent that needed to be upgraded the most was the RAM because 8 gigabytes, especially for video editing is not very effective. Since video editing relies a lot on memory, I decided to upgrade to 32 gigabytes ($300). The next upgrade I decided to get was to upgrade the CPU to a high end 8 core processor. The CPU is like the brain of the computer and everything needs to run through it. Video editing requires a significant amount of cores especially since you often have multiple applications open at a time. This upgrade cost me another $300. I decided next that I was going to upgrade the graphics card, which for editing is important especially for 4k since you need to have good visuals. Graphics cards, however, are expensive so I opted for the mid range graphics card instead of the high end one for $250 dollars. My final upgrade was the SSD. Video editing requires you to download a ton of videos, photos, etc... and therefor I felt like the base amount wasnt suffiecent. 512 gb isnt ideal, but I didnt think of it as an absolute necessity because you can free up stoarage any time and many videos and photos you wont need to keep. This upgrade cost me $150. In the end my total came out to exactly $1000. I would of liked to upgrade other things like the cooling fan since 4k editing can make your PC overheat, but I felt like the other upgrades were more of a necessity. 
+
 
 Metal to magic reflection
 
