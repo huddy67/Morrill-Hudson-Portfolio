@@ -59,18 +59,20 @@ adddd
 We first learned about the functions of each component of the PC, so we then needed to learn how each part worked together. This activity was individual, and we were assigned a piece of cardboard, componenent strips, and arrows. the cardboard was used to place the componene t strips down on. Our objective was to show how each componenet work together using these cards, as well as the arrows to show the connections. We needed to put the cards in order of how each are used when typing the sentence "The quick brown fox jumped over the lazy dog."
 
 
-## Hardware flowchart
+### Hardware flowchart
 
 ![Hardware Flowchart](image.jpeg)
 
 
 In general, I thought that I did a good job with figuring out what components work with what, but I also think this could have been organized better since there are lots of arrows in one place. 
 
+#### In Class Hardware Flowchart Example
+
 ![Example Flowchart](arshiya.png)
 
 The above example is what we were given as a reference by Arshiya in class as one of the ways this could have been correct.
 
-## Software flowchart
+### Software flowchart
 
 ![Software Flowchart](c.jpg)
 
