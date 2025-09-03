@@ -27,3 +27,22 @@ Overall, I found this project informative. It helped me discover new forms of co
 ## component song
 
 the second step of our project was creating the "component song". Using suno, a website that generates ai songs and lyrics, I created my component song that was informative of how components function and how they are all integrated to work with eachother. 
+
+song lyrics and link
+
+Metal to magic
+
+adddd
+
+| **Hardware**      | **Purpose**                                                                                     |
+|-------------------|-------------------------------------------------------------------------------------------------|
+| **CPU**           | Executes instructions from programs                                                             |
+| **RAM**           | Temporarily stores data and instructions the CPU is currently using                            |
+| **SSD/HDD**       | Computer's long-term data storage system                                                        |
+| **GPU**           | Processor specialized for parallel processing; useful for graphics processing and matrix multiplication |
+| **Motherboard**   | Main circuit board inside the computer; connects all hardware components and allows communication via buses |
+| **PSU**           | Device that powers the system                                                                   |
+| **NIC**           | Translates data between computer and network; enables WiFi capabilities                         |
+| **Cooling System**| Keeps components cool to prevent overheating and thermal throttling                            |
+| **I/O Devices**   | Tools the user utilizes to interact with the computer (keyboard, microphone, mouse, camera, display, etc.) |
+
