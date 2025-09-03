@@ -78,7 +78,24 @@ software flowchart
 
 ![Software Flowchart](c.jpg)
 
+Making the software flowchart was hard for me, and I wasnt sure if i was supposed to use arrows or not, but there is supposed to be an arrow in between each card. I did not make any connections, but I could have made some between cards like the os and device drivers.
+
 Build a pc activity
+
+Prior to this activity, we did the 2 that I have already discussed. With the information that we learned from the previous activities, we were tasked with building a PC with a budget of 2000 dollars that would have the best performace for whatever category we chose. There were categories such as 4k video editing, gaming, graphic design, ect...
+
+The base parts are as follows:
+
+CPU: mid-range 4-core processor
+RAM: 8 GB
+Storage: 256 GB SSD
+GPU: basic integrated graphics
+PSU: 500W basic model
+Standard cooling
+Basic NIC (network card)
+Motherboard that supports most modern upgrades
+
+The parts we were able to purchase are as follows
 
 Metal to magic reflection
 
