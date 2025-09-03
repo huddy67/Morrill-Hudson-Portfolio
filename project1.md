@@ -60,7 +60,8 @@ software components
 
 software and hardware flowcharts
 
-paragraph
+We first learned about the functions of each component of the PC, so we then needed to learn how each part worked together. This activity was individual, and we were assigned a piece of cardboard, componenent strips, and arrows. the cardboard was used to place the componene t strips down on. Our objective was to show how each componenet work together using these cards, as well as the arrows to show the connections. We needed to put the cards in order of how each are used when typing the sentence "The quick brown fox jumped over the lazy dog."
+
 
 hardware flowchart
 
