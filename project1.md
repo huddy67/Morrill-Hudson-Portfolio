@@ -70,7 +70,9 @@ hardware flowchart
 
 In general, I thought that I did a good job with figuring out what components work with what, but I also think this could have been organized better since there are lots of arrows in one place. 
 
-![Example Flowchart](arshiya.jpg)
+![Example Flowchart](arshiya.png)
+
+The above example is what we were given as a reference by Arshiya in class as one of the ways this could have been correct.
 
 software flowchart
 
