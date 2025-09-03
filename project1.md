@@ -24,17 +24,41 @@ Overall, I found this project informative. It helped me discover new forms of co
 
 The second step of our project was creating the "component song". Using suno, a website that generates ai songs and lyrics, I created my component song that was informative of how components function and how they are all integrated to work with eachother. 
 
-##### song lyrics and link
-link: https://suno.com/s/js6WFkWAomDY4yc8
-lyrics: [Verse 1] Got that motherboard glow It's pumping power low Circuits sing a song All night long Yeah
+#### song lyrics and link
 
-[Prechorus] Chipset heart is beating fast Data streams never meant to last
+###### link: https://suno.com/s/js6WFkWAomDY4yc8
 
-[Chorus] Silicon serenade It's how my feelings cascade Silicon serenade Digital escapade
+###### lyrics: 
 
-[Verse 2] CPU is thinking quick Every process gonna click Got cores and threads galore Open up the door More more more
+**[Verse 1]**  
+Got that motherboard glow  
+It's pumping power low  
+Circuits sing a song  
+All night long  
 
-[Chorus] Silicon serenade It's how my feelings cascade Silicon serenade Digital escapade
+**[Pre-Chorus]**  
+Chipset heart is beating fast  
+Data streams never meant to last  
+
+**[Chorus]**  
+Silicon serenade  
+It's how my feelings cascade  
+Silicon serenade  
+Digital escapade  
+
+**[Verse 2]**  
+CPU is thinking quick  
+Every process gonna click  
+Got cores and threads galore  
+Open up the door  
+More more more  
+
+**[Chorus]**  
+Silicon serenade  
+It's how my feelings cascade  
+Silicon serenade  
+Digital escapade  
+
 
 
 
