@@ -2,7 +2,7 @@
 ## Course Overview
 Briefly describe the course and your learning goals.
 ## Projects
-### Project 1: [Title]
+### Project 1: [project 1]
 - **Description:** What you built and why.
 - **Concepts:** e.g., classes, inheritance, recursion
 - **Artifacts:** Screenshots, code links
