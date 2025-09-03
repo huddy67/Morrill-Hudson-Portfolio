@@ -64,7 +64,7 @@ paragraph
 
 hardware flowchart
 
-[Hardware Flowchart](image.jpg)
+![Alt text](images/image.png)
 
 software flowchart
 
