@@ -1,0 +1,14 @@
+site_name: "AP Networking Portfolio"
+theme:
+  name: material   # change to "dracula" if you installed dracula theme
+  palette:
+    scheme: slate    # dark mode for Material
+    primary: indigo
+    accent: pink
+
+nav:
+  - Home: index.md
+  - Projects:
+      - Project 1: project1.md
+      - Project 2: project2.md
+  - About: about.md
