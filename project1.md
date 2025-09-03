@@ -58,4 +58,20 @@ software components
 | **Libraries/Runtimes** | Pre-written code for apps; shared building blocks for apps   |
 | **Applications**    | Programs for the user to interact with to complete tasks        |
 
+software and hardware flowcharts
+
+paragraph
+
+hardware flowchart
+
+(image)
+
+software flowchart
+
+(image)
+
+Build a pc activity
+
+Metal to magic reflection
+
 
