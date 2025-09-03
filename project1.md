@@ -24,11 +24,11 @@ Overall, I found this project informative. It helped me discover new forms of co
 
 The second step of our project was creating the "component song". Using suno, a website that generates ai songs and lyrics, I created my component song that was informative of how components function and how they are all integrated to work with eachother. 
 
-#### song lyrics and link
+#### Song lyrics and link
 
-###### link: https://suno.com/s/js6WFkWAomDY4yc8
+###### Link: https://suno.com/s/js6WFkWAomDY4yc8
 
-###### lyrics: 
+###### Lyrics: 
 
 **[Verse 1]**  
 Got that motherboard glow  
