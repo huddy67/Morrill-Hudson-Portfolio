@@ -22,3 +22,8 @@ We then came up with a compromise. For example, one of the questions asked: *“
 This project was difficult because our options were very limited, and creativity was essential. The tapping method worked well compared to other approaches, but it didn’t really follow the guidelines as we had thought. We relied on luck for many of the questions since it was challenging to come up with consistent solutions.  
 
 Overall, I found this project informative. It helped me discover new forms of communication that I wouldn’t have otherwise thought of.
+
+
+## component song
+
+the second step of our project was creating the "component song". Using suno, a website that generates ai songs and lyrics, I created my component song that was informative of how components function and how they are all integrated to work with eachother. 
