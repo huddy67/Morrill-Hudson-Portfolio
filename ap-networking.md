@@ -5,7 +5,7 @@ This class covers the fundamentals of computer networking
 
 ## Projects
 
-[Project 1](project1.md)  
+[Metal To Magic](project1.md)  
 Description: What you built and why.  
 Concepts: e.g., classes, inheritance, recursion  
 Artifacts: Screenshots, code links  
