@@ -2,7 +2,7 @@
 
 This was the first project of the year. In this project, we used component cards and strips to help us learn about software and hardware components. We learned what the functions of the components were, as well as how they all worked together.
 
-## Activities
+### Activities
 
 We did small activities such as:
 - Silent Signals  
