@@ -59,7 +59,9 @@ It's how my feelings cascade
 Silicon serenade  
 Digital escapade  
 
+###### Song Reflection
 
+This was very fun to make, and I also thought I learned alot in the process of trying to generate the prompt for the lyrics of the song. Overall very fun and informative
 
 
 ## Metal to magic
