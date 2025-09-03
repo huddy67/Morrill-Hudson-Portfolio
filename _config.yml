@@ -1,0 +1,5 @@
+title: "Hudson Morrill – Hudson-Morrill-Portfolio"
+description: "AP Networking projects: Getting Started, Silent Signals, Metal to Magic, Component Song"
+baseurl: "/Hudson-Morrill-Portfolio" 
+url: "https://<your-github-username>.github.io"
+theme: jekyll-theme-cayman
