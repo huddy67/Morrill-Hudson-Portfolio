@@ -72,7 +72,7 @@ In general, I thought that I did a good job with figuring out what components wo
 
 software flowchart
 
-(image)
+![Software Flowchart](c.jpg)
 
 Build a pc activity
 
