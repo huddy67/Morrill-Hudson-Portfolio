@@ -34,6 +34,8 @@ Metal to magic
 
 adddd
 
+Hardware components
+
 | **Hardware**      | **Purpose**                                                                                     |
 |-------------------|-------------------------------------------------------------------------------------------------|
 | **CPU**           | Executes instructions from programs                                                             |
@@ -45,4 +47,15 @@ adddd
 | **NIC**           | Translates data between computer and network; enables WiFi capabilities                         |
 | **Cooling System**| Keeps components cool to prevent overheating and thermal throttling                            |
 | **I/O Devices**   | Tools the user utilizes to interact with the computer (keyboard, microphone, mouse, camera, display, etc.) |
+
+software components
+
+| **Software**        | **Purpose**                                                     |
+|---------------------|-----------------------------------------------------------------|
+| **Firmware/UEFI**   | Starts the PC and hands off to OS; motherboard firmware         |
+| **Drivers**         | Lets the OS talk to hardware                                    |
+| **OS**              | Manages files, hardware, programs, UI, and much more            |
+| **Libraries/Runtimes** | Pre-written code for apps; shared building blocks for apps   |
+| **Applications**    | Programs for the user to interact with to complete tasks        |
+
 
