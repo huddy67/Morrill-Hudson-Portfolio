@@ -26,35 +26,17 @@ The second step of our project was creating the "component song". Using suno, a 
 
 ##### song lyrics and link
 link: https://suno.com/s/js6WFkWAomDY4yc8
-lyrics: [Verse 1]
-Got that motherboard glow
-It's pumping power low
-Circuits sing a song
-All night long
-Yeah
+lyrics: [Verse 1] Got that motherboard glow It's pumping power low Circuits sing a song All night long Yeah
 
-[Prechorus]
-Chipset heart is beating fast
-Data streams never meant to last
+[Prechorus] Chipset heart is beating fast Data streams never meant to last
 
-[Chorus]
-Silicon serenade
-It's how my feelings cascade
-Silicon serenade
-Digital escapade
+[Chorus] Silicon serenade It's how my feelings cascade Silicon serenade Digital escapade
 
-[Verse 2]
-CPU is thinking quick
-Every process gonna click
-Got cores and threads galore
-Open up the door
-More more more
+[Verse 2] CPU is thinking quick Every process gonna click Got cores and threads galore Open up the door More more more
 
-[Chorus]
-Silicon serenade
-It's how my feelings cascade
-Silicon serenade
-Digital escapade
+[Chorus] Silicon serenade It's how my feelings cascade Silicon serenade Digital escapade
+
+
 
 ## Metal to magic
 
