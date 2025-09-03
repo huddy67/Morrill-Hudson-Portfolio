@@ -1,6 +1,6 @@
-# AP Computer Science A
+# AP Networking
 ## Course Overview
-Briefly describe the course and your learning goals.
+this class covers the fundamentals of computer networking
 ## Projects
 ### Project 1: [project 1]
 - **Description:** What you built and why.
