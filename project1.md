@@ -22,15 +22,15 @@ Overall, I found this project informative. It helped me discover new forms of co
 
 ## Component song
 
-the second step of our project was creating the "component song". Using suno, a website that generates ai songs and lyrics, I created my component song that was informative of how components function and how they are all integrated to work with eachother. 
+The second step of our project was creating the "component song". Using suno, a website that generates ai songs and lyrics, I created my component song that was informative of how components function and how they are all integrated to work with eachother. 
 
-song lyrics and link
+##### song lyrics and link
 
-Metal to magic
+## Metal to magic
 
-adddd
+Metal To Magic was the portion of the project where we learned about the components of a PC like the hardware and software, which are listed below as well as their functions.
 
-### Hardware components
+#### Hardware components
 
 | **Hardware**      | **Purpose**                                                                                     |
 |-------------------|-------------------------------------------------------------------------------------------------|
@@ -44,7 +44,7 @@ adddd
 | **Cooling System**| Keeps components cool to prevent overheating and thermal throttling                            |
 | **I/O Devices**   | Tools the user utilizes to interact with the computer (keyboard, microphone, mouse, camera, display, etc.) |
 
-### software components
+#### software components
 
 | **Software**        | **Purpose**                                                     |
 |---------------------|-----------------------------------------------------------------|
@@ -54,7 +54,7 @@ adddd
 | **Libraries/Runtimes** | Pre-written code for apps; shared building blocks for apps   |
 | **Applications**    | Programs for the user to interact with to complete tasks        |
 
-## Software and hardware flowcharts
+### Software and hardware flowcharts
 
 We first learned about the functions of each component of the PC, so we then needed to learn how each part worked together. This activity was individual, and we were assigned a piece of cardboard, componenent strips, and arrows. the cardboard was used to place the componene t strips down on. Our objective was to show how each componenet work together using these cards, as well as the arrows to show the connections. We needed to put the cards in order of how each are used when typing the sentence "The quick brown fox jumped over the lazy dog."
 
