@@ -1,5 +1,5 @@
 # Project Introduction
-This was our second project of the year. In this project, we worked primarily in the linux terminal going through various activites to help us understand the basics of coding. We learned the following commands, which were needed as prior knowledge during the activities.
+This was our second project of the year. In this project, we worked primarily in the linux terminal on UTM which is a virtual machine ran on mac. We learned the following commands, which were needed as prior knowledge during the activities.
 
 ### Commands
 
@@ -18,6 +18,49 @@ This was our second project of the year. In this project, we worked primarily in
 ### Activities
 The following are the activities we did for this project
 
-Map The maze
-Map The Maze 2
-House Activity in Virtual Machine
+- Map the Maze
+- Map the Maze 2
+- House Activity in Virtual Machine
+
+## Map The Maze 
+
+This was the first part of the command line interface project. In this, our main objective was to learn the basics of the file system on our computer, as well as how to navigate it.
+
+#### diagram of file system tree
+
+/
+└── Hudson
+    ├── Documents
+    │   └── essay.docx
+    ├── Music
+    └── Photos
+        └── Huddy.png
+
+#### pseudocode
+
+Start at home directory (cd ~).
+Create new folder “Practice” (mkdir Practice).
+Inside “Practice”, create subfolders: Docs, Photos, Music.
+Create a text file “notes.txt” inside Docs (touch notes.txt).
+Move “notes.txt” into Music folder (mv notes.txt Music/).
+Verify structure with ls and tree.
+Record the full path of Music folder (pwd).
+
+#### Map The Maze Part 1 Reflection
+
+
+## Map The Maze 2
+
+Map the maze 2 built off of the firt map the maze. 
+
+#### Tools Used
+
+#### Commands and Outputs
+
+#### Map The Maze Part 2 Reflection
+
+## House Activity in Virtual Machine
+
+This was the third and final activity of the command line interface project. This activity involved trying to navigate a house that we were looking after while a friedn was away. We needed to know the commands previously listed to move in in out of rooms, eat (delete) items, delete multiple items in one command, and create a message for the friend. 
+
+
