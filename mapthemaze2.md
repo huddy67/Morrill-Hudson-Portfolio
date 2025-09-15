@@ -117,62 +117,62 @@ This was the third and final activity of the command line interface project. Thi
 
 ### Steps
 
-	1.	Download the map to your friend’s house
- To do this, I initally tried to share a direcoty between the mac and UTM, however I had issues and could not get this to work, so I used the wgit command and pasted the link and unzipped it to download the files.
-	2.	Go inside your friend’s house:
+1.	Download the map to your friend’s house
+ To do this, I initally tried to share a directory between the mac and UTM, however I had issues and could not get this to work, so I used the wgit command and pasted the link and unzipped it to download the files.
+2.	Go inside your friend’s house:
 Command: cd House
-	3.	See where you can go:
+3.	See where you can go:
 Command: ls
 Output: bedroom1  bedroom2  garage  kitchen  main_entrance
-	4.	Enter the Main Entrance:
+4.	Enter the Main Entrance:
 Command: cd "main_entrance"
-	5.	Look around in Main Entrance:
+5.	Look around in Main Entrance:
 Command: ls
 Output: instructions.txt  unopened_mail1.txt  unopenedmail3.txt  shoerack  unopenedmail2.txt
-	6.	Open instructions.txt:
+6.	Open instructions.txt:
 Command: cat instructions.txt
 Message: thank you for watching my house, I have given you a list of tools to help out
-	7.	Go back to House level:
+7.	Go back to House level:
 Command: cd ..
-	8.	Enter the kitchen:
+8.	Enter the kitchen:
 Command: cd kitchen
-	9.	Look inside kitchen:
+9.	Look inside kitchen:
 Command: ls
 Output: Apple banana cereal crackers donut milk orange
-	10.	Eat some food (apple, banana):
+10.	Eat some food (apple, banana):
 Command: rm apple (or rm apple banana to remove both)
-	11.	Find hidden sweets:
+11.	Find hidden sweets:
 Command: ls -a
 Output: donut milk orange .rotten.bananan
-	12.	Remove rotten bananas:
+12.	Remove rotten bananas:
 Command: rm .rotten.bananas
-	13.	Enter Bedroom 1:
+13.	Enter Bedroom 1:
 Command: cd .. then cd bedroom1
-	14.	Look around Bedroom 1:
+14.	Look around Bedroom 1:
 Command: ls -a
 Output: .secret_diary.txt
-	15.	Move to Bedroom 2:
+15.	Move to Bedroom 2:
 Command: cd .. then cd bedroom2
-	16.	Look around Bedroom 2:
+16.	Look around Bedroom 2:
 Command: ls -a
 Output: Chair, desk, messy_bed
-	17.	Check current location:
+17.	Check current location:
 Command: pwd
 Output: /home/ubuntu/house/bedroom2
-	18.	Navigate to garage:
+18.	Navigate to garage:
 Command: cd .. then cd garage
-	19.	See garage contents:
+19.	See garage contents:
 Command: ls
 Output: cardboard_box  cardboard_box2  cardboard_box3  garbage1  garbage2  garbage3  hose
-	20.	Clean boxes and garbage:
+20.	Clean boxes and garbage:
 Remove garbage: rm garbage
 Enter boxes: cd cardboard_box
 Remove trash boxes: rm trash (box with trash: cardboard_box2)
-	21.	Return to Main Entrance:
+21.	Return to Main Entrance:
 Command: cd .. then cd main_entrance
-	22.	Leave a note:
+22.	Leave a note:
 Command: touch note.txt then nano note.txt
-	23.	Leave the house.
+23.	Leave the house.
 
 Bonus:
 Found hidden room .hidden_basement and hidden_stash inside.
