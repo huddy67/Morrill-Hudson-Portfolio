@@ -85,16 +85,105 @@ Relative Paths: Based off the current working directory
 
 ## Map The Maze 2
 
-Map the maze 2 built off of the firt map the maze. 
+Map the maze 2 built off of the first map the maze. We used ubuntu and created files and directories as well as transfered them between mac and our VM (ubuntu)
+
+#### Instructions
+
+| Step | Task | Command / Action |
+|------|------|-----------------|
+| 1 | Getting Started | Open the terminal in your Ubuntu VM (`Ctrl + Alt + T`) |
+| 2 | Navigation Practice | `pwd` → show current directory<br>`cd Documents` → enter Documents folder |
+| 3 | Make the MazeGame Folder | `mkdir MazeGame`<br>`cd MazeGame` |
+| 4 | Create Three Clue Files | `touch clue1.txt clue2.txt clue3.txt`<br>`ls` → verify files created |
+| 5 | Edit Clue #1 | `nano clue1.txt`<br>Type: "Congratulations! You found the first clue."<br>Save with `Ctrl + O`, exit with `Ctrl + X` |
+| 6 | Share Files with Your Host | Copy to hostshare: `cp clue1.txt ~/hostshare/`<br>Copy from Mac back to VM: `cp ~/hostshare/filename.txt ~/Documents/MazeGame/` |
+| 7 | Reveal the Hidden Message | List hidden files: `ls -a`<br>Open secret file: `cat .secret.txt` |
 
 #### Tools Used
+- UTM
+- Ubuntu
 
 #### Commands and Outputs
 
+The commands used for this section of the project are listed above, at the very top of this page since they were also used in the other sections.
+
 #### Map The Maze Part 2 Reflection
+
+This part of the project was an expansion of Map The Maze Part 1 where now we were focusing more on shared files. I found this to be pretty straighforward since we were given instructions that guided us step by step. I did however, feel like there were some commands that I was not entirely familiar with so it was a slight learning curve for me. Overall though I thought i learned a lot of info that will be necessary for other parts of the course as the year goes on. 
 
 ## House Activity in Virtual Machine
 
 This was the third and final activity of the command line interface project. This activity involved trying to navigate a house that we were looking after while a friedn was away. We needed to know the commands previously listed to move in in out of rooms, eat (delete) items, delete multiple items in one command, and create a message for the friend. 
 
+### Steps
+
+	1.	Download the map to your friend’s house
+ To do this, I initally tried to share a direcoty between the mac and UTM, however I had issues and could not get this to work, so I used the wgit command and pasted the link and unzipped it to download the files.
+	2.	Go inside your friend’s house:
+Command: cd House
+	3.	See where you can go:
+Command: ls
+Output: bedroom1  bedroom2  garage  kitchen  main_entrance
+	4.	Enter the Main Entrance:
+Command: cd "main_entrance"
+	5.	Look around in Main Entrance:
+Command: ls
+Output: instructions.txt  unopened_mail1.txt  unopenedmail3.txt  shoerack  unopenedmail2.txt
+	6.	Open instructions.txt:
+Command: cat instructions.txt
+Message: thank you for watching my house, I have given you a list of tools to help out
+	7.	Go back to House level:
+Command: cd ..
+	8.	Enter the kitchen:
+Command: cd kitchen
+	9.	Look inside kitchen:
+Command: ls
+Output: Apple banana cereal crackers donut milk orange
+	10.	Eat some food (apple, banana):
+Command: rm apple (or rm apple banana to remove both)
+	11.	Find hidden sweets:
+Command: ls -a
+Output: donut milk orange .rotten.bananan
+	12.	Remove rotten bananas:
+Command: rm .rotten.bananas
+	13.	Enter Bedroom 1:
+Command: cd .. then cd bedroom1
+	14.	Look around Bedroom 1:
+Command: ls -a
+Output: .secret_diary.txt
+	15.	Move to Bedroom 2:
+Command: cd .. then cd bedroom2
+	16.	Look around Bedroom 2:
+Command: ls -a
+Output: Chair, desk, messy_bed
+	17.	Check current location:
+Command: pwd
+Output: /home/ubuntu/house/bedroom2
+	18.	Navigate to garage:
+Command: cd .. then cd garage
+	19.	See garage contents:
+Command: ls
+Output: cardboard_box  cardboard_box2  cardboard_box3  garbage1  garbage2  garbage3  hose
+	20.	Clean boxes and garbage:
+Remove garbage: rm garbage
+Enter boxes: cd cardboard_box
+Remove trash boxes: rm trash (box with trash: cardboard_box2)
+	21.	Return to Main Entrance:
+Command: cd .. then cd main_entrance
+	22.	Leave a note:
+Command: touch note.txt then nano note.txt
+	23.	Leave the house.
+
+Bonus:
+Found hidden room .hidden_basement and hidden_stash inside.
+Command: ls -a → cat .hidden_stash
+Message: "Congratulations! Put 'I won the game!' in the chat to confirm how much of a winner you are"
+
+### House Sitting Activity Reflection
+
+This was by far the most difficult part of the project for me. I spent the most time with trying to get the files downloaded. Initially, what I did was download the zip file from github into a folder on my mac. I then added that folder as a shared directory inside of the VM. I thought this would work but when I ran ls, I did not see the folder. I then had to find a different solution by using the wget command along with the link to the github. Once I did this, I unzipped the file and was able to access it from there. This is what I spent most of my time on for this project since I thought the commands were pretty simple and we had already had some expereince with it. Overall though I learned a lot but still want to figure out what went wrong with the shared directory and how to fix it.
+
+# General Command Line Interface Reflection
+
+I felt like this project really help me get used to the commands that we will need to know in this class. While we did not go super deep into many commands, I thought it was really helpful that I was able to learn not only what the commands mean, but also how the files and folders are organized (which we learned in Map The Maze Part 1) because I did not really know how important it was to know how they are realted. For example, if I did ls but i was in a specific section of a folder, I would only see that info and not all of the info in the main folder. I struggled particularly with the House Activity because I also was not able to get everything done in class and had to work on it at home without the help of who I was sitting next to. The main area of struggle was downloading the files. I could not figure out how to get the shared directory to work, so I needed to use a command that I was unfamiliar with. I still am unsure of what went wrong so I will need to make sure to figure out what went wrong, but in the process I learned the wget command that could help me in future projects. On the document we worked on, it did not specifiy say how to downlaod the file which helped me problem solve more. I missed class one day during this, so I may have missed some things that could of been helpful, but I am glad I was able to learn more than I otherwise would have. Overall I found this project, specificly the house exploration very fun once I knew what to do, and I found the other two sections, Map the maze 1 and 2 more informative and something that was necessary to be able to do the final part of the project. 
 
