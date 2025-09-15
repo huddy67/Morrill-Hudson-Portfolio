@@ -1,5 +1,5 @@
-# Project Introduction
-This was our second project of the year. In this project, we worked primarily in the linux terminal on UTM which is a virtual machine ran on mac. We learned the following commands, which were needed as prior knowledge during the activities.
+# Project Introduction (Command Line Interface)
+This was our second project of the year. In this project, we worked primarily in the linux terminal on UTM which is a virtual machine ran on mac. Common Line Interface is something that is important if you are in the filed of netowrking because it allows you to know the text needed so that the computer can interpret and display for the user. We learned the following commands, which were needed as prior knowledge during the activities.
 
 ### Commands
 
@@ -102,10 +102,19 @@ Map the maze 2 built off of the first map the maze. We used ubuntu and created f
 #### Tools Used
 - UTM
 - Ubuntu
+- Terminal
+- HostShare
 
 #### Commands and Outputs
 
-The commands used for this section of the project are listed above, at the very top of this page since they were also used in the other sections.
+The commands used for this section of the project are listed above, at the very top of this page since they were also used in the other sections. The most common commands were as follows
+
+- ls
+- pwd
+- cd
+- sudo
+- ls -a
+- touch
 
 #### Map The Maze Part 2 Reflection
 
@@ -185,5 +194,5 @@ This was by far the most difficult part of the project for me. I spent the most 
 
 # General Command Line Interface Reflection
 
-I felt like this project really help me get used to the commands that we will need to know in this class. While we did not go super deep into many commands, I thought it was really helpful that I was able to learn not only what the commands mean, but also how the files and folders are organized (which we learned in Map The Maze Part 1) because I did not really know how important it was to know how they are realted. For example, if I did ls but i was in a specific section of a folder, I would only see that info and not all of the info in the main folder. I struggled particularly with the House Activity because I also was not able to get everything done in class and had to work on it at home without the help of who I was sitting next to. The main area of struggle was downloading the files. I could not figure out how to get the shared directory to work, so I needed to use a command that I was unfamiliar with. I still am unsure of what went wrong so I will need to make sure to figure out what went wrong, but in the process I learned the wget command that could help me in future projects. On the document we worked on, it did not specifiy say how to downlaod the file which helped me problem solve more. I missed class one day during this, so I may have missed some things that could of been helpful, but I am glad I was able to learn more than I otherwise would have. Overall I found this project, specificly the house exploration very fun once I knew what to do, and I found the other two sections, Map the maze 1 and 2 more informative and something that was necessary to be able to do the final part of the project. 
+I felt like this project really help me get used to the commands that we will need to know in this class. While we did not go super deep into many commands, I thought it was really helpful that I was able to learn not only what the commands mean, but also how the files and folders are organized (which we learned in Map The Maze Part 1) because I did not really know how important it was to know how they are realted. For example, if I did ls but i was in a specific section of a folder, I would only see that info and not all of the info in the main folder. I struggled particularly with the House Activity because I also was not able to get everything done in class and had to work on it at home without the help of who I was sitting next to. The main area of struggle was downloading the files. I could not figure out how to get the shared directory to work, so I needed to use a command that I was unfamiliar with. Compared to a Gui I thought this was much more difficult. I still am unsure of what went wrong so I will need to make sure to figure out what went wrong, but in the process I learned the wget command that could help me in future projects. On the document we worked on, it did not specifiy say how to downlaod the file which helped me problem solve more. I missed class one day during this, so I may have missed some things that could of been helpful, but I am glad I was able to learn more than I otherwise would have. Overall I found this project, specificly the house exploration very fun once I knew what to do, and I found the other two sections, Map the maze 1 and 2 more informative and something that was necessary to be able to do the final part of the project. In real world networking, although I am not too familiar, I think that what we learned is something that is definitely necessary to be succesful in this field.
 
