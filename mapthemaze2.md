@@ -39,6 +39,8 @@ This was the first part of the command line interface project. In this, our main
 
 #### diagram of file system tree
 
+This was our first objective of this part of the project. We needed to make a file system tree that would show us the order in which we need to access certain files and folders. This helped us understand in a more linear way the organization of how files can be in folders that are subfolders of a larger folder.
+
 /
 └── Hudson
     ├── Documents
@@ -46,6 +48,12 @@ This was the first part of the command line interface project. In this, our main
     ├── Music
     └── Photos
         └── Huddy.png
+
+#### Image of written file system tree
+
+This file system was different since it was formated slightly differently than the digital typed one that I created.
+
+(image)
 
 #### pseudocode
 
@@ -57,7 +65,22 @@ Move “notes.txt” into Music folder (mv notes.txt Music/).
 Verify structure with ls and tree.
 Record the full path of Music folder (pwd).
 
+#### MTMP1 Lesson 2
+
+In lesson 2, our goal was to have learned how to navigate a file system using CLI commands. The commands we used are listed at the top of the page since they were needed for the house activity as well. We were walked through how to make a folder, subfolders in that folder, files in the sub folder, as well as move the files to a differernt folder. We also compared terminal paths to finder paths. 
+
+Finder Path: /Users/hudsonmorrill/Practice/Music
+
+Terminal Path: /Users/hudsonmorrill/Practice/Music
+
+
 #### Map The Maze Part 1 Reflection
+
+This section of the proejct was not too complicated, but it allowed us to learn how to do the basics. We mainly learned about how to access folders using the command line interface. Creating the file system tree helped me visualize how files and folders are organized. We learned how the root directory is the starting point of the file system with the other folders branching under as subfolders. We also learend about relative and absolute paths. Because we were guided through most of the project I found it realitivly easy to complete.
+
+Absolute paths: Give the full location of a file
+
+Relative Paths: Based off the current working directory
 
 
 ## Map The Maze 2
