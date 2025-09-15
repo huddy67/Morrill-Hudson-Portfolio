@@ -105,7 +105,7 @@ Map the maze 2 built off of the first map the maze. We used ubuntu and created f
 - Terminal
 - HostShare
 
-#### Commands and Outputs
+#### Commands
 
 The commands used for this section of the project are listed above, at the very top of this page since they were also used in the other sections. The most common commands were as follows
 
@@ -118,7 +118,7 @@ The commands used for this section of the project are listed above, at the very 
 
 #### Map The Maze Part 2 Reflection
 
-This part of the project was an expansion of Map The Maze Part 1 where now we were focusing more on shared files. I found this to be pretty straighforward since we were given instructions that guided us step by step. I did however, feel like there were some commands that I was not entirely familiar with so it was a slight learning curve for me. Overall though I thought i learned a lot of info that will be necessary for other parts of the course as the year goes on. 
+This part of the project was an expansion of Map The Maze Part 1 where now we were focusing more on shared files. I found this to be pretty straighforward since we were given instructions that guided us step by step. I did struggle with a part of this because I could not get the hostshare to work for some reason. I made a folder, put it as a shared directory, but for some reason it did not show up on my computer. I also had this issue with the House Activity. I did feel like there were some commands that I was not entirely familiar with so it was a slight learning curve for me. Overall though I thought i learned a lot of info that will be necessary for other parts of the course as the year goes on. 
 
 ## House Activity in Virtual Machine
 
