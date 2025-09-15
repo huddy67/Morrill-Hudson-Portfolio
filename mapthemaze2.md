@@ -26,6 +26,17 @@ The following are the activities we did for this project
 
 This was the first part of the command line interface project. In this, our main objective was to learn the basics of the file system on our computer, as well as how to navigate it.
 
+#### Key Terms
+
+| Term | Definition / Example |
+|------|--------------------|
+| Root Directory (`/` or `C:\`) | Top of the file system tree, contains all the file system |
+| Folder (Directory) | A container used to organize files and other folders. Folders help group related files so the computer and the user can find them more easily |
+| File | Stores data (text documents, images, videos) |
+| Path | The address of a file or folder, showing its location inside the file system. Paths are written as a sequence of folder names separated by slashes |
+| Absolute Path | Shows the full location of a file or directory |
+| Relative Path | A relative path shows the location of a file or folder starting from your current working directory (where you are right now) |
+
 #### diagram of file system tree
 
 /
