@@ -37,7 +37,7 @@ This was the first part of the command line interface project. In this, our main
 | Absolute Path | Shows the full location of a file or directory |
 | Relative Path | A relative path shows the location of a file or folder starting from your current working directory (where you are right now) |
 
-#### diagram of file system tree
+#### Diagram of file system tree
 
 This was our first objective of this part of the project. We needed to make a file system tree that would show us the order in which we need to access certain files and folders. This helped us understand in a more linear way the organization of how files can be in folders that are subfolders of a larger folder.
 
@@ -55,7 +55,7 @@ This file system was different since it was formated slightly differently than t
 
 ![image](unnamed-4.jpg)
 
-#### pseudocode
+#### Pseudocode
 
 Start at home directory (cd ~).
 Create new folder “Practice” (mkdir Practice).
