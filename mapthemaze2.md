@@ -53,7 +53,7 @@ This was our first objective of this part of the project. We needed to make a fi
 
 This file system was different since it was formated slightly differently than the digital typed one that I created.
 
-![image](unnamed-4.png)
+![image](unnamed-4.jpg)
 
 #### pseudocode
 
