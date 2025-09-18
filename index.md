@@ -9,3 +9,4 @@ future, I hope to [future aspirations].
 ## Portfolio Navigation
 
 - [AP Networking](ap-networking.md)
+- [Senior Engineering](SeniorEngineering.md)
