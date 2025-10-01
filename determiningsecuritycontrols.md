@@ -19,11 +19,10 @@ We took notes on a google doc where we learned about the CIA triad, common devic
 CIA Triad
 
 Confidentiality
-- encryption 
-agreements
-The only thing that can decode data is an encryption key (ssh).
- Keeps information secret from people who shouldn't see it
-Websites could have security breaches
+- encryption agreements
+- The only thing that can decode data is an encryption key (ssh).
+- Keeps information secret from people who shouldn't see it
+- Websites could have security breaches
 
 Integrity
 - Keeping information/data uncorrupted, accurate, and trustworthy
@@ -35,40 +34,40 @@ EX. College board making sure servers are up while people are taking exams
 
 Common Device Vulnerabilities:
 
-- A weakness that can be exploited
+- Weaknesses that can be exploited
   - Ex. outdated operating systems
     - Companies release updates to fix weaknesses
   - Ex. unencrypted data
   - Ex. weak passwords
   - Ex. open ports
+    - Place where software can connect to the internet
+    - Like a “window” or “door” that lets services communicate
+    -  Some ports are necessary
 
-- Place where software can connect to the internet
-  - Like a “window” or “door” that lets services communicate (can be inspected)
-  - Some ports are necessary; closing unused ports is like locking doors so strangers can't come in
-
-- Well-known ports (standardized by IANA)
+- Well-known ports
   - `80`   — HTTP  — hypertext transfer protocol (unencrypted web)
-  - `443`  — HTTPS — secure web traffic (HTTP over TLS)
-  - `22`   — SSH   — secure shell (remote command line)
-  - `25`   — SMTP  — simple mail transfer protocol (sending mail)
-  - `110`  — POP3  — retrieve mail (downloads & removes)
-  - `143`  — IMAP  — mail on server (syncing)
-  - `3389` — RDP   — remote desktop protocol (Windows GUI access)
-  - `53`   — DNS   — domain name system (name → IP resolution)
+  - `443`  — HTTPS — secure web traffic 
+  - `22`   — SSH   — secure shell
+  - `25`   — SMTP  — simple mail transfer protocol
+  - `110`  — POP3  — retrieve mail
+  - `143`  — IMAP  — mail on server
+  - `3389` — RDP   — remote desktop protocol 
+  - `53`   — DNS   — domain name system
 
 - Unpatched software
-  - Definition: applications or OS versions missing vendor patches that fix security flaws
   - Ex. Windows updates (Patch Tuesday)
   - Ex. Web browsers (Chrome, Firefox, Safari)
-  - Ex. Mobile apps on iPhone/Android
-  - Ex. Ubuntu/Linux packages and kernels
+  - Ex. Mobile apps
+  - Ex. Ubuntu/Linux
+ 
+phishing Attacks
 
-- Checklist
-  - Identify and update outdated OS and applications
-  - Close or firewall unused ports
-  - Enforce strong, unique passwords and MFA
-  - Ensure encryption for data in transit and at rest
-  - Schedule regular patching and vulnerability scans
+Phishing - Attempt to get you to click malicious links via email, text, etc...
+Tailgating - unauthorized person gaining access to information from an authorized person
+Spear phishing - phishing that targets a specific person
+Pretexting - creating a realistic scenario to access someones information
+Baiting - baiting someone to give confidential info by deceiving them into a trap
+
 
 
 #### Matching Cards Activity
@@ -78,6 +77,25 @@ We started off by doing an activity where we were given two sets of cards, one s
 (pictures)
 
 ## Outdated Software
+
+In this activity we checked software in the ubuntu VM to see if it was up to date or even installed. If it was not up to date then we updated it and if it was not installed we installed it. We then answered questions about the importance of keeping softwares up to date as well as which softwares were the most important to keep up to date. 
+
+Before checking or installing we ran the following commands which made sure latest versions were installed:
+- sudo apt update 
+- sudo apt upgrade -y
+
+### Table of my results
+
+| Software / Version     | Status        | Risk                                                                 |
+|------------------------|---------------|----------------------------------------------------------------------|
+| OpenSSL                | Outdated      | Can leak data if not updated.                                        |
+| Firefox                | Up to Date    | Safe, protects against scams and phishing.                           |
+| LibreOffice            | Outdated      | Hackers could get into files and steal important info.                |
+| Python                 | Outdated      | Older versions have bugs and can make the system less secure.         |
+| Apache HTTP Server     | Not Installed | No risk since it’s not on the system.                                |
+| GIMP                   | Not Installed | No risk since it’s not on the system.                                |
+| Java                   | Not Installed | No risk since it’s not on the system.                                |
+| OpenSSH                | Outdated      | Hackers could break in remotely if not updated.                      |
 
 ## Cyber Security Basics for Devices
 
