@@ -74,10 +74,10 @@ Baiting - baiting someone to give confidential info by deceiving them into a tra
 
 We started off by doing an activity where we were given two sets of cards, one set being orange and the other being green. The green cards would have an example of someone doing something that puts their data at risk, and the orange cards would have a solution to making sure that their data is not at risk. Me and Scarlett were partners for this activity and our pictures of our card matches are below. 
 
-(cardpictures/IMG_2266.jpg)
-(cardpictures/IMG_2267.jpg)
-(cardpictures/IMG_2268.jpg)
-(cardpictures/IMG_2269.jpg)
+[](cardimages/IMG_2266.jpg)
+[](cardimages/IMG_2267.jpg)
+[](cardimages/IMG_2268.jpg)
+[](cardimages/IMG_2269.jpg)
 
 ## Outdated Software
 
