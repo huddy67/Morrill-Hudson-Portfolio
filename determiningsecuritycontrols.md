@@ -16,7 +16,7 @@ In this project, the main objective was to learn how we can properly secure our 
 
 We took notes on a google doc where we learned about the CIA triad, common device vulnerabilities, common ports, and types of phishing attacks. 
 
-CIA Triad
+#### CIA Triad
 
 ##### Confidentiality
 - encryption agreements
@@ -99,6 +99,16 @@ Before checking or installing we ran the following commands which made sure late
 
 Most of the software was not updated. In terms of the risk it imposes on the school devices, I do not think there is much risk because it is only students at charlotte latin using the computers, but for personal devices these often have more information that needs to be private, or could have work information. Therfore, you should always try to keep these updated to prevent people from stealing your information. Because the software is outdated there are vulnerabilities that hackers know of and can exploit, but if you update it then it is much harder since the exploits likely got patched. 
 
+#### Outdated Software Reflection
+
+Things I Learned
+
+- outdated software can be dangerous because it is vulnerable to being exploited by hackers
+- You can run commands to test whether your software is up to date
+- places that have lots of sensitive data need to have theur software updated regularly because they could be sued if a patient, student, etc.. gets their data leaked (hospitals, schools, etc...)
+
+This assignment was really helpful in allowing me to understand why we should keep software updated. We also learned how to udate the software and check if it was installed. I was not aware of how common it was for hackers to obtain your information through outdated software and I learned that some softwares like open ssl are important to keep updated because this one for example helps with security. Overall, this assignment was pretty straighforward, but one of the most informative ones that we have done this year. 
+
 ## Cyber Security Basics for Devices
 
 This was the second big project we worked on. In this we learned how to identify the ports open in our VM and whether they were necessary. We also learned how to place firewalls, which act like locks on unused doors
@@ -124,7 +134,7 @@ I then blocked port 23 using: sudo ufw deny 23/tcp (the reason for doing so is b
 
 Next I checked for LUKS encryption using: lsblk -f (I did not see crypto_LUKS which means there wasn't encryption)
 
-reflection: 
+#### Cyber Security Basics for Devices Reflection: 
 
 - The firewall was not enabled initially, so I needed to enable it.
 - I also blocked telnet because it was not secure.
@@ -134,6 +144,7 @@ This assignment helped me learn the risks with having unused ports open. We lear
 
 # Overall Reflection:
 
+This project was really informative overall and I learned a lot about software, keeping it updated, as well as how to check what ports are open on your device and put a firewall that can keep them secure. I did not have too many struggles with this project, and found that both of the main documents that we worked on were relatively straightforward. I liked that we got to use the cards to match up the mistake, like creating a weak password, and matching it with the solution like use capital letters and special characters. This was interactive and allowed me to think more about real word situations that might happen and how you can prevent them. I also learned that there were more terms for phishing like tailgating, spear phishing, pretexting, etc... Overall I found this project fun and pretty simple while also teaching me about a lot of stuff that we will need to know in the real world. 
 
 
 
