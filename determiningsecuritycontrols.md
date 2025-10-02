@@ -117,24 +117,35 @@ This was the second big project we worked on. In this we learned how to identify
 
 The first command I ran was: 
 
-'''netstat -tuln'''
+```netstat -tuln```
 
-For whatever reason this did not work so i ran: ss -tuln
+For whatever reason this did not work so i ran: 
+
+```ss -tuln```
 
 This command identified ports that I had open
 
-Next I ran: sudo apt update && sudo apt upgrade 
-sudo apt install ufw -y 
+Next I ran: 
+
+```sudo apt update```
+```sudo apt upgrade```
+```sudo apt install ufw -y```
 
 This ensured that UFW was installed because it normally is not installed by default
 
-I then checked firewall status: sudo ufw status 
+I then checked firewall status: 
 
-My firewall was not enabled so I ran: sudo ufw enable
+```sudo ufw status``` 
+
+My firewall was not enabled so I ran:
+
+```sudo ufw enable```
 
 I then blocked port 23 using: sudo ufw deny 23/tcp (the reason for doing so is because this is outdated and hackers can use this to easily steal info)
 
-Next I checked for LUKS encryption using: lsblk -f (I did not see crypto_LUKS which means there wasn't encryption)
+Next I checked for LUKS encryption using: 
+
+```lsblk -f``` (I did not see crypto_LUKS which means there wasn't encryption)
 
 #### Cyber Security Basics for Devices Reflection: 
 
