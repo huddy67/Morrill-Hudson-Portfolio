@@ -18,17 +18,17 @@ We took notes on a google doc where we learned about the CIA triad, common devic
 
 CIA Triad
 
-Confidentiality
+##### Confidentiality
 - encryption agreements
 - The only thing that can decode data is an encryption key (ssh).
 - Keeps information secret from people who shouldn't see it
 - Websites could have security breaches
 
-Integrity
+##### Integrity
 - Keeping information/data uncorrupted, accurate, and trustworthy
 - data has not been tampered with on purpose or by accident
 
-Availability
+##### Availability
 - Making sure that information and systems are available when we need them
 EX. College board making sure servers are up while people are taking exams
 
@@ -60,7 +60,7 @@ Common Device Vulnerabilities:
   - Ex. Mobile apps
   - Ex. Ubuntu/Linux
  
-phishing Attacks
+### Phishing Attacks
 
 Phishing - Attempt to get you to click malicious links via email, text, etc...
 Tailgating - unauthorized person gaining access to information from an authorized person
@@ -97,5 +97,46 @@ Before checking or installing we ran the following commands which made sure late
 | Java                   | Not Installed | No risk since it’s not on the system.                                |
 | OpenSSH                | Outdated      | Hackers could break in remotely if not updated.                      |
 
+Most of the software was not updated. In terms of the risk it imposes on the school devices, I do not think there is much risk because it is only students at charlotte latin using the computers, but for personal devices these often have more information that needs to be private, or could have work information. Therfore, you should always try to keep these updated to prevent people from stealing your information. Because the software is outdated there are vulnerabilities that hackers know of and can exploit, but if you update it then it is much harder since the exploits likely got patched. 
+
 ## Cyber Security Basics for Devices
 
+This was the second big project we worked on. In this we learned how to identify the ports open in our VM and whether they were necessary. We also learned how to place firewalls, which act like locks on unused doors
+
+### Project Walkthrough
+
+The first command I ran was: netstat -tuln
+
+For whatever reason this did not work so i ran: ss -tuln
+
+This command identified ports that I had open
+
+Next I ran: sudo apt update && sudo apt upgrade 
+sudo apt install ufw -y 
+
+This ensured that UFW was installed because it normally is not installed by default
+
+I then checked firewall status: sudo ufw status 
+
+My firewall was not enabled so I ran: sudo ufw enable
+
+I then blocked port 23 using: sudo ufw deny 23/tcp (the reason for doing so is because this is outdated and hackers can use this to easily steal info)
+
+Next I checked for LUKS encryption using: lsblk -f (I did not see crypto_LUKS which means there wasn't encryption)
+
+reflection: 
+
+- The firewall was not enabled initially, so I needed to enable it.
+- I also blocked telnet because it was not secure.
+- disk encryption was not enabled, but should be for encryption
+
+This assignment helped me learn the risks with having unused ports open. We learned the importance of firewalls which act as a lock for unused ports and prevent hackers from gaining access. This was something I was not familliar with at all prior to the project, so I am still learning this, but I feel like I gained a basic understanding of the importance of making sure your data and information is encrypted.
+
+# Overall Reflection:
+
+
+
+
+
+
+ 
