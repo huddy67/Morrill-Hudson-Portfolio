@@ -79,6 +79,8 @@ We started off by doing an activity where we were given two sets of cards, one s
 [](cardimages/IMG_2268.jpg)
 [](cardimages/IMG_2269.jpg)
 
+We did this activity twice but we still had the same order both times
+
 ## Outdated Software
 
 In this activity we checked software in the ubuntu VM to see if it was up to date or even installed. If it was not up to date then we updated it and if it was not installed we installed it. We then answered questions about the importance of keeping softwares up to date as well as which softwares were the most important to keep up to date. 
