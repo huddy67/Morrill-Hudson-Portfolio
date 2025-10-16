@@ -2,15 +2,15 @@
 
 8-28 - Laser cut personal box to hold materials
 
-9-1 - begun the wood pen project
+9-1 - Begun the wood pen project
 
-9-3 - glued wood pen pieces togeher and waited for them to dry until the next day
+9-3 - Glued wood pen pieces togeher and waited for them to dry until the next day
 
-9-5 - we drilled a hole through the two wooden pieces that we glued together and then put the metal shaft in the hole with super glue
+9-5 - We drilled a hole through the two wooden pieces that we glued together and then put the metal shaft in the hole with super glue
 
-9-8 - sanded down the sides of the pen and then started to turn it
+9-8 - Sanded down the sides of the pen and then started to turn it
 
-9-10 - finished turning the pen 
+9-10 - Finished turning the pen 
 
 9-12 - I assembled the pen and made sure that everything worked
 
