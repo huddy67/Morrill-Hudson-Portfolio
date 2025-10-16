@@ -44,4 +44,84 @@
 
 10-13 - I worked on 3d printing and laser cutting. I printed a snake, and then while it was printing reviewed my project for any missing materials.
 
-10-14
+# Projects
+
+## Pen Project
+
+#### Overview
+
+This was the first project of the year. The goal was to create a functional pen made up of two pieces of wood, and the other tools given to use in the pen kit. 
+
+#### Steps
+
+1. We chose pieces of wood from a box that we thought would look good on our pen
+2. we cut the pieces of wood so that it was slightly longer than the brass tube that would later be inserted through the middle
+3. Once the wood was cut to the appropriate length, the pieces were glued together
+4. clamps were used so that the wood would be tightly glued and centered
+5. The next day, the glue was hardened so a hole was drilled through the middle of the two pieces
+6. The sanding machine was used to smooth out the corners of the wood so that when the pen turning machine was used the risk for chipping would be lower and it would be smoother
+7. The wood was then put on the pen turning machine, and a metal toolbar was used to shave it down to a smaller, rounder size
+8. After we got the wood to the right size it was sanded down to make it smoother
+9. a liquid was used to make it smoother and shinier
+10. A machine was used to press the pieces of wood and the other parts from the pen kit into the final pen
+
+Tools used:
+
+- Sanding machine
+- Pen turning machine
+- Pen pressing machine
+- Saw
+
+#### Finished Picture of Pen
+
+(insert picture)
+
+#### Reflection
+
+This project was really fun, and it helped me learn more about a lot of the machines that I hadnt ever used or havent used in a while. One of the things that I struggled with was gluing the wood agaisnt the grain, which made it so that when turning the pen, it would chip very easily. I also got one of the tools stuck in my wood when drilling the hole in the middle. I then had to use a hand drill to do it instead. The project was hard, but really fun and helped me learn a lot of things that ill need to use for my capstone project.
+
+## Owl Soldering Project
+
+#### Overview
+
+The owl project was a kit consisting of a board, led lights, usb-c port, resistors, and other items. The goal was to install all of the parts, and have it light up like an ornament. 
+
+#### Steps
+
+1. install the resistors
+2. install capacitator
+3. install LED lights
+4. Surface mount
+
+#### sucesses
+
+In the end, I got my board to work. In the process, I learned a lot about soldering, and got more experience. 
+
+#### Setbacks
+
+I glued a lot of my LEDS on the wrong side of my board. Because I already did so many, I had to restart my board completely. I struggled with this because we really only had a couple of days in class to work on it so I had to find time outside of class to come and work on it. I eventually got all the LED's on the right side of the board, however I had an issue with the USB-c port. My USB-c port fell off because I did not get it all the way in when soldering. I had to use the solder sucker to get it out, and the redo it. I got more experiecne because of this so in the end it was probably a good thing.
+
+#### How I overcame setbacks
+
+I realized that I needed to put more work into the proejct after class. I also learned that if I wanted to overcome then i needed to communicate with my teacher.
+
+#### What did I learn
+
+I learned how to use the solder sucker, as well as how to be better at soldering. I got better at cleaning the tip of the soldering iron and being more careful about where I place components. I learned it is better to go slower and make sure everything is right than try to rush through everything and have to start over, because in the end it will take longer that way. 
+
+#### Pictures of Owl Project
+
+(pictures)
+
+## Capstone Project: Wodden Scoreboard
+
+#### Link to design specs
+
+https://docs.google.com/spreadsheets/d/1inqLF94JXjDDkbQPFtxw10qv6yk3-GvXojiwrM2xEpA/edit?gid=0#gid=0
+
+#### What I am doing
+
+I have been working on planning out my project. My project is a wooden scoreboard that updates live sports games, specifically the Carolina Panthers. The scoreboard will be made out of a piece of wood about an inch think, and will have a panthers logo engraved into it. Below, there will be an LED display that shows the score of the game. On the right side of the panthers there will be an NFL logo engraved which acts as a logo for the team they are palying agsainst. In addition to the score, there will be leds displaying who has the ball, what yard line the team is on, and the quarter and time remaining. Below is a link to a google doc I made that goes more in depth ablout specifics.
+
+Google Doc: https://docs.google.com/document/d/1nw5ylel2ZrbF-HW83ZcTL0ofzCo5Q5WhvYyqAbZ7k_Q/edit?tab=t.0
+
