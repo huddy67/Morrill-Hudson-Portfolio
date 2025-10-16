@@ -1,5 +1,21 @@
 # Daily Journal
 
+8-28 - Laser cut personal box to hold materials
+
+9-1 - begun the wood pen project
+
+9-3 - glued wood pen pieces togeher and waited for them to dry until the next day
+
+9-5 - we drilled a hole through the two wooden pieces that we glued together and then put the metal shaft in the hole with super glue
+
+9-8 - sanded down the sides of the pen and then started to turn it
+
+9-10 - finished turning the pen 
+
+9-12 - I assembled the pen and made sure that everything worked
+
+9-18 - I wanted to do the pearl project but still was deciding
+
 9-24-25 - I tried to decide what I am doing for my project. I am considering doing the Pearl ,project but am not sure because of football
 
 9-25-25 - I decided that I was not doing the pearl project and started to think of other ideas I could do
