@@ -115,9 +115,11 @@ I learned how to use the solder sucker, as well as how to be better at soldering
 
 ## Capstone Project: Wodden Scoreboard
 
-#### Link to design specs
+#### Link to design specs and spreadsheet
 
-https://docs.google.com/spreadsheets/d/1inqLF94JXjDDkbQPFtxw10qv6yk3-GvXojiwrM2xEpA/edit?gid=0#gid=0
+Design Specs: https://docs.google.com/document/d/1B3yqlRBjaSyJo14gAYQvdTI4_eG2g5yNZneb4KKwpP4/edit?tab=t.0
+
+Spreadsheet: https://docs.google.com/spreadsheets/d/1inqLF94JXjDDkbQPFtxw10qv6yk3-GvXojiwrM2xEpA/edit?gid=0#gid=0
 
 #### What I am doing
 
