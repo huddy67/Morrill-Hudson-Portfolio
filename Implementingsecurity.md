@@ -36,7 +36,7 @@ My Password Algorithm
 
 ## Changing Password Ubuntu
 
-original: ubuntu
+Original: ubuntu
 
 New: Book1Story2Page3Word4!!
 
