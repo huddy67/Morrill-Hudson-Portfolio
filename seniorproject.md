@@ -74,7 +74,7 @@ Tools used:
 
 #### Finished Picture of Pen
 
-![](Image 10-16-25 at 9.54 PM.png)
+![](Image10-16-25at9.54PM.png)
 
 #### Reflection
 
