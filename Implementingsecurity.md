@@ -132,37 +132,37 @@ sudo nano /etc/pam.d/sshd
 ## Patches in Ubuntu
 
 - Check for available updates
-sudo apt update
-sudo apt list --upgradable
+```sudo apt update```
+```sudo apt list --upgradable```
 
 - Apply updates
-sudo apt upgrade
+```sudo apt upgrade```
 
 - View update history
-cat /var/log/apt/history.log
+```cat /var/log/apt/history.log```
 
 - Search update logs by date
-grep "YYYY-MM" /var/log/apt/history.log
+```grep "YYYY-MM" /var/log/apt/history.log```
 
 - See installed or updated packages
-grep "Install:" /var/log/apt/history.log
+```grep "Install:" /var/log/apt/history.log```
 
 - Count installation events
-grep "Install:" /var/log/apt/history.log | wc -l
+```grep "Install:" /var/log/apt/history.log | wc -l```
 
 - View most recent install
-grep -A 2 "Start-Date" /var/log/apt/history.log | tail -n 10
+```grep -A 2 "Start-Date" /var/log/apt/history.log | tail -n 10```
 
 - Search for a specific program/package
-grep "nano" /var/log/apt/history.log
-grep "firefox" /var/log/apt/history.log
-grep "google-authenticator" /var/log/apt/history.log
+```grep "nano" /var/log/apt/history.log```
+```grep "firefox" /var/log/apt/history.log```
+```grep "google-authenticator" /var/log/apt/history.log```
 
 - Check the most recent log entries
-tail -n 20 /var/log/apt/history.log
+```tail -n 20 /var/log/apt/history.log```
 
 - Check automatic update schedule
-ls -l /var/lib/apt/periodic/
+```ls -l /var/lib/apt/periodic/```
 
 
 # Reflection
