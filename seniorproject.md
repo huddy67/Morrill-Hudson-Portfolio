@@ -74,7 +74,7 @@ Tools used:
 
 #### Finished Picture of Pen
 
-![](Image10-16-25at9.54PM.png)
+![](pen.png)
 
 #### Reflection
 
@@ -111,7 +111,7 @@ I learned how to use the solder sucker, as well as how to be better at soldering
 
 #### Pictures of Owl Project
 
-(pictures)
+![](owl.png)
 
 ## Capstone Project: Wodden Scoreboard
 
