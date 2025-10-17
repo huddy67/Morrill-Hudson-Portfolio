@@ -94,8 +94,8 @@ sudo ls /
 4. Install Google Authenticator
 ```sudo apt update```
 ```sudo apt install libpam-google-authenticator -y```
-google-authenticator
- Answer prompts:
+
+google-authenticator answer prompts:
  Time-based tokens: y
  Update .google_authenticator file: y
  Disallow multiple uses: y
