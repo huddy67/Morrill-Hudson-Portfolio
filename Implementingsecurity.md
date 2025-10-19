@@ -71,8 +71,8 @@ This new password followed my algorithm that I had created before excpet for ins
 
    #### Changing Passwords in Ubuntu Screenshots
 
-   
-
+   ![](Picture1.png)
+   ![](Picture2.png)
 
 
 ## MFA Installation in Ubuntu
