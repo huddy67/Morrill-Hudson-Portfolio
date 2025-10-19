@@ -133,6 +133,11 @@ sudo nano /etc/pam.d/sshd
  If verification code rejected, check system clock
 ```timedatectl status```
 
+### MFA Installation Screenshots
+
+   ![](image1.png)
+   ![](image2.png)
+
 ## Patches in Ubuntu
 
 - Check for available updates
