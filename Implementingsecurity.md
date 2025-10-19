@@ -16,13 +16,11 @@ MFA installation - Install MFA (pam_google_authenticator) and serify it via SSH
 
 Patching Sequence - Keep ubuntu secure by patching and updating software. Understand the benefits of updating and the risks of not updating
 
-NIST/OWASP guidlines
+NIST/OWASP guidlines - NIST/OWASP guidlines are practices developed by the National Institute Standards and Technology, and Open Web Application Security Project to help protect systems and prevent systems from having security risks. 
 
 ### Notes on Password Entropy
 
 Link: https://docs.google.com/document/d/1TeFBieNnrw9kggYTQZFMGe3J8r8IhxLfDrKi_XJu3Ow/edit?tab=t.0
-
-### Screenshots of Design Steps
 
 ## Password Algorithm Design
 
