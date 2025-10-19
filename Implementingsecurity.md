@@ -168,7 +168,13 @@ sudo nano /etc/pam.d/sshd
 
 ### Patches in Ubuntu Screenshots 
 
-
+![](photo1.png)
+![](photo2.png)
+![](photo3.png)
+![](photo4.png)
+![](photo5.png)
+![](photo6.png)
+![](photo7.png)
 
 
 # Reflection
