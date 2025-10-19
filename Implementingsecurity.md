@@ -20,6 +20,8 @@ NIST/OWASP guidlines
 
 ### Notes on Password Entropy
 
+Link: https://docs.google.com/document/d/1TeFBieNnrw9kggYTQZFMGe3J8r8IhxLfDrKi_XJu3Ow/edit?tab=t.0
+
 ### Screenshots of Design Steps
 
 ## Password Algorithm Design
@@ -163,6 +165,10 @@ sudo nano /etc/pam.d/sshd
 
 - Check automatic update schedule
 ```ls -l /var/lib/apt/periodic/```
+
+### Patches in Ubuntu Screenshots 
+
+
 
 
 # Reflection
