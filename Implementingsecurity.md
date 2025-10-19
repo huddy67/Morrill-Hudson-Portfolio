@@ -69,9 +69,11 @@ This new password followed my algorithm that I had created before excpet for ins
 
       the result is that my password was changed from ubuntu to the one I had created using my algorithm (Book1Story2Page3Word4!!)
 
-   #### Screenshots of Steps
+   #### Changing Passwords in Ubuntu Screenshots
 
-   add screenshots
+   
+
+
 
 ## MFA Installation in Ubuntu
 
