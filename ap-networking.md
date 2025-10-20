@@ -8,4 +8,4 @@ This class covers the fundamentals of computer networking
 [Metal To Magic](project1.md)  
 [Command Line Interface](mapthemaze2.md)
 [Determining Security Controls](determiningsecuritycontrols.md)
-[implenenting sexurity](implementingsecurity.md)
+[implenenting sexurity](Implementingsecurity.md)
