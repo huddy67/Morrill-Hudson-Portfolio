@@ -26,7 +26,7 @@ These notes covered the keys to making a secure password, as well as the compone
 
 ## Password Algorithm Design
 
-The original password for Ubuntu was "ubuntu". As you can tell in the notes and the NISt guidlines whcih were linked below, this is not a very secure password. So, a password algorithm was designed that would follow the notes and NIST guidlines to make the VM/ubuntu more secure.
+The original password for Ubuntu was "ubuntu". As you can tell in the notes and the NISt guidlines which were linked below, this is not a very secure password. So, a password algorithm was designed that would follow the notes and NIST guidlines to make the VM/ubuntu more secure.
 
 My Password Algorithm
 
