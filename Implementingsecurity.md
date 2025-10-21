@@ -2,7 +2,7 @@
 
 ### Objectives
 
-Password algorithm - Create a unique algorithm that makes a secure password
+Password algorithm - Create a unique algorithm that makes a secure password, replacing the original, weak password "ubuntu"
 
   ##### Principles for Secure Password
 
@@ -12,15 +12,17 @@ Password algorithm - Create a unique algorithm that makes a secure password
      - making sure it is memorable
      - special characters
      
-MFA installation - Install MFA (pam_google_authenticator) and serify it via SSH
+MFA installation - Install MFA (pam_google_authenticator) and verify it via SSH
 
-Patching Sequence - Keep ubuntu secure by patching and updating software. Understand the benefits of updating and the risks of not updating
+Patching Sequence - Keep ubuntu secure by patching and updating software. Understand the benefits of updating and the risks of not updating especially for places like schools or hospitals.
 
 NIST/OWASP guidlines - NIST/OWASP guidlines are practices developed by the National Institute Standards and Technology, and Open Web Application Security Project to help protect systems and prevent systems from having security risks. 
 
 ### Notes on Password Entropy
 
 Link: https://docs.google.com/document/d/1TeFBieNnrw9kggYTQZFMGe3J8r8IhxLfDrKi_XJu3Ow/edit?tab=t.0
+
+These notes covered the keys to making a secure password, as well as the componenets that make up a weak password. 
 
 ## Password Algorithm Design
 
@@ -34,13 +36,17 @@ My Password Algorithm
 	•	In between each word put a number 1–10
 	•	Put a special character at the end
 
+NIST Guidlines: https://www.nist.gov/cybersecurity/how-do-i-create-good-password
+
+The algorithm created follows the NIST guidlines by creating a password that focuses on length, unpredictability, and memorability rather than complexity. The algorithm ensures that the password is not easy to guess and is not something like "password".
+
 ## Changing Password Ubuntu
 
 Original: ubuntu
 
 New: Book1Story2Page3Word4!!
 
-This new password followed my algorithm that I had created before excpet for instrad of randomly scrolling in the dictionary I picked 4 words that I could think of, and made sure they were similar to eachother. I did this to save more time, as well as make the password more memorable.
+This new password followed the algorithm created except instead of randomly scrolling in the dictionary I picked 4 words that I could think of, and made sure they were similar to eachother. This was done to save more time, as well as make the password more memorable.
 
    #### Steps to changing password
 
@@ -65,7 +71,7 @@ This new password followed my algorithm that I had created before excpet for ins
    6. Lock default user
       ```sudo passwd -l ubuntu```
 
-      the result is that my password was changed from ubuntu to the one I had created using my algorithm (Book1Story2Page3Word4!!)
+      The result is that the password was changed from ubuntu to the one I had created using the algorithm (Book1Story2Page3Word4!!)
 
    #### Changing Passwords in Ubuntu Screenshots
 
@@ -88,7 +94,7 @@ This new password followed my algorithm that I had created before excpet for ins
 ```sudo usermod -aG sudo yourusername```
 ```sudo reboot```
 
-# Log in as your own account and test
+Log in as your own account and test
 sudo ls /
 
 #### MFA (pam_google_authenticator) installed and verified via SSH
@@ -171,6 +177,8 @@ sudo nano /etc/pam.d/sshd
 - Check automatic update schedule
 ```ls -l /var/lib/apt/periodic/```
 
+Note: There was an issue with the computer, so for the step asking for a screenshot of the most recent update, there was no way to show that and the only one that could be shown was an update from september.
+
 ### Patches in Ubuntu Screenshots 
 
 ![](photo1.png)
@@ -184,4 +192,4 @@ sudo nano /etc/pam.d/sshd
 
 # Reflection
 
-The overall goal of this project was to strengthen device security by creating secure passwords, enabling MFA (Multi Factor Authentication), and patching system softwares. These measures help to prevent, or atleast minimize common attack points that hackers may try to exploit like weak passwords, single layered authentication, and outdated software. The password algorithm emphasized the importance of creating secure passwords through unpredictability and length. Creating an algorithm allows for a way to make a more secure and memorable password. MFA installation built off of this by making sure the only layer of securing was a password, but also a secondary layer like an email verification. By doing this, it provides extra security if a passowrd was leaked or if it was guessed. System patching aimed to minimize vulnerabilites that hackers take advanateg of through outdated software. This is important especially for computers that have sensitive data like hospitals or schools. Overall all three components helped to make devices more secure by minim izing the most common ways that hackers access systems and user info. 
+The overall goal of this project was to strengthen device security by creating secure passwords, enabling MFA (Multi Factor Authentication), and patching system softwares. These measures help to prevent, or atleast minimize common attack points that hackers may try to exploit like weak passwords, single layered authentication, and outdated software. The password algorithm emphasized the importance of creating secure passwords through unpredictability and length. Creating an algorithm allows for a way to make a more secure and memorable password. MFA installation built off of this by making sure the only layer of securing was a password, but also a secondary layer like an email verification. By doing this, it provides extra security if a passowrd was leaked or if it was guessed. System patching aimed to minimize vulnerabilites that hackers take advanateg of through outdated software. This is important especially for computers that have sensitive data like hospitals or schools. Overall all three components helped to make devices more secure by minimizing the most common ways that hackers access systems and user info. The password algorithm aligned with NIST guidlines because it emphasized entropy and length, and patching supported OWASP recomendations for trying to limit or fix known vulnerabilities. 
