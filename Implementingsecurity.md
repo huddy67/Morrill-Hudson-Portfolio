@@ -79,8 +79,8 @@ This new password followed the algorithm created except instead of randomly scro
 
    #### Changing Passwords in Ubuntu Screenshots
 
-   ![Step 3](Picture1.png)
-   ![Step 4](Picture2.png)
+   ![Step 3](Picture1.png) Step 3
+   ![Step 4](Picture2.png) Step 4
 
 
 ## MFA Installation in Ubuntu
@@ -145,8 +145,8 @@ sudo nano /etc/pam.d/sshd
 
 ### MFA Installation Screenshots
 
-   ![Step 2](image1.png)
-   ![Step 4](image2.png)
+   ![Step 2](image1.png) Step 2
+   ![Step 4](image2.png) Step 4
 
 ## Patches in Ubuntu
 
@@ -189,13 +189,13 @@ Note: There was an issue with the computer, so for the step asking for a screens
 
 ### Patches in Ubuntu Screenshots 
 
-![Step 1](photo1.png)
-![Step 4](photo2.png)
-![Step 6](photo3.png)
-![Step 7](photo4.png)
-![Step 8](photo5.png)
-![Step 9](photo6.png)
-![Step 10](photo7.png)
+![Step 1](photo1.png) Step 1
+![Step 4](photo2.png) Step 4 
+![Step 6](photo3.png) Step 6
+![Step 7](photo4.png) Step 7
+![Step 8](photo5.png) Step 8
+![Step 9](photo6.png) Step 9
+![Step 10](photo7.png) Step 10
 
 
 # Reflection
