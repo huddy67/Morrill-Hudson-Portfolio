@@ -26,6 +26,8 @@ These notes covered the keys to making a secure password, as well as the compone
 
 ## Password Algorithm Design
 
+The original password for Ubuntu was "ubuntu". As you can tell in the notes and the NISt guidlines whcih were linked below, this is not a very secure password. So, a password algorithm was designed that would follow the notes and NIST guidlines to make the VM/ubuntu more secure.
+
 My Password Algorithm
 
 	•	Go to the online dictionary
@@ -41,6 +43,8 @@ NIST Guidlines: https://www.nist.gov/cybersecurity/how-do-i-create-good-password
 The algorithm created follows the NIST guidlines by creating a password that focuses on length, unpredictability, and memorability rather than complexity. The algorithm ensures that the password is not easy to guess and is not something like "password".
 
 ## Changing Password Ubuntu
+
+After creating the password, the next step was to actually change the password in ubuntu from "ubuntu" to the new one created, "Book1Story2Page3Word4!!" which follows the NIST guidlines and is more secure.
 
 Original: ubuntu
 
@@ -80,6 +84,8 @@ This new password followed the algorithm created except instead of randomly scro
 
 
 ## MFA Installation in Ubuntu
+
+Implementing a secure password is not the only way to make a device more secure. An additional security feature is the introduce MFA, which stands for Multi Factor Authentication. This means that not only is there a password keeping the device secure, but a second factor such as an email confirmation, text, etc... This next step was to enable MFA in addition to the already secure password. 
 
 #### Steps and Commands
 
@@ -143,6 +149,8 @@ sudo nano /etc/pam.d/sshd
    ![](image2.png)
 
 ## Patches in Ubuntu
+
+After implementing MFA, there was still outdated software on the computers. The issue with outdated software is that it makes devices more vulnerable to hackers since they know how to exploit outdated software. So the final step was to get this software up to date which made the devices even more secure in addition to the updated password and MFA.
 
 - Check for available updates
 ```sudo apt update```
