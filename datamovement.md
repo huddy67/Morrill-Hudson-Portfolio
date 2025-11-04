@@ -41,3 +41,5 @@ Additionally, another similar issue was that the file size was not correct. Beca
 
 One of the biggest issues encountered was that one of the lines that was meant to be selected while creating the makeracam file was not selecte.d Because of this it messed up the entire print and the entire file had to be redone. Through this I think the bigggest lesson to be learned is to g=check every detail even it it may seem small because it can have a big effect on the final product. 
 
+Additonally another issue was ythat thge file sizr was not correct. because of this i had to export the file again after fixing the dimnesions. It is important to ensure that this is corrrect before exporting so that ypou can save more time in the end. It is a smalll detail but it made the process longer, so checking and making sure this was correct definitely would have made things faster. Checking with classmates is also something that should be done because they might have known about this and it could have prevented me from making this mistake in the first place. 
+
