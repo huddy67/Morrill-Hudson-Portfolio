@@ -30,6 +30,8 @@ Reflection: We printed the board the day before, however it did not finish until
 
 ## Final board
 
+![](IMG_0009.jpeg)
+
 ## Workflows
 
 
