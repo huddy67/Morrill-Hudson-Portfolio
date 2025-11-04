@@ -1,4 +1,4 @@
-### october 27 2025
+### October 27 2025
 
 in class: We created the file for the CNC machine in Makeracam on the computers in the classroom. To do this we followed a tutorial by Mr. Dubick. After this we briefly went over how to start cutting out our design on the CNC machine, but no one actually started it. 
 
@@ -30,17 +30,19 @@ Reflection: We printed the board the day before, however it did not finish until
 
 Additionally, another similar issue was that the file size was not correct. Because of this when the board was uploaded to the milling machine computer, it did not align the correct way so the file had to be chnaged and then exported again. While this was not a major issue, it definitely slowed down the progress. To prevent this, it is better to check and make sure everything is correct before exporting and saving the file because it will save more time in the long run. 
 
-## Final board
+## Final Board
 
 ![](IMG_0009.jpeg)
 
 ## Workflows
 
+Milling Machine Workflow: https://docs.google.com/document/d/10FMrLoLKMe2WZjPUds1aqoUNDaXnkAG7wu43AeCJjwo/edit?usp=drivesdk
+Makeracam Workflow: https://docs.google.com/document/d/1cr1MeDxlIE37IziT2Tm7Q10P0iMfA3R-lnbZcwD_I7s/edit?usp=drivesdk
 
 ## Reflection: 
 
-One of the biggest issues encountered was that one of the lines that was meant to be selected while creating the makeracam file was not selecte.d Because of this it messed up the entire print and the entire file had to be redone. Through this I think the bigggest lesson to be learned is to g=check every detail even it it may seem small because it can have a big effect on the final product. 
+One of the biggest issues encountered was that one of the lines that was meant to be selected while creating the makeracam file was not selected. Because of this it messed up the entire print and the entire file had to be redone. Through this I think the bigggest lesson to be learned is to check every detail even it it may seem small because it can have a big effect on the final product. 
 
-Additonally another issue was ythat thge file sizr was not correct. because of this i had to export the file again after fixing the dimnesions. It is important to ensure that this is corrrect before exporting so that ypou can save more time in the end. It is a smalll detail but it made the process longer, so checking and making sure this was correct definitely would have made things faster. Checking with classmates is also something that should be done because they might have known about this and it could have prevented me from making this mistake in the first place. 
+Additonally another issue was that thge file size was not correct. Because of this I had to export the file again after fixing the dimnesions. It is important to ensure that this is corrrect before exporting so that you can save more time in the end. It is a smalll detail but it made the process longer, so checking and making sure this was correct definitely would have made things faster. Checking with classmates is also something that should be done because they might have known about this and it could have prevented me from making this mistake in the first place. 
 
-Overall though, this was an informtive and relatively straighforward project that it think will be really helpful especially later in the year when these machines might be needed for the senior proejcts. The creation of the workflows also is very helpful since it alows us to look back and make sure every step is correct since it might be a while before these machines are used again. 
+Overall though, this was an informtive and relatively straighforward project that it think will be really helpful especially later in the year when these machines might be needed for the senior projects. The creation of the workflows also is very helpful since it allows us to look back and make sure every step is correct since it might be a while before these machines are used again. 
