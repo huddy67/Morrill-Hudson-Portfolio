@@ -37,3 +37,5 @@ Reflection: We printed the board the day before, however it did not finish until
 
 ## Reflection: 
 
+One of the biggest issues encountered was that one of the lines that was meant to be selected while creating the makeracam file was not selecte.d Because of this it messed up the entire print and the entire file had to be redone. Through this I think the bigggest lesson to be learned is to g=check every detail even it it may seem small because it can have a big effect on the final product. 
+
