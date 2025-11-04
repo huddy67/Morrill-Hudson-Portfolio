@@ -26,7 +26,9 @@ Reflection: Initially my partner and I struggled with this process. We tried usi
 
 in class: We received the board we had printed the day before
 
-Reflection: We printed the board the day before, however it did not finish until after class so we picked it up today. I checked our board to make sure that it looked correct, and it did look correct. This was cool to see because we started this process with creating the file and had gotten it to the final product.
+Reflection: We printed the board the day before, however it did not finish until after class so we picked it up today. I checked our board to make sure that it looked correct, and it did look correct. This was cool to see because we started this process with creating the file and had gotten it to the final product. Since the lines were so close together, this was very easy to miss, so it is important that you check ove revery drtail
+
+Additionally, another similar issue was that the file size was not correct. Because of this when the board was uploaded to the milling machine computer, it did not align the correct way so the file had to be chnaged and then exported again. While this was not a major issue, it definitely slowed down the progress. To prevent this, it is better to check and make sure everything is correct before exporting and saving the file because it will save more time in the long run. 
 
 ## Final board
 
