@@ -24,6 +24,9 @@ Take screenshots of the following and insert them into your digital portfolio:
 • The output of ip a in Shared (NAT) mode
 • The output of ip a in Bridged mode
 • The WhatIsMyIPAddress.com page results for both modes
+
+insert screenshots
+
 Step 2: Reflection Writing
 Write a short reflection (1 paragraph, 5–8 sentences) below your screenshots that answers these:
 • How did your IP addresses change between Shared and Bridged mode?
