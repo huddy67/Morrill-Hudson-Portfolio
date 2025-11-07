@@ -9,3 +9,4 @@ This class covers the fundamentals of computer networking
 [Command Line Interface](mapthemaze2.md)
 [Determining Security Controls](determiningsecuritycontrols.md)
 [implenenting sexurity](Implementingsecurity.md)
+[Data Movement](datamovement2.md)
