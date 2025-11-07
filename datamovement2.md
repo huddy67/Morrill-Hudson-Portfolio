@@ -27,13 +27,21 @@ LAN Components lab
    
 Screenshots
 
-(screenshots)
+![](ph1.png)
+![](ph2.png)
+![](ph3.png)
+![](ph4.png)
+![](ph5.png)
+![](ph6.png)
 
 Binary/Denary Lab
 
 - The objectives were listed above, but in short, convert binary and denary, and understand how to do and check this in Ubuntu.
 
-(screenshots)
+![](binary1.png)
+![](binary2.png)
+![](binary3.png)
+![](binary4.png)
 
 ## Testing and Evaluation
 
