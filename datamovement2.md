@@ -2,7 +2,7 @@
 
 ### Objectives
 
-The objective of the LAN components document was to use commands such as ifconfig, ping, and traceroute in Ubuntu. This was focused on identifying network interfaces, testing connections, and analyzing data paths to understand how devices communicate within a network. The second document titled "binary_denary" was a walk-through of how to convert numbers between binary and denary systems. The goal was to understand how to interpret these numbers using base 2 and base 10 values, explain how these conversions relate to IP addresses/network data, and use ubuntu commands to check and manipulate network numbers in real time. 
+The objective of the LAN components document was to use commands such as ifconfig, ping, and traceroute in Ubuntu. This was focused on identifying network interfaces, testing connections, and analyzing data paths to understand how devices communicate within a network. The second document, titled "binary_denary," was a walk-through of how to convert numbers between binary and denary systems. The goal was to understand how to interpret these numbers using base 2 and base 10 values, explain how these conversions relate to IP addresses/network data, and use Ubuntu commands to check and manipulate network numbers in real time. 
 
 ### Classwork Evidence
 
@@ -41,8 +41,18 @@ Ping results: Ping shows the response time (latency) between the computer and se
 
 Traceroute results: Traceroute displays each hop or router that data passes through to get to its destination. This allows for analysis of where delays occur along the network path. In this case, traceroute reached Google in 23 hops with a response time of 18 milliseconds.
 
-Netstat Results: Netstat lists the active network connections, which show local and remote addresses, ports, and connection states, which can help identify potential network issues.
+Netstat Results: Netstat lists the active network connections, which show local and remote addresses, ports, and connection states, which can help identify potential network issues. This command showed what ports were open and the active TCP/UDP connections.
 
 ifconfig results: displayed the network interfaces, confirming the system is using the IP 192.168.64.6 on the local network. 
 
+ipcalc: shows the network and broadcast IP addresses (listed below in analysis)
 
+printf: converts ip address from normal decimals to hexadecimal, which is what computers use. Examples are 192 is C0 in hexadecimal, and 168 is A8 in hexadecimal. 
+
+##### Overall analysis of latency, hops, and binary-hex-decimal conversions
+
+Ping and traceroute showed a latency of 8 to 18 milliseconds and 23 hops total to reach Google's server, showing a fast route with no packet loss. ipcalc took the IP address 192.168.2/24 and broke it down to show the network address, which was 192.168.64.1, and the broadcast address, which was 192.168.64.255. This also showed the binary versions, so the IP addresses were converted into binary. 
+
+Note: The results in screenshot form are listed above in the technical development section
+
+Reflection:
