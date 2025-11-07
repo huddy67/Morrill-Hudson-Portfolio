@@ -37,8 +37,12 @@ Binary/Denary Lab
 
 ## Testing and Evaluation
 
-Ping results: Ping shows the response time (latency) between the computer and server, measured in milliseconds. The lower the time, the faster the connection is.
+Ping results: Ping shows the response time (latency) between the computer and server, measured in milliseconds. The lower the time, the faster the connection is. In this case, the ping was to Google server 8.8.8.8, and the return was 0% packet loss and an 8 millisecond response time, which showed that there was a quick and stable connection. 
 
-Traceroute results: Traceroute displays each hop or router that data passes through to get to its destination. This allows for analysis of where delays occur along the network path.
+Traceroute results: Traceroute displays each hop or router that data passes through to get to its destination. This allows for analysis of where delays occur along the network path. In this case, traceroute reached Google in 23 hops with a response time of 18 milliseconds.
 
 Netstat Results: Netstat lists the active network connections, which show local and remote addresses, ports, and connection states, which can help identify potential network issues.
+
+ifconfig results: displayed the network interfaces, confirming the system is using the IP 192.168.64.6 on the local network. 
+
+
