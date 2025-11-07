@@ -10,7 +10,7 @@ Below are pictures of class activities relating to these documents and their obj
 
 OSI Layer activity
 
-(screenshots)
+![](imagee.png.jpg)
 
 Binary Base Block Activity
 
