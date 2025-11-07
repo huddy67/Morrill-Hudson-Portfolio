@@ -28,10 +28,15 @@ LAN Components lab
 Screenshots
 
 ![](ph1.png)
+
 ![](ph2.png)
+
 ![](ph3.png)
+
 ![](ph4.png)
+
 ![](ph5.png)
+
 ![](ph6.png)
 
 Binary/Denary Lab
