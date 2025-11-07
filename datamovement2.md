@@ -12,6 +12,8 @@ OSI Layer activity
 
 ![](imagee.png.jpg)
 
+This is the original order that the images were put in. This order though is incorrect, and the image below is the correct order. 
+
 Binary Base Block Activity
 
 LAN Analogy Notes: https://docs.google.com/document/d/1tPdAwbuJMn-X8uXljjmpyBy22DPOB1oJU_mDnKtj4g8/edit?tab=t.0
