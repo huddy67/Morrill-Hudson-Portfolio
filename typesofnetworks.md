@@ -34,3 +34,13 @@ Write a short reflection (1 paragraph, 5–8 sentences) below your screenshots t
 • Why might IT professionals use different network configurations for home, business, or
 lab environments?
 • Which mode do you think is best for classroom use, and why?
+
+## OSI Layer 
+
+screenshots
+
+![](iplinkshow.png)
+![](arpn.png)
+![](ipslink.png)
+![](tcpdump.png)
+
