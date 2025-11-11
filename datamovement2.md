@@ -74,7 +74,7 @@ Note: The results in screenshot form are listed above in the technical developme
 
 ### Roadmap Project
 
-![](https://github.com/huddy67/Morrill-Hudson-Portfolio/raw/main/Where%20the%20user%20interacts%20with%20the%20software%2C%20like%20sending%20an%20email%20or%20visiting%20a%20website.-3.pdf)
+[View PDF](https://github.com/huddy67/Morrill-Hudson-Portfolio/raw/main/Where%20the%20user%20interacts%20with%20the%20software%2C%20like%20sending%20an%20email%20or%20visiting%20a%20website.-3.pdf)
 
 ## Reflection: 
 
