@@ -72,4 +72,6 @@ Ping and traceroute showed a latency of 8 to 18 milliseconds and 23 hops total t
 
 Note: The results in screenshot form are listed above in the technical development section
 
-Reflection:
+## Reflection: 
+
+This project helped make sense of how networks actually work and how devices communicate with each other. The LAN Components lab showed how commands like ifconfig, ping, and traceroute show certain aspects of networks. Ping measured how fast data moved, traceroute showed every stop data took to reach its destination, and ifconfig listed all the main details about the network connection. Seeing how these commands worked together made network data feel a lot more real and understandable. The binary and denary parts of the project added another layer to that understanding. Learning how to convert between base 2 and base 10 made it clearer how computers handle information. Using tools like ipcalc and printf helped connect those conversions to real IP addresses and network setups, which made the math side of networking make more sense. Overall, the project helped with learning latency and hops as well as binary numbers and IP addresses. It showed how all the small pieces fit into one system and how data moves smoothly from one point to another.
