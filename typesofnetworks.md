@@ -56,3 +56,9 @@ screenshots
 ![](arp.png)
 ![](pingb.png)
 ![](netstat.png)
+
+## Exploring ip in shared and bridged mode
+
+![](ipa.png)
+![](whatismyip.png)
+![](ipa2.png)
