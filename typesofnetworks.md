@@ -53,3 +53,6 @@ screenshots
 ![](ufw.png)
 ![](traceroute.png)
 ![](results.png)
+![](arp.png)
+![](pingb.png)
+![](netstat.png)
