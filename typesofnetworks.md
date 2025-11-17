@@ -49,4 +49,5 @@ screenshots
 screenshots
 ![](IPComputerA.png)
 ![](compbip.png)
+![](pingb.png)
 
