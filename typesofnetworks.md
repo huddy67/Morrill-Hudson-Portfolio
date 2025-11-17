@@ -68,3 +68,4 @@ screenshots
 
 ![](alignedwires.png)
 ![](strippedcable.png)
+![](pairs.png)
