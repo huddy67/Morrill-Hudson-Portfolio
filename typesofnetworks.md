@@ -44,3 +44,9 @@ screenshots
 ![](ipslink.png)
 ![](tcpdump.png)
 
+## SOHO Network Activity
+
+screenshots
+![](IPComputerA.png)
+![](compbip.png)
+
