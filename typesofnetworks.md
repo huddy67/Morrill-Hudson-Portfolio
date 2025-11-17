@@ -51,3 +51,4 @@ screenshots
 ![](compbip.png)
 ![](pingb.png)
 ![](ufw.png)
+![](traceroute.png)
