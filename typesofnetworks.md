@@ -50,4 +50,4 @@ screenshots
 ![](IPComputerA.png)
 ![](compbip.png)
 ![](pingb.png)
-
+![](ufw.png)
