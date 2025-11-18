@@ -116,13 +116,50 @@ Write one complete, well-structured paragraph that answers the following:
 
 For a small business, the star topology is usually the simplest to set up because it only needs one main switch and direct connections to each device, making installation and maintenance easy. The mesh topology is the most reliable when a single connection fails since it gives the network multiple alternate routes for data to travel. This same mesh design is also the most expensive to build because it requires a large number of cables and links between devices. A school environment is most likely supported by a hybrid topology, as larger organizations often combine several star networks or other layouts to serve different areas of the campus efficiently. The physical design of a topology affects performance by influencing how far data must travel and how much traffic builds up on certain paths. Redundant designs also improve stability by keeping the network running even if part of it breaks. Because of these factors, the chosen topology plays a huge role in cost, speed, reliability, and how well a network can grow over time.
 
-## OSI Layer 
+### Cable construction
 
-screenshots
+Photos
+
+1. Twisted Pairs
+
+![](pairs.png)
+
+2. aligned wires
+
+![](alignedwires.png)
+
+3. Stripped Cable
+
+![](strippedcable.png)
+
+#### Reflection: 
+
+When I was making the Ethernet cable, the part that gave the most trouble was getting the wires straight enough to actually slide into the connector. They kept bending and not staying in the right spot, so that took way longer than expected. Also, there were multiple times where I had gotten them in the correct order, but they came undone because i pulled too hard on one of the pieces when trying to take it off. The rest of the project was pretty easy, but I also did not know some of the names of the tools, which made it a little harder to follow the instructions. Another somewhat difficult part was stripping the wire since the tool did not always cut far enough, and you had to twist out the surrounding material to get the wires. Overall, though it was an interactive project that I found interesting, but maybe also a little bit frustrating. 
+
+## OSI Layer Activity
+
+1. Ip Link Show
+
+The ip link show command displays all the network interfaces that the Ubuntu VM has available. The interface that was actually being used was enp0s1, which works as the VM’s virtual network card. The MAC address is what identifies that specific interface on the local network so other devices know what it is. The broadcast address is there so messages can be sent out to every device on the same LAN at once.
 
 ![](iplinkshow.png)
+
+2. Arp n
+
+The arp -n command shows a list of devices on the network along with the MAC addresses that match their IP addresses. These entries are basically the machines the VM has talked to recently. ARP is what lets a device figure out which physical address goes with which IP so the data actually reaches the right place on the local network.
+
 ![](arpn.png)
+
+3. Ip s link
+
+The ip s link command shows the amount of traffic moving through the active network interface, including how many packets were sent out and how many were received. It also lists extra details like errors, the connection speed, and whether the link can send and receive at the same time. The output showed a 1000Mb/s full-duplex connection, which means data can go both ways without waiting. The TX and RX numbers basically show how much the VM’s network has been doing.
+   
 ![](ipslink.png)
+
+4. TCP dump
+
+This command captured five packets of live network traffic. Each packet displays a source MAC address (sender) and a destination MAC address (receiver). The captured traffic included ARP and IP packets, showing that my VM was exchanging basic network information and possibly ping responses. This demonstrates how data physically moves between devices at OSI Layers 1 and 2.
+   
 ![](tcpdump.png)
 
 ## SOHO Network Activity
@@ -137,11 +174,3 @@ screenshots
 ![](arp.png)
 ![](pingb.png)
 ![](netstat.png)
-
-
-
-## Wires Activity
-
-![](alignedwires.png)
-![](strippedcable.png)
-![](pairs.png)
