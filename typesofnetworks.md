@@ -1,6 +1,6 @@
 ## Exploring IP Addresses
 
-Answer the following in complete sentences in a well-written paragraph on your digital porfolio:
+Answer the following in complete sentences in a well-written paragraph on your digital portfolio:
 
 Are your internal and external IP addresses the same or different?
 They’re different. The internal one only works inside your own network, and the external one is what shows up online.
@@ -46,10 +46,10 @@ What security or management challenges could come with using Bridged mode?
 Bridged mode can cause issues because each VM is fully visible on the network, which can make security and managing devices more complicated.
 
 Table: | Mode         | Internal (Private) IP | External (Public) IP | Notes                                                                 |
+| Mode         | Internal (Private) IP | External (Public) IP | Notes                                                                 |
 |--------------|------------------------|------------------------|------------------------------------------------------------------------|
-| Shared (NAT) | 192.168.64.3/24        | 173.95.44.210         | Internal and external are different, but the external stays the same. |
-| Bridged      | 10.12.25.4/20         | 173.95.44.210         | Internal and external are clearly different in this mode.             |
-
+| Shared (NAT) | 192.168.64.3/24        | 173.95.44.210         | The internal and external are different, but the external stays the same. |
+| Bridged      | 10.12.25.4/20          | 173.95.44.210         | The internal and external are very different in this mode. |
 
 ## OSI Layer 
 
