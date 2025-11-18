@@ -192,8 +192,21 @@ Computer B IP
 
 ![](traceroute.png)
 
-
+5. Directory Listings
+   
 ![](results.png)
+
+
+Reflection:
+
+This lesson showed how a network works by letting me build a full SOHO setup and then test how everything connects using Ubuntu VMs. Layers 1, 2, and 3 all played a part in what was happening: the physical and wireless connections made up Layer 1, the MAC addresses and local communication shown in commands like arp -a were part of Layer 2, and the IP routing and paths from traceroute showed the work of Layer 3. Using the firewall made it clear how security tools control what traffic can pass through and help block anything unwanted. The traceroute results stood out the most because they showed just how many stops data makes on the way to something simple like reaching Google. The web server part of the activity also helped show how websites actually work, with one device hosting the page and another device loading it through a normal HTTP request. On a real home network, adding another access point, giving important devices static IPs, and tightening firewall rules would make everything more reliable and secure.
+
+Overall Reflection:
+
+This unit made it easier to understand how different parts of a network connect and rely on each other. The IP addressing labs showed the difference between private and public networks and how NAT keeps devices protected while sharing one public IP. The topology work helped show why some layouts are cheaper or easier to manage while others focus more on speed or stability. Building my own Ethernet cable showed how even small wiring mistakes can affect the entire network, and it also helped me understand how important the physical layer really is. The labs that focused on MAC addresses, frames, and packet flow made it clearer how devices talk to each other on a local network instead of just “going online.” I also learned how routing tables impact the path data takes and how firewalls decide what traffic is allowed through. The SOHO project tied everything together with network design, addressing, security settings, and even an application-layer web server. By the end, the lessons showed how a network works from the physical cable all the way up to the programs people use every day.
+
 ![](arp.png)
+
+
 ![](pingb.png)
 ![](netstat.png)
