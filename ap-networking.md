@@ -10,3 +10,4 @@ This class covers the fundamentals of computer networking
 [Determining Security Controls](determiningsecuritycontrols.md)
 [implenenting sexurity](Implementingsecurity.md)
 [Data Movement](datamovement2.md)
+[types of networks](typesofnetworks.md)
