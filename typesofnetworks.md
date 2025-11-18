@@ -162,14 +162,37 @@ This command captured five packets of live network traffic. Each packet displays
    
 ![](tcpdump.png)
 
+### Reflection:
+
+This lab helped show how the Ubuntu VM talks on the network using its interface, IP address, and MAC address. The MAC address stays the same and identifies the device on the local network, while the IP address can change depending on the connection. ARP connects the two by matching each IP to the right MAC address so the VM knows where to send its frames. Watching the live packets with tcpdump made it easier to understand what is actually happening when data moves across the network. The capture showed real frames being sent and received, along with the addresses they were going to and from. It also made it clearer how Layer 1 deals with the signals themselves, while Layer 2 puts those signals into frames and makes sure they reach the right device. Seeing all of this together showed how these lower layers support everything else on the network.
+
+#### What I Learned
+
+Layers 1 and 2 work together to make sure devices can actually communicate on a network. The Physical Layer (Layer 1) deals with the signals that travel through cables or wireless connections, basically the raw bits being sent from one place to another. The Data Link Layer (Layer 2) takes those bits and forms them into frames, using MAC addresses to make sure the data reaches the right device on the local network. Commands like ip link show, ethtool, and tcpdump helped show what is happening behind the scenes when a device connects and sends traffic. Learning how these layers work is important for fixing network issues and understanding how data moves between devices in the first place.
+
+
 ## SOHO Network Activity
 
-screenshots
+
+Screenshots
+
+1. Computer A Ip
+
 ![](IPComputerA.png)
+
+Computer B IP
+
 ![](compbip.png)
-![](pingb.png)
+
+3. UFW Firewall
+   
 ![](ufw.png)
+
+4. Traceroute
+
 ![](traceroute.png)
+
+
 ![](results.png)
 ![](arp.png)
 ![](pingb.png)
