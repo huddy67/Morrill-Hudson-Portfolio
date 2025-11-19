@@ -11,3 +11,4 @@ This class covers the fundamentals of computer networking
 [implenenting sexurity](Implementingsecurity.md)
 [Data Movement](datamovement2.md)
 [types of networks](typesofnetworks.md)
+[computers](whycantthesetwocomputerstalktoeachother.md)
