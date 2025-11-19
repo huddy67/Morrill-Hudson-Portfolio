@@ -108,7 +108,7 @@ This is the exact failure scenario.
 Insert both IP screenshots and write a paragraph explaining why Layer 3 addressing cannot work under this configuration.
 
 ![](meipa2.png)
-![](danipa2.png)
+![](danip.png)
 
 
 # PART 4 — Test Ping Again (Confirming Failure)
