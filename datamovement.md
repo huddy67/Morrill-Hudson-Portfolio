@@ -121,6 +121,27 @@ The G-code link above is what will be put into the software so that the milling 
 ## Workflows
 
 #### Milling Machine Workflow: 
+
+<h2>Workflow</h2>
+
+<details>
+  <summary>Click to show/hide workflow</summary>
+  <p>
+    1. Loosen the screws and remove the copper if there is one already in there.
+    2. Place your copper and tighten the screws 
+    3. Make sure your file is downloaded onto the computer
+    4. Go to Makeracam and upload and select your file
+    5. Home the machine
+    6. Make sure the fan is on
+    7. Make sure it is auto leveled
+    8. Make sure to preview to see if it looks right
+    9. Click run after preview 
+    10. Check for a red light
+    11. Once it starts going, you can leave it
+
+  </p>
+</details>
+
 https://docs.google.com/document/d/10FMrLoLKMe2WZjPUds1aqoUNDaXnkAG7wu43AeCJjwo/edit?usp=drivesdk
 
 The milling machine workflow linked above tells you what to do after you put the NC file into the computer
