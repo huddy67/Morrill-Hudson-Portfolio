@@ -122,32 +122,59 @@ The G-code link above is what will be put into the software so that the milling 
 
 #### Milling Machine Workflow: 
 
-<h2>Workflow</h2>
-
 <details>
-  <summary>Click to show/hide workflow</summary>
-  <p>
-    1. Loosen the screws and remove the copper if there is one already in there.
-    2. Place your copper and tighten the screws 
-    3. Make sure your file is downloaded onto the computer
-    4. Go to Makeracam and upload and select your file
-    5. Home the machine
-    6. Make sure the fan is on
-    7. Make sure it is auto leveled
-    8. Make sure to preview to see if it looks right
-    9. Click run after preview 
-    10. Check for a red light
-    11. Once it starts going, you can leave it
-
-  </p>
+  <summary>Click to show workflow</summary>
+  <ol>
+    <li>Loosen the screws and remove the copper if there is one already in there.</li>
+    <li>Place your copper and tighten the screws.</li>
+    <li>Make sure your file is downloaded onto the computer.</li>
+    <li>Go to Makeracam and upload and select your file.</li>
+    <li>Home the machine.</li>
+    <li>Make sure the fan is on.</li>
+    <li>Make sure it is auto leveled.</li>
+    <li>Make sure to preview to see if it looks right.</li>
+    <li>Click run after preview.</li>
+    <li>Check for a red light.</li>
+    <li>Once it starts going, you can leave it.</li>
+  </ol>
 </details>
 
-https://docs.google.com/document/d/10FMrLoLKMe2WZjPUds1aqoUNDaXnkAG7wu43AeCJjwo/edit?usp=drivesdk
-
-The milling machine workflow linked above tells you what to do after you put the NC file into the computer
+The milling machine workflow above tells you what to do after you put the NC file into the computer
 
 #### Makeracam Workflow: 
-https://docs.google.com/document/d/1cr1MeDxlIE37IziT2Tm7Q10P0iMfA3R-lnbZcwD_I7s/edit?usp=drivesdk
+
+<details>
+  <summary>Click to show workflow</summary>
+  <ol>
+    <li>Open Project 3-Axis.</li>
+    <li>Go to File → Import PCB and select the Edge_Cuts.gbr file.</li>
+    <li>Go to File → Import PCB again and select the F.Cu layer to add the top copper layer.</li>
+    <li>Go to File → Import PCB again and select the Resistance1-PTH.drl drill file to mark drill holes.</li>
+    <li>Select the board, press M, set the anchor to the bottom left corner, and move the board to (6, 6).</li>
+    <li><em>Note: If an object is dotted, it is selected. If it is solid, it is not selected.</em></li>
+    <li>Select the top line and hold Shift to deselect it.</li>
+    <li>Hide (block) the bottom three files.</li>
+    <li>Select 2D Pocket to create a toolhead path.</li>
+    <li>Set the end depth to 0.05 mm.</li>
+    <li>Go to Add Tool and choose the 0.8 mm Corn tool.</li>
+    <li>Go to Add Tool and choose the 0.2 mm 30° Engraving (Metal) tool.</li>
+    <li>Select “Choose” to confirm tool selection.</li>
+    <li>Click “Calculate.”</li>
+    <li>Hide everything except the .drl drill files.</li>
+    <li>Select all visible items and choose 2D Drilling.</li>
+    <li>Set the drill tip end depth to 1.7 mm.</li>
+    <li>Add only the 0.8 mm Corn tool.</li>
+    <li>Click “Calculate.”</li>
+    <li>Hide everything except the edge cuts file (deselect the top line and select the bottom line).</li>
+    <li>Select 2D Contour.</li>
+    <li>Set the end depth to 1.7 mm.</li>
+    <li>Select the 0.8 mm Corn tool.</li>
+    <li>Set Strategy to “outside.”</li>
+    <li>Go to Tabs → Custom → Tabs → Add and click on the selected box to place three tabs.</li>
+    <li><em>Note: Do not place tabs directly across from each other. Offset them so the board does not break.</em></li>
+    <li>Click Preview at the top.</li>
+  </ol>
+</details>
 
 Above is the workflow for MakeraCam that teches how to replicate what was done above
 
