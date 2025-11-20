@@ -113,8 +113,12 @@ The G-code link above is what will be put into the software so that the milling 
 #### Milling Machine Workflow: 
 https://docs.google.com/document/d/10FMrLoLKMe2WZjPUds1aqoUNDaXnkAG7wu43AeCJjwo/edit?usp=drivesdk
 
+The milling machine workflow linked above tells you what to do after you put the NC file into the computer
+
 #### Makeracam Workflow: 
 https://docs.google.com/document/d/1cr1MeDxlIE37IziT2Tm7Q10P0iMfA3R-lnbZcwD_I7s/edit?usp=drivesdk
+
+Above is the workflow for MakeraCam that teches how to replicate what was done above
 
 ## Final Board
 
