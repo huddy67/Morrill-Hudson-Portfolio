@@ -45,7 +45,13 @@ Additionally, another similar issue was that the file size was not correct. Beca
 Mr. Dubick provided us with KIcad files that we imported into the MakeraCam software to create our G-code. Below are the files that were given, as well as a step-by-step on how to make the G-code. 
 
 #### KiCad Files:
-https://raajthakur1.github.io/Thakur-Raaj-Portfolio/courses/senior_engineering/media/pcb_milling/pcb_milling_files.zip
+
+<h3>PCB Files</h3>
+<ul>
+  <li><a href="Resistance1-Edge_Cuts.gbr" download>Download Edge Cuts (.gbr)</a></li>
+  <li><a href="Resistance1-F_Cu.gbr" download>Download F_Cu (.gbr)</a></li>
+  <li><a href="Resistance1-PTH.drl" download>Download Drill File (.drl)</a></li>
+</ul>
 
 Once the files were downloaded, they were imported into Makeracam using File, then import PCB. Here is the screenshot of the correct file size, which was the first thing completed after the import. 
 
