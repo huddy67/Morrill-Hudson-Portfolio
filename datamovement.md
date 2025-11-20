@@ -114,7 +114,7 @@ Makeracam Workflow: https://docs.google.com/document/d/1cr1MeDxlIE37IziT2Tm7Q10P
 
 ## Final Board
 
-After all the above steps, this final board wa the result
+After all the above steps, this final board was the result
 
 ![](IMG_0009.jpeg)
 
