@@ -40,9 +40,12 @@ We printed the board the day before; however, it did not finish until after clas
 
 Additionally, another similar issue was that the file size was not correct. Because of this, when the board was uploaded to the milling machine computer, it did not align correctly, so the file had to be changed and then exported again. While this was not a major issue, it definitely slowed down the progress. To prevent this, it is better to check and make sure everything is correct before exporting and saving the file, because it will save more time in the long run. 
 
-## Creating G-code
+## Creating G-code (KiCad Files Linked)
 
 Mr. Dubick provided us with KIcad files that we imported into the MakeraCam software to create our G-code. Below are the files that were given, as well as a step-by-step on how to make the G-code. 
+
+#### KiCad Files:
+https://raajthakur1.github.io/Thakur-Raaj-Portfolio/courses/senior_engineering/media/pcb_milling/pcb_milling_files.zip
 
 Once the files were downloaded, they were imported into Makeracam using File, then import PCB. Here is the screenshot of the correct file size, which was the first thing completed after the import. 
 
