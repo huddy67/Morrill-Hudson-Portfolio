@@ -103,14 +103,18 @@ This was all the steps. I exported my file and added it to the FabLab google dri
 
 ### G-code
 
-G-code: https://drive.google.com/file/d/1NBYQ276NYF-OEK4ZmoC9Pt9nEAnn9_on/view?usp=share_link
+#### G-code File: 
+https://drive.google.com/file/d/1NBYQ276NYF-OEK4ZmoC9Pt9nEAnn9_on/view?usp=share_link
 
 The G-code link above is what will be put into the software so that the milling machine is able to start engraving. Below are the workflows so that you know the steps to get it engraved.
 
 ## Workflows
 
-Milling Machine Workflow: https://docs.google.com/document/d/10FMrLoLKMe2WZjPUds1aqoUNDaXnkAG7wu43AeCJjwo/edit?usp=drivesdk
-Makeracam Workflow: https://docs.google.com/document/d/1cr1MeDxlIE37IziT2Tm7Q10P0iMfA3R-lnbZcwD_I7s/edit?usp=drivesdk
+#### Milling Machine Workflow: 
+https://docs.google.com/document/d/10FMrLoLKMe2WZjPUds1aqoUNDaXnkAG7wu43AeCJjwo/edit?usp=drivesdk
+
+#### Makeracam Workflow: 
+https://docs.google.com/document/d/1cr1MeDxlIE37IziT2Tm7Q10P0iMfA3R-lnbZcwD_I7s/edit?usp=drivesdk
 
 ## Final Board
 
