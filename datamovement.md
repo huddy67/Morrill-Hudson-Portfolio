@@ -114,9 +114,10 @@ This was all the steps. I exported my file and added it to the FabLab google dri
 ### G-code
 
 #### G-code File: 
-https://drive.google.com/file/d/1NBYQ276NYF-OEK4ZmoC9Pt9nEAnn9_on/view?usp=share_link
 
-The G-code link above is what will be put into the software so that the milling machine is able to start engraving. Below are the workflows so that you know the steps to get it engraved.
+<a href="huddy.nc" download>Download huddy.nc</a>
+
+The G-code download above is what will be put into the software so that the milling machine is able to start engraving. Below are the workflows so that you know the steps to get it engraved.
 
 ## Workflows
 
