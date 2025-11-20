@@ -1,6 +1,6 @@
 ## Project Journal
 
-### October 27 2025
+### October 27, 2025
 
 In class, we created the file for the CNC machine in Makeracam on the computers in the classroom. To do this, we followed a tutorial by Mr. Dubick. After this, we briefly went over how to start cutting out our design on the CNC machine, but no one actually started it. 
 
@@ -18,7 +18,7 @@ In class: We made the CNC file again, but this time without a tutorial
 I learned how to do the process of creating the file myself, while occasionally referencing the workflow my partners created to ensure I did everything correctly. 
 
 #### Reflection:
-creating the file the 2nd time by myself allowed me to make sure that I had actually learned what I needed to do. I did struggle with this because I forgot some of the steps and had to reference the workflow that me my partners and I made. I was happy that the workflow was throughout because without it, I would have been very confused, so I learned the importance of documenting and creating a good workflow because most of the time it is needed.
+Creating the file the 2nd time by myself allowed me to make sure that I had actually learned what I needed to do. I did struggle with this because I forgot some of the steps and had to reference the workflow that me my partners and I made. I was happy that the workflow was throughout because without it, I would have been very confused, so I learned the importance of documenting and creating a good workflow because most of the time it is needed.
 
 ### October 30, 2025
 
@@ -33,7 +33,7 @@ Initially, my partner and I struggled with this process. We tried using Trevor's
 
 ### October 31, 2025
 
-In class, We received the board we had printed the day before
+In class, we received the board we had printed the day before
 
 #### Reflection:
 We printed the board the day before; however, it did not finish until after class, so we picked it up today. I checked our board to make sure that it looked correct, and it did look correct. This was cool to see because we started this process by creating the file and had gotten it to the final product. Since the lines were so close together, this was very easy to miss, so you must check over every detail
@@ -63,7 +63,7 @@ After setting up the workspace, the first thing I did was use the Translate tool
 I then hid the .drl and f.cu_pad files so only the edge.cuts and f.cu layers were visible. This makes it easier to focus on the parts that actually need to be milled.
 
 #### 3. Create the 2D Pocket setup
-With those layers selected, I chose 2D Path → 2D Pocket. A menu popped up with several options to adjust. I set the end depth to 0.05 mm and selected the 0.8 mm Corn tool along with the 0.2 mm 30° metal engraving tool. These tools are needed to remove the top copper layer without cutting too deep.
+With those layers selected, I chose 2D Path → 2D Pocket. A menu popped up with several options to adjust. I set the end depth to 0.05 mm and selected the 0.8 mm Corn tool along with the 0.2 mm 30° metal engraving tool. These tools are needed to remove the top copper layer without cutting too deeply.
 
 #### 4. Generate the toolpath
 Once the settings looked correct, I clicked “calculate.” The software generated the toolpath that the CNC will follow for the 2D Pocket pass.
@@ -90,7 +90,7 @@ I changed the tool to the 0.8 mm Corn bit and set the end depth to 1.7 mm. This 
 ![](9.png)
 ![](10.png)
 
-The next step was print the board
+The next step was to print the board
 
 #### 1. Show only the outline
 I hid all layers except the edge.cuts vector so I could focus solely on the board’s outer shape.
@@ -109,15 +109,15 @@ I placed three tabs along the contour so the board would stay secure and not shi
 ![](13.png)
 ![](14.png)
 
-This was all the steps. I exported my file and added it to the FabLab google drive. Below is the G-code file.
+These were all the steps. I exported my file and added it to the FabLab Google Drive. Below is the G-code file.
 
 ### G-code
 
 #### G-code File: 
 
-<a href="huddy.nc" download>Download huddy.nc</a>
+https://drive.google.com/file/d/1NBYQ276NYF-OEK4ZmoC9Pt9nEAnn9_on/view?usp=share_link
 
-The G-code download above is what will be put into the software so that the milling machine is able to start engraving. Below are the workflows so that you know the steps to get it engraved.
+The G-code link above is what will be put into the software so that the milling machine is able to start engraving. Below are the workflows so that you know the steps to get it engraved. I tried to put a download, but could not get it to work.
 
 ## Workflows
 
@@ -177,7 +177,7 @@ The milling machine workflow above tells you what to do after you put the NC fil
   </ol>
 </details>
 
-Above is the workflow for MakeraCam that teches how to replicate what was done above
+Above is the workflow for MakeraCam that teaches how to replicate what was done above
 
 ## Final Board
 
