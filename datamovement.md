@@ -46,7 +46,6 @@ Mr. Dubick provided us with KIcad files that we imported into the MakeraCam soft
 
 #### KiCad Files:
 
-<h3>PCB Files</h3>
 <ul>
   <li><a href="Resistance1-Edge_Cuts.gbr" download>Download Edge Cuts (.gbr)</a></li>
   <li><a href="Resistance1-F_Cu.gbr" download>Download F_Cu (.gbr)</a></li>
