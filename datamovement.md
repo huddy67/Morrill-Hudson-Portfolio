@@ -1,3 +1,5 @@
+## Project Journal
+
 ### October 27 2025
 
 In class, we created the file for the CNC machine in Makeracam on the computers in the classroom. To do this, we followed a tutorial by Mr. Dubick. After this, we briefly went over how to start cutting out our design on the CNC machine, but no one actually started it. 
