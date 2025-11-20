@@ -30,9 +30,68 @@ Reflection: We printed the board the day before; however, it did not finish unti
 
 Additionally, another similar issue was that the file size was not correct. Because of this, when the board was uploaded to the milling machine computer, it did not align correctly, so the file had to be changed and then exported again. While this was not a major issue, it definitely slowed down the progress. To prevent this, it is better to check and make sure everything is correct before exporting and saving the file, because it will save more time in the long run. 
 
-## Final Board
+## Creating G-code
 
-![](IMG_0009.jpeg)
+Mr. Dubick provided us with KIcad files that we imported into the MakeraCam software to create our G-code. Below are the files that were given, as well as a step-by-step on how to make the G-code. 
+
+Once the files were downloaded, they were imported into Makeracam using File, then import PCB. Here is the screenshot of the correct file size, which was the first thing completed after the import. 
+
+![](first.png)
+
+1. Position the board
+After setting up the workspace, the first thing I did was use the Translate tool to place the board at the coordinates (6, 6). This spot gives the CNC enough room to hold the board securely while keeping waste material to a minimum.
+
+2. Hide unnecessary files
+I then hid the .drl and f.cu_pad files so only the edge.cuts and f.cu layers were visible. This makes it easier to focus on the parts that actually need to be milled.
+
+3. Create the 2D Pocket setup
+With those layers selected, I chose 2D Path → 2D Pocket. A menu popped up with several options to adjust. I set the end depth to 0.05 mm and selected the 0.8 mm Corn tool along with the 0.2 mm 30° metal engraving tool. These tools are needed to remove the top copper layer without cutting too deep.
+
+4. Generate the toolpath
+Once the settings looked correct, I clicked “calculate.” The software generated the toolpath that the CNC will follow for the 2D Pocket pass.
+
+![](second.png)
+![](third.png)
+![](fourth.png)
+![](fifth.png)
+![](sixth.png)
+![](seventh.png)
+![](eigth.png)
+
+After the 2d pocket was made, the next thing to do was to make a toolpath for the holes in the board. 
+
+1. Show only the drill layers
+I hid the edge.cuts, f.cu, and 2D Pocket layers so that only the two drill files were visible. 
+
+2. Start the drilling setup
+With the drill files selected, I chose 2D Path → 2D Drilling to prepare the toolpath for the holes.
+
+3. Set the tool and depth
+I changed the tool to the 0.8 mm Corn bit and set the end depth to 1.7 mm. This depth ensures the drill fully passes through the PCB.
+
+![](9.png)
+![](10.png)
+
+The next step was print the board
+
+1. Show only the outline
+I hid all layers except the edge.cuts vector so I could focus solely on the board’s outer shape.
+
+2. Set up the contour cut
+With the outline selected, I chose 2D Path → 2D Contour to create the cutout toolpath.
+
+3. Choose the tool and depth
+I selected the 0.8 mm Corn bit and set the end depth to 1.7 mm to ensure the contour cut goes fully through the PCB.
+
+4. Add tabs for stability
+I placed three tabs along the contour so the board would stay secure and not shift when the cut is made.
+
+![](11.png)
+![](12.png)
+![](13.png)
+![](14.png)
+
+This was all the steps. I exported my file and added it to the FabLab google drive. Below is the G-code file.
 
 ### G-code
 
@@ -44,6 +103,12 @@ The G-code link above is what will be put into the software so that the milling 
 
 Milling Machine Workflow: https://docs.google.com/document/d/10FMrLoLKMe2WZjPUds1aqoUNDaXnkAG7wu43AeCJjwo/edit?usp=drivesdk
 Makeracam Workflow: https://docs.google.com/document/d/1cr1MeDxlIE37IziT2Tm7Q10P0iMfA3R-lnbZcwD_I7s/edit?usp=drivesdk
+
+## Final Board
+
+After all the above steps, this final board wa the result
+
+![](IMG_0009.jpeg)
 
 ## Reflection: 
 
