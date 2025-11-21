@@ -5,7 +5,7 @@
 In class, we created the file for the CNC machine in Makeracam on the computers in the classroom. To do this, we followed a tutorial by Mr. Dubick. After this, we briefly went over how to start cutting out our design on the CNC machine, but no one actually started it. 
 
 #### What we learned:
-I learned how to make the toolpaths and how to export this file properly so it could be accessed and put into the software that we cut the design with.
+I learned how to make the toolpaths and how to export this file properly so it could be accessed and put into the software that we cut the design with. 
 
 #### Reflection:
 This was important so that we knew how to do similar activities with the CNC machine in the future, and allowed us to learn the basics of how to go from start to finish. Initially, I was confused about this because instead of leaving the outside line selected and the inside line unselected for one of the steps, I reversed it, which led to the board not looking the way it was supposed to. To fix this, I went through our workflow and found out where my issue was. I made sure to fix it and checked that my second attempt had everything correct. Overall, it was not too difficult, but I learned that I needed to be precise. 
@@ -33,7 +33,7 @@ Initially, my partner and I struggled with this process. We tried using Trevor's
 
 ### October 31, 2025
 
-In class, we received the board we had printed the day before
+In class, we received the board that we had printed the day before
 
 #### Reflection:
 We printed the board the day before; however, it did not finish until after class, so we picked it up today. I checked our board to make sure that it looked correct, and it did look correct. This was cool to see because we started this process by creating the file and had gotten it to the final product. Since the lines were so close together, this was very easy to miss, so you must check over every detail
@@ -57,10 +57,10 @@ Once the files were downloaded, they were imported into Makeracam using File, th
 ![](first.png)
 
 #### 1. Position the board
-After setting up the workspace, the first thing I did was use the Translate tool to place the board at the coordinates (6, 6). This spot gives the CNC enough room to hold the board securely while keeping waste material to a minimum.
+After setting up the workspace, the first thing I did was use the Translate tool to place the board at the coordinates (6, 6). This spot gives the CNC enough room to hold the board securely while keeping waste material to a minimum which is an important decision so that we do not waste materials.
 
 #### 2. Hide unnecessary files
-I then hid the .drl and f.cu_pad files so only the edge.cuts and f.cu layers were visible. This makes it easier to focus on the parts that actually need to be milled.
+I then hid the .drl and f.cu_pad files so only the edge.cuts and f.cu layers were visible. This makes it easier to focus on the parts that actually need to be milled. To do this, simply click the icon on the left of the file name that looks like an eye, and make sure it is crossed out. If it is, then you know that the file is hidden and can continue to the next step.
 
 #### 3. Create the 2D Pocket setup
 With those layers selected, I chose 2D Path → 2D Pocket. A menu popped up with several options to adjust. I set the end depth to 0.05 mm and selected the 0.8 mm Corn tool along with the 0.2 mm 30° metal engraving tool. These tools are needed to remove the top copper layer without cutting too deeply.
@@ -109,7 +109,7 @@ I placed three tabs along the contour so the board would stay secure and not shi
 ![](13.png)
 ![](14.png)
 
-These were all the steps. I exported my file and added it to the FabLab Google Drive. Below is the G-code file.
+These were all the steps. I exported my file and added it to the FabLab Google Drive. If any of these steps seem confusing, there is a more detailed workflow at the end of this page that may help. Below is the G-code file.
 
 ### G-code
 
@@ -117,7 +117,7 @@ These were all the steps. I exported my file and added it to the FabLab Google D
 
 https://drive.google.com/file/d/1NBYQ276NYF-OEK4ZmoC9Pt9nEAnn9_on/view?usp=share_link
 
-The G-code link above is what will be put into the software so that the milling machine is able to start engraving. Below are the workflows so that you know the steps to get it engraved. I tried to put a download, but could not get it to work.
+The G-code link above is what will be put into the software so that the milling machine is able to start engraving. Below are the workflows so that you know the steps to get it engraved. I tried to put a download, but could not get it to work since the file was not supported on my device.
 
 ## Workflows
 
@@ -128,15 +128,15 @@ The G-code link above is what will be put into the software so that the milling 
   <ol>
     <li>Loosen the screws and remove the copper if there is one already in there.</li>
     <li>Place your copper and tighten the screws.</li>
-    <li>Make sure your file is downloaded onto the computer.</li>
-    <li>Go to Makeracam and upload and select your file.</li>
-    <li>Home the machine.</li>
+    <li>Make sure your file is downloaded onto the computer and uploaded to the Carvera software.</li>
+    <li>ensure that the probe is charged to 3.6 volts or higher in the "Tool Status and Control" section</li>
+    <li>Home the machine using the button in the top right corner called "Switch to Display Manual Control Interface".</li>
     <li>Make sure the fan is on.</li>
-    <li>Make sure it is auto leveled.</li>
+    <li>Make sure it is auto leveled by clicking "Switch to Display File Preview Interface".</li>
     <li>Make sure to preview to see if it looks right.</li>
-    <li>Click run after preview.</li>
-    <li>Check for a red light.</li>
-    <li>Once it starts going, you can leave it.</li>
+    <li>Click run after preview if everything above is completed.</li>
+    <li>Check for a red light as another measure that everything is going well, and if you do not see a red light can cancel it.</li>
+    <li>Once it starts going and you see the red light, you can leave it.</li>
   </ol>
 </details>
 
@@ -178,6 +178,12 @@ The milling machine workflow above tells you what to do after you put the NC fil
 </details>
 
 Above is the workflow for MakeraCam that teaches how to replicate what was done above
+
+#### Additional Makeracam Workflow by Mr. Dubick
+
+https://docs.google.com/presentation/d/11PUv9J2_wgToiXhO2JqwxZoastqSd0-e3JKC-_NqXdk/edit?slide=id.g39d6cdc5743_0_9#slide=id.g39d6cdc5743_0_9
+
+Above is the workflow that Mr. Dubick created, which can be used as an additional resource to make sure all steps were done correctly.
 
 ## Final Board
 
