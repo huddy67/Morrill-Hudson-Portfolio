@@ -69,6 +69,8 @@ Screenshot your ping attempt AND write one sentence explaining what Layer 2 beha
 
 ![](pingofdan.png)
 
+The ping returned a “Destination Host Unreachable” message, indicating that Layer 2 could not locate the other machine’s MAC address and was therefore unable to send any frames across the connection.
+
 # PART 3 — Network Layer Check (Layer 3: IP Addressing)
 
 Now you must determine whether the issue comes from IP configuration.
@@ -110,6 +112,8 @@ Insert both IP screenshots and write a paragraph explaining why Layer 3 addressi
 ![](meipa2.png)
 ![](danip.png)
 
+Even though the two virtual machines seem to have almost the same IP range (such as both using 192.168.64.x), they are not actually part of the same Layer 3 network. UTM assigns each VM to its own isolated host-only environment, which includes a separate virtual switch and a separate DHCP server for each machine. As a result, the addresses may look alike, but the VMs are placed in different broadcast domains and cannot receive one another’s ARP messages. Since ARP cannot operate across two independent virtual switches, the machines cannot establish any Layer 3 communication, even though their IP settings appear to match. Because of this separation, the Layer 3 connection fails in this setup.
+
 
 # PART 4 — Test Ping Again (Confirming Failure)
 
@@ -127,6 +131,8 @@ AND
 Write 2–3 sentences describing which OSI layer is responsible.
 
 ![](pingofdan2.png)
+
+The ping does not go through because the VM cannot discover the other machine’s MAC address when they are placed on two different host-only networks. Since MAC resolution never completes, Layer 3 has no way to send the IP packets to the correct destination, which leads to the “Destination Host Unreachable” response. Even though the virtual cable link is technically active, the communication fails at both Layer 2 and Layer 3 because the virtualization setup isolates the machines from each other.
 
 # HOMEWORK → PART 5 — Final Reflection Paragraph
 
