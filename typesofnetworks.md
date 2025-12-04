@@ -124,6 +124,10 @@ Write one complete, well-structured paragraph that answers the following:
 
 For a small business, the star topology is usually the simplest to set up because it only needs one main switch and direct connections to each device, making installation and maintenance easy. The mesh topology is the most reliable when a single connection fails since it gives the network multiple alternate routes for data to travel. This same mesh design is also the most expensive to build because it requires a large number of cables and links between devices. A school environment is most likely supported by a hybrid topology, as larger organizations often combine several star networks or other layouts to serve different areas of the campus efficiently. The physical design of a topology affects performance by influencing how far data must travel and how much traffic builds up on certain paths. Redundant designs also improve stability by keeping the network running even if part of it breaks. Because of these factors, the chosen topology plays a huge role in cost, speed, reliability, and how well a network can grow over time.
 
+### Soho Network Diagram
+
+![](soho.png)
+
 ### Cable construction
 
 Photos
