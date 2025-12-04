@@ -76,13 +76,16 @@ Description:
 A main device, usually a switch or hub, sits in the center while all other computers plug directly into it. This setup is simple to organize, easy to fix when something goes wrong, and can grow without much trouble.
 
 Screenshot:
-IMG_2405
+
+![](star.png)
 
 ##### Bus Topology
 Description:
 One long cable acts as the main line, and each device connects to it with a short branch. All devices share this single pathway to send and receive information.
 
 Screenshot:
+
+![](bus.png)
 
 
 ##### Ring Topology
@@ -91,6 +94,8 @@ Devices connect in a circular path where each one links to the two devices next 
 
 Screenshot:
 
+![](ring.png)
+
 
 ##### Mesh Topology
 Description:
@@ -98,12 +103,15 @@ Devices link to several other devices, creating many possible routes for data to
 
 Screenshot:
 
+![](mesh.png)
 
 ##### Hybrid Topology
 Description:
 A mix of different topology types combined into one network. For example, multiple star networks can be joined together using a bus or ring, giving the network more flexibility and room to expand.
 
 Screenshot:
+
+![](hybrid.png)
 
 ### Reflection Paragraph:
 
