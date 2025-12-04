@@ -21,28 +21,28 @@ IP a in shared:  ![](ipa.png)
 
 IP a in bridged: ![](ipa2.png)
 
-Whatismyipaddress results
+#### Whatismyipaddress results
 
-Shared: ![](whatismyip.png)
+##### Shared: ![](whatismyip.png)
 
-Bridged: ![](whatismyip2.png)
+##### Bridged: ![](whatismyip2.png)
 
-Answer the following in complete sentences in a well-written paragraph on your digital
+#### Answer the following in complete sentences in a well-written paragraph on your digital
 portfolio:
 
-How did your internal IP address change when you switched to Bridged mode?
+###### How did your internal IP address change when you switched to Bridged mode?
 The internal IP changed because switching to Bridged mode put the VM on a different part of the network, so it got a new private IP address.
 
-Did your external IP address change or remain the same?
+###### Did your external IP address change or remain the same?
 The external IP stayed the same since the VM was still using the same internet connection from the provider.
 
-In Bridged mode, does your virtual machine act more like a separate computer or a computer behind another device?
+###### In Bridged mode, does your virtual machine act more like a separate computer or a computer behind another device?
 In Bridged mode, the VM acts more like its own separate computer on the network instead of being hidden behind the host.
 
-Why might an organization choose Bridged mode instead of Shared (NAT) mode?
+###### Why might an organization choose Bridged mode instead of Shared (NAT) mode?
 An organization might choose Bridged mode so the VM can directly communicate with other devices on the network without extra steps.
 
-What security or management challenges could come with using Bridged mode?
+###### What security or management challenges could come with using Bridged mode?
 Bridged mode can cause issues because each VM is fully visible on the network, which can make security and managing devices more complicated.
 
 Table: | Mode         | Internal (Private) IP | External (Public) IP | Notes                                                                 |
@@ -78,28 +78,28 @@ A main device, usually a switch or hub, sits in the center while all other compu
 Screenshot:
 IMG_2405
 
-Bus Topology
+##### Bus Topology
 Description:
 One long cable acts as the main line, and each device connects to it with a short branch. All devices share this single pathway to send and receive information.
 
 Screenshot:
 
 
-Ring Topology
+##### Ring Topology
 Description:
 Devices connect in a circular path where each one links to the two devices next to it. Data moves around the loop in a set direction, or in both directions if the network uses a dual-ring design.
 
 Screenshot:
 
 
-Mesh Topology
+##### Mesh Topology
 Description:
 Devices link to several other devices, creating many possible routes for data to travel. This layout offers strong reliability because the network can still work even if one connection fails.
 
 Screenshot:
 
 
-Hybrid Topology
+##### Hybrid Topology
 Description:
 A mix of different topology types combined into one network. For example, multiple star networks can be joined together using a bus or ring, giving the network more flexibility and room to expand.
 
@@ -138,25 +138,25 @@ When I was making the Ethernet cable, the part that gave the most trouble was ge
 
 ## OSI Layer Activity
 
-1. Ip Link Show
+###### 1. Ip Link Show
 
 The ip link show command displays all the network interfaces that the Ubuntu VM has available. The interface that was actually being used was enp0s1, which works as the VM’s virtual network card. The MAC address is what identifies that specific interface on the local network so other devices know what it is. The broadcast address is there so messages can be sent out to every device on the same LAN at once.
 
 ![](iplinkshow.png)
 
-2. Arp n
+###### 2. Arp n
 
 The arp -n command shows a list of devices on the network along with the MAC addresses that match their IP addresses. These entries are basically the machines the VM has talked to recently. ARP is what lets a device figure out which physical address goes with which IP so the data actually reaches the right place on the local network.
 
 ![](arpn.png)
 
-3. Ip s link
+###### 3. Ip s link
 
 The ip s link command shows the amount of traffic moving through the active network interface, including how many packets were sent out and how many were received. It also lists extra details like errors, the connection speed, and whether the link can send and receive at the same time. The output showed a 1000Mb/s full-duplex connection, which means data can go both ways without waiting. The TX and RX numbers basically show how much the VM’s network has been doing.
    
 ![](ipslink.png)
 
-4. TCP dump
+###### 4. TCP dump
 
 This command captured five packets of live network traffic. Each packet displays a source MAC address (sender) and a destination MAC address (receiver). The captured traffic included ARP and IP packets, showing that my VM was exchanging basic network information and possibly ping responses. This demonstrates how data physically moves between devices at OSI Layers 1 and 2.
    
@@ -176,32 +176,32 @@ Layers 1 and 2 work together to make sure devices can actually communicate on a 
 
 Screenshots
 
-1. Computer A Ip
+###### 1. Computer A Ip
 
 ![](IPComputerA.png)
 
-Computer B IP
+###### 2. Computer B IP
 
 ![](compbip.png)
 
-3. UFW Firewall
+###### 3. UFW Firewall
    
 ![](ufw.png)
 
-4. Traceroute
+###### 4. Traceroute
 
 ![](traceroute.png)
 
-5. Directory Listings
+###### 5. Directory Listings
    
 ![](results.png)
 
 
-Reflection:
+#### Reflection:
 
 This lesson showed how a network works by letting me build a full SOHO setup and then test how everything connects using Ubuntu VMs. Layers 1, 2, and 3 all played a part in what was happening: the physical and wireless connections made up Layer 1, the MAC addresses and local communication shown in commands like arp -a were part of Layer 2, and the IP routing and paths from traceroute showed the work of Layer 3. Using the firewall made it clear how security tools control what traffic can pass through and help block anything unwanted. The traceroute results stood out the most because they showed just how many stops data makes on the way to something simple like reaching Google. The web server part of the activity also helped show how websites actually work, with one device hosting the page and another device loading it through a normal HTTP request. On a real home network, adding another access point and giving important devices static IPs would make everything more reliable and secure.
 
-Overall Reflection:
+### Overall Reflection:
 
 This unit made it easier to understand how different parts of a network connect and rely on each other. The IP addressing labs showed the difference between private and public networks and how NAT keeps devices protected while sharing one public IP. The topology work helped show why some layouts are cheaper or easier to manage while others focus more on speed or stability. Building my own Ethernet cable showed how even small wiring mistakes can affect the entire network, and it also helped me understand how important the physical layer really is. The labs that focused on MAC addresses, frames, and packet flow made it clearer how devices talk to each other on a local network instead of just “going online.” I also learned how routing tables impact the path data takes and how firewalls decide what traffic is allowed through. The SOHO project tied everything together with network design, addressing, security settings, and even an application-layer web server. By the end, the lessons showed how a network works from the physical cable all the way up to the programs people use every day.
 
