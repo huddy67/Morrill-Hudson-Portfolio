@@ -128,17 +128,21 @@ For a small business, the star topology is usually the simplest to set up becaus
 
 Photos
 
-1. Twisted Pairs
+##### 1. Twisted Pairs
 
 ![](pairs.png)
 
-2. aligned wires
+##### 2. aligned wires
 
 ![](alignedwires.png)
 
-3. Stripped Cable
+##### 3. Stripped Cable
 
 ![](strippedcable.png)
+
+##### 4. inserted rj45
+
+![](rj45.png)
 
 #### Reflection: 
 
