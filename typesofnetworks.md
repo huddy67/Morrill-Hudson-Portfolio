@@ -144,6 +144,10 @@ Photos
 
 ![](rj45.png)
 
+##### Crimped cable
+
+![](crimp.png)
+
 #### Reflection: 
 
 When I was making the Ethernet cable, the part that gave the most trouble was getting the wires straight enough to actually slide into the connector. They kept bending and not staying in the right spot, so that took way longer than expected. Also, there were multiple times where I had gotten them in the correct order, but they came undone because i pulled too hard on one of the pieces when trying to take it off. The rest of the project was pretty easy, but I also did not know some of the names of the tools, which made it a little harder to follow the instructions. Another somewhat difficult part was stripping the wire since the tool did not always cut far enough, and you had to twist out the surrounding material to get the wires. Overall, though it was an interactive project that I found interesting, but maybe also a little bit frustrating. 
