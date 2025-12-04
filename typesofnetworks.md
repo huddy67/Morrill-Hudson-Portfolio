@@ -126,7 +126,7 @@ For a small business, the star topology is usually the simplest to set up becaus
 
 ### Soho Network Diagram
 
-![](soho.png)
+![](soho.jpg)
 
 ### Cable construction
 
