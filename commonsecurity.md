@@ -6,3 +6,5 @@ I would say that the devices that are the easiest to compromise would be things 
 
 
 Does proximity equal safety? How much can a device ‘see’ inside a LAN?
+
+No, proximity does not automatically equal safety. A device on the same LAN is already inside the internal network perimeter, which often poses a greater security risk than external internet connections.
