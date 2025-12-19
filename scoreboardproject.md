@@ -46,34 +46,52 @@
 
 10-13 - I worked on 3d printing and laser cutting. I printed a snake, and then while it was printing reviewed my project for any missing materials.
 
-10-15 - Began preliminary CAD planning for robotic arm components. Considered joint layout, range of motion, and modular design for 3D printing.
+### Daily Journal Entries
 
-10-22 - Planned Arduino control approach and basic servo wiring layout. Researched motion control strategies and safety considerations.
+**10-13**  
+Worked on general fabrication prep by using the laser cutter and 3D printer. While working, I reviewed my wooden scoreboard project plan and checked for any missing materials or tools that might be needed later.
 
-10-29 - Prepared for initial prototyping and identified required materials and print settings. Reviewed design assumptions and noted areas for iteration.
+**10-15**  
+Began early planning for the scoreboard design. Thought through overall layout, size, and how scores would be displayed. Considered how electronics could fit cleanly inside a wooden structure.
 
-11-6 - Reviewed project requirements and accessibility goals for users with limited mobility. Refined ideas for how the robotic arm would approach and deliver a cup safely.
+**10-22**  
+Researched possible electronic components for the scoreboard, including LED displays and basic wiring layouts. Looked into how scores could be updated manually or through simple code.
 
-11-7 - Continued research on self-balancing cup holder mechanisms. Looked into passive vs. active stabilization approaches.
+**10-29**  
+Reviewed material needs and potential build steps. Identified wood thickness, finishing materials, and basic electronics requirements. Noted areas of the design that may need to change once fabrication begins.
 
-11-8 - Sketched alternative cup holder and arm joint concepts. Considered how center of gravity affects spill prevention.
+**11-6**  
+Reviewed project requirements and focused on visibility and readability of the scoreboard. Considered how far away scores should be readable and how placement would affect viewing.
 
-11-13 - Began outlining the mechanical structure of the robotic arm. Considered joint count, arm reach, and mounting options.
+**11-7**  
+Researched different methods for displaying numbers on a scoreboard, including LED digit modules and light strips. Compared options based on simplicity and reliability.
 
-11-14 - Researched Arduino-compatible servo control methods. Reviewed example Arduino servo projects for reference.
+**11-8**  
+Sketched different scoreboard layout ideas, including placement of scores, labels, and electronics access panels. Considered how internal spacing would affect wiring and maintenance.
 
-11-18 - Compared different servo motor torque ratings and sizes. Evaluated tradeoffs between strength, precision, and cost.
+**11-13**  
+Started outlining the physical structure of the scoreboard. Considered frame construction, mounting or stand options, and how to keep the scoreboard stable while remaining portable.
 
-12-8 - Reviewed overall system design and identified components needing further refinement. Updated project documentation to reflect current progress.
+**11-14**  
+Looked into basic Raspberry Pi and Arduino control options for driving LED displays. Reviewed example projects to understand how scores could be updated through code.
 
-12-10 - Planned next steps for CAD modeling and prototyping. Organized research notes and reference materials.
+**11-18**  
+Compared different LED modules and power supply options. Evaluated brightness, power requirements, and cost to determine the best fit for the project.
 
-12-13 - Continued refining design ideas for the self-balancing cup holder. Considered how the cup holder will interface with the arm.
+**12-8**  
+Reviewed the overall scoreboard concept and identified areas that still needed refinement, especially related to electronics placement and wiring paths. Updated documentation to reflect current progress.
 
-12-14 - Reviewed safety considerations related to user interaction and motion limits. Noted potential improvements to reduce spill risk.
+**12-10**  
+Planned next steps for coding and testing the display logic. Organized research notes and examples to prepare for writing and testing code.
 
-12-16-2025
-Prepared for upcoming fabrication and electronics work. Finalized short-term goals for continuing development of the project.
+**12-13**  
+Continued refining ideas for how final scores would be displayed clearly and consistently. Considered how the user would interact with the scoreboard to update scores.
+
+**12-14**  
+Reviewed safety considerations related to electrical components and wood construction. Noted areas where edges should be rounded and electronics enclosed.
+
+**12-16-2025**  
+Prepared for upcoming coding, electronics testing, and fabrication. Finalized short-term goals for completing the scoreboard and moving into the build phase.
 
 ### Description of final project choice, why chosen, and what successful project would do
 
