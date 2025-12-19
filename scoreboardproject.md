@@ -6,9 +6,9 @@
 
 9-1 - Begun the wood pen project
 
-9-3 - Glued wood pen pieces togeher and waited for them to dry until the next day
+9-3 - Glued wood pen pieces together and waited for them to dry until the next day
 
-9-5 - We drilled a hole through the two wooden pieces that we glued together and then put the metal shaft in the hole with super glue
+9-5 - We drilled a hole through the two wooden pieces that we glued together, and then put the metal shaft in the hole with super glue
 
 9-8 - Sanded down the sides of the pen and then started to turn it
 
@@ -16,15 +16,15 @@
 
 9-12 - I assembled the pen and made sure that everything worked
 
-9-18 - I wanted to do the pearl project but still was deciding
+9-18 - I wanted to do the pearl project, but was still deciding
 
-9-24-25 - I tried to decide what I am doing for my project. I am considering doing the Pearl ,project but am not sure because of football
+9-24-25 - I tried to decide what I am doing for my project. I am considering doing the Pearl  project, but am not sure because of football
 
 9-25-25 - I decided that I was not doing the pearl project and started to think of other ideas I could do
 
-9-26 - I had an idea to do a wooden scoreboard that updates live games, specifically the Carolina ,Panthers so you can see the score in real time on the board
+9-26 - I had an idea to do a wooden scoreboard that updates live games, specifically the Carolina , Panthers, so you can see the score in real time on the board
 
-9-29 - I did research on my project, figuring out things I would need to make it work. I used the link below for comparing the Raspberry Pi models and seeing which one worked best for the projectct https://socialcompare.com/en/comparison/raspberrypi-models-comparison
+9-29 - I did research on my project, figuring out things I would need to make it work. I used the link below for comparing the Raspberry Pi models and seeing which one worked best for the project https://socialcompare.com/en/comparison/raspberrypi-models-comparison
 
 9-30 - I researched what type of wood I would need. The link for the wood I am thinking of using is below https://www.amazon.com/Walnut-Hardwood-Unfinished-Woodworking-Engraving/dp/B0BGJPDKC9/ref=sr_1_1_sspa?dib=eyJ2IjoiMSJ9.gUsOiHq67dtfxt1U_VQ4dTYEUkbNh_famtHiYpJ5QpqRtA450h0VsWHSnaWjj0zqvM7zEEwvhbwYppn6R_9OvC--dLu8DRhQ26Y-jhZQoUUdOIvVgbapU-lnD4R4os2WCAcf_VSNgXVwKYJkVH6Vr2obWF4-sm0zrIJ99PERhLIfu_FNWLlYVxMhvm_kSW-xF-tJoaxWwSjV8v9V_MJ5snNNw2XJ7ShlCgHCYGeMDCIL6M1moYHb_DjMOYRo7pv_cgMampEofQqZKQ6uHCzUT98-5MhG8X5-98tjNxbW7VA.Dcw0PzxSFJHqbMRiCVxZK1h3RdOviEKmLT9FpwL4a7o&dib_tag=se&keywords=walnut+wood&qid=1760012287&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1
 
@@ -150,14 +150,11 @@ The project that I used as inspiration is completely made out of LED's but my sc
 - Designing the scoreboard to be portable while remaining stable
 - Prioritizing safety by enclosing electronics and rounding exposed edges
 
-### Discussion of mistakes, issues, challenges and how you overcome them
+### Discussion of mistakes, issues, challenges, and how you overcome them
 
-### Discussion of Mistakes, Issues, and Challenges
 
-### Discussion of Mistakes, Issues, and Challenges
+At this stage of the project, most challenges have occurred during the planning and coding phase rather than the physical construction. These include:
 
-At this stage of the project, most challenges have occurred during the planning and coding phase rather than physical construction. These include:
-
-- Realizing that displaying live scores was too complex for the project and shifting the goal to final scores only
+- Realizing that displaying live scores was too complex for the project and shifted the goal to final scores only
 - Encountering difficulty deciding how scores will be stored and updated within the code
 - Needing to learn new Raspberry Pi libraries and display control methods
