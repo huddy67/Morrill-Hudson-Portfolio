@@ -8,7 +8,7 @@
 ---
 
 ## PORTFOLIO OVERVIEW
-This portfolio shows the work I completed throughout the semester in Book to Box Office. It highlights my growth as a writer, my ability to critically analyze both literature and film, and my willingness to revise and reflect on my work. The portfolio includes analytical essays, journals, a final project, and two new reflective writing pieces that demonstrate how my thinking and writing developed over time.
+This portfolio shows the work I completed throughout the semester in Book to Box Office. It highlights my growth as a writer, my ability to critically analyze both literature and film, and my willingness to revise and reflect on my work. The portfolio includes analytical essays, journals, a final project, and two new reflective writing pieces that demonstrate how my thinking and writing have developed over time.
 
 ---
 
@@ -42,18 +42,19 @@ image
 
 ## TAB 1: WRITER’S STATEMENT
 
-This course pushed me to think more carefully about how stories are constructed and how meaning changes depending on the medium. Rather than focusing only on what happens in a story, my writing this semester began to focus on how choices made by authors and filmmakers influence the audience’s understanding of characters, themes, and tone.
+My approach to writing analysis developed significantly over the course of this semester, both in how I organize my thinking and how I engage with texts and films. At the beginning of the class, my process was mostly informal. I would read or watch something, form a general opinion, and then try to explain it afterward. As the semester progressed, I learned that effective analysis requires intention before writing even begins. I started approaching assignments by identifying a clear focus, choosing specific scenes or moments, and deciding what I wanted to argue before drafting. This shift in process helped my writing become more controlled and purposeful.
 
-One of the most important skills I developed was learning how to narrow my focus. Instead of trying to cover every part of a book or film, I learned to select specific moments and analyze them in depth. In the Wiseguy and Goodfellas essay, this meant focusing on techniques like voiceover, editing, and pacing to explain how the audience is positioned to sympathize with Henry Hill. By concentrating on a few key examples, my arguments became clearer and more convincing.
+One of the biggest changes in my writing came from learning how to balance evidence and interpretation. Earlier in the semester, my writing leaned heavily toward explanation and description. I often assumed that the significance of a scene or quote would be obvious to the reader. Through feedback and revision, I learned that strong analysis depends on clearly explaining why a detail matters and how it supports a larger claim. This was especially clear in my Wiseguy and Goodfellas essay. Instead of summarizing Henry Hill’s story, I focused on how Scorsese’s use of voiceover, editing, and camera movement encourages the audience to feel connected to Henry while still exposing his moral flaws. Narrowing my focus allowed me to go deeper and make a more convincing argument.
 
-Another area of growth was learning how to connect evidence to interpretation. I became more intentional about explaining why a quote, scene, or film technique mattered rather than assuming the significance was obvious. This helped my writing feel more analytical and less descriptive. It also forced me to slow down and think through my ideas before putting them on the page.
+Revision also became a much more meaningful part of my process. Rather than treating revision as a final step to fix grammar or wording, I began using it to reshape my ideas. I reorganized paragraphs, removed unnecessary explanations, and clarified my claims. Revising my Goodfellas essay helped me see that writing is not just about getting ideas down once, but about refining them through multiple drafts. This process taught me patience and made me more confident in my ability to improve my work through effort and reflection.
 
-Revision played a major role in improving my work. Instead of viewing revision as simple correction, I used it as a way to refine my ideas and improve clarity. Rearranging paragraphs, cutting unnecessary explanation, and tightening language helped me communicate more effectively. This process made my writing more focused and easier to follow.
+Studying film alongside literature had a major impact on how I write and how I watch movies. Before this class, I enjoyed movies but did not think critically about how they were constructed. Learning film terms such as mise-en-scène, pacing, framing, and editing gave me a vocabulary to explain what I was noticing. Instead of saying that a scene “felt intense” or “worked well,” I could identify the specific techniques that created that effect. For example, analyzing Goodfellas helped me understand how fast-paced editing and continuous camera movement mirror Henry Hill’s lifestyle and mindset. This understanding made my writing more precise and helped me see films as carefully constructed works rather than just entertainment.
 
-This class also changed the way I engage with films outside of assignments. I now watch movies with greater attention to visual details such as framing, lighting, sound, and performance. Studying adaptations like The Princess Bride showed me how translating a story from page to screen requires creative decisions that shape the audience’s experience in new ways.
+Comparing The Princess Bride in both book and film form further changed how I think about storytelling. Goldman’s novel uses metafiction to constantly remind the reader that the story is being shaped and edited, while Reiner’s film uses the framing device of the grandfather and grandson to achieve a similar effect visually. Writing about these choices showed me that adaptation is not about copying a story exactly, but about translating it into a new medium. Considering historical context, audience expectations, and genre conventions helped me better understand why certain changes were made and how they affect meaning.
 
-Overall, this course strengthened my ability to analyze storytelling across different formats. I leave the class with a better understanding of how narrative choices work and greater confidence in my ability to explain those choices clearly in writing.
+As a student of film, this course taught me to watch more actively. I now pay attention to how directors make intentional decisions based on theme, historical context, and audience. I am more aware of how films reflect the time period in which they were made and how those influences shape tone and perspective. This awareness will stay with me beyond this class and change how I engage with films in the future.
 
+Overall, this course helped me grow as a writer by teaching me how to think more critically, write with intention, and revise with purpose. It also helped me see myself as someone capable of thoughtful analysis rather than just a summary. The combination of literature and film challenged me to explain complex ideas clearly, and that growth has been one of the most valuable outcomes of the semester.
 ---
 
 ## TAB 2: THE WORK
@@ -101,9 +102,7 @@ Deleted Scene Commentary: Write a short scene, then add a “director’s commen
 ## TAB 3: FINAL PROJECT
 
 ### FINAL PROJECT OVERVIEW
-Final Project Link  
-
----
+[Final Project](https://drive.google.com/file/d/1bRonzGhe8ieAzbs8UMAxTTwiA4To4suR/view)
 
 ### PROJECT OF CHOICE SUPPORTING PARAGRAPH
-For my final project, I worked with Raaj and Daniel to create a podcast analyzing the differences between a book and its film adaptation. Our goal was to discuss how the film interpreted the original text and evaluate which elements worked better on screen than on the page. Through this project, we explored how changes in structure, tone, and character portrayal affected the overall meaning of the story. The podcast allowed us to apply concepts from the course in a collaborative and creative way.
+For my final project, I worked with Raaj and Daniel to create a podcast analyzing the differences between a book and its film adaptation. Our goal was to discuss how the film interpreted the original text and evaluate which elements worked better on screen than on the page. Through this project, we explored how changes in structure, tone, and character portrayal affected the overall meaning of the story. The podcast allowed us to apply concepts from the course creatively.
