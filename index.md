@@ -10,3 +10,4 @@ future, I hope to [future aspirations].
 
 - [AP Networking](ap-networking.md)
 - [Senior Engineering](seniorengineering.md)
+- [english](english2.md)
