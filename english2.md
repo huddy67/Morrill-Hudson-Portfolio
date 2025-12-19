@@ -8,7 +8,7 @@
 ---
 
 ## PORTFOLIO OVERVIEW
-This electronic portfolio presents the work I completed throughout the semester in Book to Box Office. It highlights my growth as a writer, my ability to critically analyze both literature and film, and my willingness to revise and reflect on my work. The portfolio includes analytical essays, journals, a final project, and two new reflective writing pieces that demonstrate how my thinking and writing developed over time.
+This portfolio shows the work I completed throughout the semester in Book to Box Office. It highlights my growth as a writer, my ability to critically analyze both literature and film, and my willingness to revise and reflect on my work. The portfolio includes analytical essays, journals, a final project, and two new reflective writing pieces that demonstrate how my thinking and writing developed over time.
 
 ---
 
@@ -30,9 +30,9 @@ Looking ahead, I plan to major in business in college. I applied to Clemson, Vir
 ---
 
 ### AUTHOR OR FILM QUOTE
-“The best stories are the ones that tell us the most truth about ourselves.”  
-— William Goldman  
 
+“Movies touch our hearts and awaken our vision.”
+— Martin Scorsese
 ---
 
 ### Personal Photo
@@ -41,15 +41,18 @@ image
 ---
 
 ## TAB 1: WRITER’S STATEMENT
-At the beginning of the semester, I viewed writing mainly as an academic requirement rather than a tool for thinking. As the course progressed, I began to see writing as a way to organize my ideas and clearly explain how books and films communicate meaning differently.
 
-One of the biggest improvements in my writing was learning to move beyond summary. Earlier assignments focused too much on retelling the story instead of analyzing how and why certain choices were made. Writing the Wiseguy and Goodfellas essay helped me understand how techniques such as voiceover, editing, and point of view influence how the audience views a character. I learned to support my ideas with specific examples and explain why those details mattered.
+This course pushed me to think more carefully about how stories are constructed and how meaning changes depending on the medium. Rather than focusing only on what happens in a story, my writing this semester began to focus on how choices made by authors and filmmakers influence the audience’s understanding of characters, themes, and tone.
 
-Revision also became more meaningful throughout the semester. Instead of only correcting grammar, I worked on restructuring paragraphs, clarifying arguments, and improving flow. This process helped me become more confident in my writing and more willing to rethink my ideas rather than settling for a first draft.
+One of the most important skills I developed was learning how to narrow my focus. Instead of trying to cover every part of a book or film, I learned to select specific moments and analyze them in depth. In the Wiseguy and Goodfellas essay, this meant focusing on techniques like voiceover, editing, and pacing to explain how the audience is positioned to sympathize with Henry Hill. By concentrating on a few key examples, my arguments became clearer and more convincing.
 
-This class also changed how I watch movies. I now pay closer attention to camera movement, lighting, tone, and acting choices. Studying films like Goodfellas showed me how directors intentionally guide the audience’s emotions and perspective.
+Another area of growth was learning how to connect evidence to interpretation. I became more intentional about explaining why a quote, scene, or film technique mattered rather than assuming the significance was obvious. This helped my writing feel more analytical and less descriptive. It also forced me to slow down and think through my ideas before putting them on the page.
 
-Comparing The Princess Bride in both book and film form helped me understand that adaptation requires creative decision-making. Some elements work better on the page, while others are more effective on screen. Overall, this course helped me grow as a writer and a more thoughtful viewer, skills that will be useful beyond this class.
+Revision played a major role in improving my work. Instead of viewing revision as simple correction, I used it as a way to refine my ideas and improve clarity. Rearranging paragraphs, cutting unnecessary explanation, and tightening language helped me communicate more effectively. This process made my writing more focused and easier to follow.
+
+This class also changed the way I engage with films outside of assignments. I now watch movies with greater attention to visual details such as framing, lighting, sound, and performance. Studying adaptations like The Princess Bride showed me how translating a story from page to screen requires creative decisions that shape the audience’s experience in new ways.
+
+Overall, this course strengthened my ability to analyze storytelling across different formats. I leave the class with a better understanding of how narrative choices work and greater confidence in my ability to explain those choices clearly in writing.
 
 ---
 
