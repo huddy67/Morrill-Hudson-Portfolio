@@ -61,8 +61,7 @@ Overall, this course strengthened my ability to analyze storytelling across diff
 ### FINAL DRAFT ESSAYS
 
 **1. Wiseguy / Goodfellas**  
-- Original Final Draft  
-- Edited Final Draft (edits bolded)
+[Goodfellas Essay](https://docs.google.com/document/d/1D3zysCqeyyJ4iBBYgw4Dr0GIKozDugntnxQHU5cmg48/edit)
 
 **2. The Princess Bride**  
 - Final Draft  
@@ -79,9 +78,7 @@ Overall, this course strengthened my ability to analyze storytelling across diff
 **Prompt:**  
 Now that you have completed reading Goldman’s text and have a basic understanding of metafiction, consider how this device has influenced your reading of the story. Do you feel it drew you in, or did you find it distracting? Support your position with evidence from the text.
 
-**Response:**  
-Journal 1  
-
+[The Princess Bride Journal #1](https://docs.google.com/document/d/1l42-kUtJuaW8zVIKZAM5_Si4FT5k2Wc5D7autLJ8OJc/edit)
 ---
 
 **2. The Princess Bride Journal #2**  
@@ -89,18 +86,15 @@ Journal 1
 **Prompt:**  
 Before watching Rob Reiner’s The Princess Bride, imagine how a filmmaker might bring William Goldman’s layered story to the screen. Predict how the film might handle metafictional elements, mise-en-scène, character performance, and tone.
 
-**Response:**  
-Journal 2  
+[The Princess Bride Journal #2](https://docs.google.com/document/d/1_qZhfhMMIPHaqRWjBAiLC3CPQyqgpxEQduBrOQUlZik/edit)
 
----
 
 **3. Wiseguy / Goodfellas Journals 1 and 2**  
 
 **Prompt:**  
-Write a short screenplay or one-act scene that uses dialogue, conflict, and visual storytelling. Include a voiceover moment revealing a character’s hidden thoughts.
+Deleted Scene Commentary: Write a short scene, then add a “director’s commentary” explaining your creative choices.
 
-**Response:**  
-Creative Writing  
+[Goodfellas Journal](https://docs.google.com/document/d/1HWPizoC7-C0HKhAhzWGtnkyH1sbXgwIxDCn7MXgWIv4/edit)
 
 ---
 
