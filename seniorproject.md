@@ -4,7 +4,7 @@
 
 9-1 - Begun the wood pen project
 
-9-3 - Glued wood pen pieces togeher and waited for them to dry until the next day
+9-3 - Glued wood pen pieces together and waited for them to dry until the next day
 
 9-5 - We drilled a hole through the two wooden pieces that we glued together and then put the metal shaft in the hole with super glue
 
