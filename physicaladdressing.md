@@ -317,7 +317,8 @@ This activity focuses on:
 ## Part A – Document Your IP Addresses
 
 ### Step 1 – Retrieve your IP information
-￼
+
+![](ipshowd1s1.png)
 
 ### Step 2 – Record your addresses
 Find and highlight:
@@ -459,7 +460,12 @@ All work must be documented in your digital portfolio.
 ## Task 1 – Determine Whether Each VM Uses DHCP
 You will perform the steps below on both:
 - VM #1: Original Ubuntu VM￼
+
+![](ipshowd1s1.png)
+  
 - VM #2: New Linux VM￼
+
+![](d1a1s2vmoriginal.png)
 
 ### Step 1 – Open the Terminal in Each VM
 
@@ -473,15 +479,15 @@ Record or screenshot:
 
 ### Ubuntu VM #1
 Also document:
-1 Which Netplan file loaded￼
-2 Whether the file contains dhcp4: or dhcp6:￼
-3 Exact lines indicating DHCP or static addressing￼
+1 Which Netplan file loaded￼![](a2s4ls.png)
+2 Whether the file contains dhcp4: or dhcp6:￼![](a2s3cat.png)
+3 Exact lines indicating DHCP or static addressing￼(dhcp4 true)
 
 ### Linux VM #2
 Your Linux VM may use Netplan, NetworkManager, or other systems.
 Documentation:
-1 Which configuration system the VM uses￼
-2 Lines showing DHCP is enabled￼
+1 Which configuration system the VM uses￼![](a2s5linux.png)
+2 Lines showing DHCP is enabled￼![](a2s3cat.png)
 
 ## Compare the Two VMs
 Write 3–4 sentences comparing:
@@ -602,14 +608,14 @@ Troubleshooting examples include:
 
 ## Digital Portfolio Requirements
 Your post must include:
-1. Screenshot of Your Edited YAML File
+1. Screenshot of Your Edited YAML File ![](a3insideyaml.png)
 • Must clearly show dhcp4: no, the static address, the gateway, and DNS servers.￼
 2. Screenshot of All Three Verification Commands
-• ip addr show
+• ip addr show ![](ipshowd1s1.png)
 ￼The static IP address appears correctly on the interface in the ip addr show output.
-• ip route show
+• ip route show ![](a3routeshow.png)
 ￼The routing table includes a valid default route
-• ping -c 4 8.8.8.8
+• ping -c 4 8.8.8.8 ![](pinga3.png)
 ￼ping -c 4 8.8.8.8 succeeds, confirming external connectivity.
 3. Written Explanation
 Write a paragraph explaining the difference between: • Physical addressing (MAC) • Logical addressing (IP) • Static vs. Dynamic IP assignment
