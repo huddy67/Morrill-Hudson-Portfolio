@@ -418,7 +418,7 @@ Devices that must always be reachable at the same address:
 - Network appliances that require consistent remote management
 
 ### Why Static Addressing Is Important
-Devices providing critical network services must be consistently reachable. Changing their IP addresses would break communication.
+Devices providingnetwork services must be consistently reachable. Changing their IP addresses would break communication.
 
 ## How DHCP Works (The Four-Step Process)
 Dynamic IP assignment follows a sequence commonly called DORA:
@@ -496,7 +496,7 @@ Write 3–4 sentences comparing:
 - Differences in syntax
 - Why two Linux systems may configure networking differently
 
-The first VM uses Netplan, where DHCP is shown with YAML lines like dhcp4: true (and sometimes dhcp6: true). The second VM uses NetworkManager, which shows DHCP through automatic settings for IPv4 and IPv6. Netplan uses declarative YAML files, while NetworkManager relies on its own tools and configuration formats. Different Linux systems may use different network managers depending on the distro and how it was installed.
+The first VM uses Netplan, where DHCP is shown with YAML lines like dhcp4: true . The second VM uses NetworkManager, which shows DHCP through automatic settings for IPv4 and IPv6. Netplan uses YAML files, while NetworkManager relies on its own tools and configuration formats. Different Linux systems may use different network managers depending on the distro and how it was installed.
 
 ## Part C – Analyze DHCP Settings
 For each VM, answer:
@@ -620,12 +620,12 @@ Your post must include:
 3. Written Explanation
 Write a paragraph explaining the difference between: • Physical addressing (MAC) • Logical addressing (IP) • Static vs. Dynamic IP assignment
 
-Physical addressing uses MAC addresses to identify network interfaces at Layer 2 inside a local network. Logical addressing uses IP addresses to identify devices and route traffic across different networks. Static IP assignment gives a device a fixed address that must be set manually, which is useful for servers and infrastructure devices that need to stay reachable. Dynamic IP assignment uses DHCP to assign addresses automatically using temporary leases, which works best for client devices that connect and disconnect often. Networks use both approaches to keep important systems stable while keeping user devices easy to manage.
+Physical addressing uses MAC addresses to identify network interfaces at Layer 2 inside a local network. Logical addressing uses IP addresses to identify devices and route traffic across different networks. Static IP assignment gives a device a fixed address that must be set manually, which is useful for servers and infrastructure devices that need to stay reachable. Dynamic IP assignment uses DHCP to assign addresses automatically using temporary leases, which works best for client devices that connect and disconnect often. 
 
 4. Reflection (3–4 sentences)
 Answer: • What part of IP configuration was most challenging today, and why? • What did you learn about how sensitive YAML and networking settings are?
 
-The most challenging part of IP configuration is keeping the YAML format exactly correct, because a small spacing or indentation mistake can prevent Netplan from applying the settings. This lab shows how closely networking depends on configuration files and how quickly connectivity can break when the file is not perfect. It also reinforced that you must verify changes using commands like ip addr show, ip route show, and ping to confirm the system is actually working. Overall, it showed that networking configuration requires a lot of attention to detail.
+The most challenging part of IP configuration for me was keeping the YAML format exactly correct, because a small spacing or indentation mistake can prevent Netplan from applying the settings. This lab shows how networking depends on configuration files and how quickly connectivity can break when the file is not perfect. It also made me realize that you must verify changes using commands like ip addr show, ip route show, and ping to confirm the system is actually working. Overall, it showed that networking configuration requires a lot of attention to detail.
 
 Final Reflection Paragraph:
-This series of labs showed how physical addressing with MAC addresses and logical addressing with IP addresses work together to move traffic from local links to remote networks. The comparison of DHCP and static addressing demonstrated why client devices such as student laptops benefit from dynamic leases, while servers, printers, and security cameras require fixed addresses to remain reachable. The differences between VM #1 using Netplan and VM #2 using NetworkManager illustrated that Linux systems can use different tools to reach the same networking goals, as long as configuration is correct. YAML sensitivity in the Netplan configuration emphasized how small formatting mistakes can completely break connectivity. The Layer 2 and OUI activities highlighted how MAC address structure reveals whether a device is physical or virtual. Seeing these concepts applied to real-world school devices made clear how addressing choices impact reliability and manageability in actual networks.
+These labs showed how physical addressing with MAC addresses and logical addressing with IP addresses work together to move traffic from local links to remote networks. The comparison of DHCP and static addressing demonstrated why client devices such as student laptops benefit from dynamic leases, while servers, printers, and security cameras require fixed addresses to remain reachable. The differences between VM #1 using Netplan and VM #2 using NetworkManager showed that Linux can use different tools to reach the same networking goals, as long as the configuration is correct. YAML sensitivity in the Netplan configuration emphasized how small formatting mistakes can completely break connectivity. The Layer 2 and OUI activities highlighted how mac address structure reveals whether a device is physical or virtual. 
