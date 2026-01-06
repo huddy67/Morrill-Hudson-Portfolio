@@ -93,6 +93,10 @@ Reviewed safety considerations related to electrical components and wood constru
 **12-16-2025**  
 Prepared for upcoming coding, electronics testing, and fabrication. Finalized short-term goals for completing the scoreboard and moving into the build phase.
 
+1-6-2025
+
+I decided to change some of my project. originally, I had planned to laser cut the logo onto a wooden board. However, I felt like it would be more creative to make my board multilayered, laser cutting a different part of the stadium on each board, which when combined, would create a 3d effect similar to the image below. Additionally, I found it too difficult to do the scores of the athletic games of charlotte Latin, because doing so would not allow me to do what i had intended to do which was to update the scores live. After talking to Mr. Teets I found out that this wad not possible to do for Charlotte Latin. Instead, I shifted the focus to doing the scores of NFL games, specifically Panthers games. The stadium is for an aesthetic effect, and below the words "Carolina panthers" will be engraved, as well as the logo. Below this will be the led display. This will either be small led boards or a neon light display which will feature the panthers name in the retro font. actually retro font for name listed above but something else to display scores probably.
+
 ### Description of final project choice, why chosen, and what successful project would do
 
 The project that I will be doing is a wooden scoreboard that displays the scores from athletic gmes at Charlotte latin. Because charlotte Latin is a small school, they do not live update scores for games so the way that this scoreboard will work is that it will display the final scores. 
