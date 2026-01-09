@@ -10,6 +10,9 @@ This project was a scoreboard completely made out of LEDs, which updated live wh
 
 This project inspired me to make my scoreboard out of wood. It also inspired me to make the scoreboard 3d. As seen in these wooden coasters, there are 4 layers of wood. Each layer is a different piece of the stadium, with the top layer being the top of the stands, and the bottom being the field. This creates a miniature replica of the stadium. For my project I will be doing the same thing, except it will be bigger, slightly thicker, and will be Bank of America Stadium where the Carolina Panthers play.
 
+![](coaster.png)
+![](coaster2.png)
+
 Additionally, below the 3d stadium will be the Panthers logo as well as the old Panthers font, which you can see in the picture below. Between the stadium and the logo/panthers font will be the LED display that will show the scores.
 
 Tools needed
