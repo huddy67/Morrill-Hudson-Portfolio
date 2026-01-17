@@ -10,7 +10,7 @@ This class covers the fundamentals of computer networking
 [Command Line Interface](mapthemaze2.md)
 
 [Determining Security Controls](determiningsecuritycontrols.md)
-
+pharmacynetworking.me)
 [implenenting sexurity](Implementingsecurity.md)
 
 [Data Movement](datamovement2.md)
@@ -20,3 +20,5 @@ This class covers the fundamentals of computer networking
 [computers](whycantthesetwocomputerstalktoeachother.md)
 
 [physical addressing](physicaladdressing.md)
+
+[Determining Security](pharmacynetworking.md)
