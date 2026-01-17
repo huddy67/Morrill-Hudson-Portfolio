@@ -21,4 +21,4 @@ pharmacynetworking.me)
 
 [physical addressing](physicaladdressing.md)
 
-[Determining Security](pharmacynetworking.md)
+[Determining Security](Pharmacynetworking.md)
