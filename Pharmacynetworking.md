@@ -17,7 +17,7 @@ Write a paragraph responding to:
 1. Which device inside a LAN would be the easiest for an attacker to compromise, and why?
 2. Does proximity equal safety? How much can a device ‘see’ inside a LAN?
 
-The device most likely to be compromised inside a LAN is a typical user workstation or other unmanaged endpoint. These systems prioritize ease of use and often accept network configuration details automatically without verifying their source. If an attacker gains access to the same LAN, they can take advantage of this trust to intercept traffic or impersonate network services. Physical closeness alone does not make a network safe. Once connected, a device can receive broadcast traffic and communicate with nearby systems. Without controls like VLAN segmentation or authentication, devices may have broader visibility than intended.
+The device most likely to be compromised inside a LAN is a user workstation or other endpoints that are not really managed. These systems want to be easier to use for the user as opposed to being more complicated and often accept network configuration details without verifying whether they are secure or where they come from. If an attacker gains access to the same LAN, they can take advantage of this trust that was automatically given and intercept traffic or impersonate network services. Physical closeness itself does not make a network safe because once connected, a device can receive broadcast traffic and communicate with nearby systems. Without controls like VLAN segmentation or authentication, devices could have a lot more visibillity than what it actually wanted to have.
 
 ## Threat Discovery Rotation Using Cards or Digital Tiles
 
@@ -52,7 +52,7 @@ Add a table with these columns:
 | Scenario Letter | Symptoms (Summary) | Your Hypothesis | Your Justification |
 |-----------------|-------------------|----------------|-------------------|
 | A | Default gateway does not match the actual router | ARP manipulation | A not matching gateway could mean data is being altered |
-| B | Switch CPU spikes, thousands of MACs appear on one port | MAC flooding attack | An unusually high number of MAC addresses on one port indicates table exhaustion |
+| B | Switch CPU spikes, thousands of MACs appear on one port | MAC flooding attack | An unusually high number of MAC addresses on one port could mean a mac flooding attack |
 | C | Clients recieve network settings from an unknown DHCP source | Rogue DHCP server | Receiving IP settings from an unexpected source suggests unauthorized DHCP |
 | D | New device appears inside the broadcast domain and communicates broadly | Unauthorized internal device | Broad communication without restriction points to weak access enforcement |
 | E | A host reaches internal systems it should not access | Lateral movement | Accessing restricted systems implies internal trust is being abused |
@@ -93,7 +93,7 @@ After the “Group of Four” discussion, update “LAN Threat Scenario Rotation
 3. How another pair influenced your thinking
 4. Patterns you noticed across scenarios
 
-The strongest conclusions apply to Scenarios B and C because their symptoms closely align with how switches and DHCP normally operate when abused. Scenario D was the most difficult to interpret since a similar result could happen because of other things. A clear pattern across all scenarios is that most problems originate inside the network rather than externally. Many threats resemble normal network behavior, making them difficult to identify. This highlights the importance of internal security controls on local area networks and what would happen without them.
+The strongest conclusions apply to Scenarios B and C because their symptoms closely align with how switches and DHCP normally operate when not used as intended. Scenario D was the most difficult to interpret because i felt like a similar result could happen because of other things. A clear pattern across all scenarios is that most problems originate inside of a network rather than outside of it. Many threats resemble normal network behavior, making them difficult to identify. This highlights the importance of internal security controls on local area networks and what would happen without them.
 
 ## VM-Based Threat Evidence Hunt
 
@@ -403,9 +403,9 @@ The diagram must be:
 
 ### Explanation
 
-This attack succeeds because devices within the LAN automatically trust ARP traffic without validating the source. The attacker exploits this behavior by sending forged ARP messages that mislead the victim into sending traffic to the attacker instead of the legitimate gateway. Since this activity looks identical to normal ARP communication, it is accepted without resistance.
+This attack succeeds because devices within the LAN automatically trust ARP traffic without validating the source. The attacker exploits this behavior by sending forged ARP messages that mislead the victim into sending traffic to the attacker instead of the legitimate gateway. Since this activity looks identical to normal ARP communication, it is accepted without any problems
 
-Dynamic ARP Inspection (DAI) would prevent this attack by validating ARP messages against trusted IP-to-MAC bindings and blocking forged responses. VLAN segmentation would further reduce the impact by limiting how many devices the attacker could interact with. Together, these controls stop the attack before traffic can be redirected.
+Dynamic ARP Inspection would prevent this attack by validating ARP messages against trusted IP-to-MAC bindings and blocking incorrect responses. VLAN segmentation would further reduce the impact by limiting how many devices the attacker could interact with. Together, these controls stop the attack before traffic can be redirected.
 
 ---
 
@@ -499,9 +499,9 @@ This diagram demonstrates how physical security supports network and cybersecuri
 
 ## Risk Justification and Priority Controls
 
-The highest priority physical controls are access control, surveillance, and hardware security. These measures directly reduce the risk of theft, sabotage, data compromise, and regulatory violations by limiting who can physically interact with critical systems and ensuring all activity is monitored.
+The highest priority physical controls are access control, surveillance, and hardware security. These measures directly reduce the risk of theft and data compromise. The security cameras make sure to gather evidence in case someone robbed a store or something.
 
-Physical security also reinforces technical controls such as network segmentation, access control lists, and monitoring systems. When infrastructure is physically protected, attackers cannot bypass logical defenses by plugging in rogue hardware or accessing exposed ports. Strong physical security ensures technical safeguards remain reliable across the enterprise.
+Physical security also reinforces things like network segmentation, access control lists, and monitoring systems. When infrastructure is physically protected, attackers cannot bypass logical defenses by plugging in rogue hardware or accessing exposed ports. Strong physical security ensures technical safeguards remain reliable across the enterprise.
 
 ## Conclusion
 
