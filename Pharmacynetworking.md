@@ -51,7 +51,7 @@ Add a table with these columns:
 
 | Scenario Letter | Symptoms (Summary) | Your Hypothesis | Your Justification |
 |-----------------|-------------------|----------------|-------------------|
-| A | Default gateway does not match the actual router | ARP manipulation | A mismatched gateway suggests address resolution data is being altered |
+| A | Default gateway does not match the actual router | ARP manipulation | A not matching gateway could mean data is being altered |
 | B | Switch CPU spikes, thousands of MACs appear on one port | MAC flooding attack | An unusually high number of MAC addresses on one port indicates table exhaustion |
 | C | Clients recieve network settings from an unknown DHCP source | Rogue DHCP server | Receiving IP settings from an unexpected source suggests unauthorized DHCP |
 | D | New device appears inside the broadcast domain and communicates broadly | Unauthorized internal device | Broad communication without restriction points to weak access enforcement |
@@ -93,7 +93,7 @@ After the “Group of Four” discussion, update “LAN Threat Scenario Rotation
 3. How another pair influenced your thinking
 4. Patterns you noticed across scenarios
 
-The strongest conclusions apply to Scenarios B and C because their symptoms closely align with how switches and DHCP normally operate when abused. Scenario D was the most difficult to interpret since similar behavior could result from poor configuration or intentional misuse. Group discussion emphasized how many LAN-based threats rely on implicit trust between internal devices. A clear pattern across all scenarios is that most problems originate inside the network rather than externally. Many threats resemble normal network behavior, making them difficult to identify. This highlights the importance of internal security controls on local area networks.
+The strongest conclusions apply to Scenarios B and C because their symptoms closely align with how switches and DHCP normally operate when abused. Scenario D was the most difficult to interpret since a similar result could happen because of other things. A clear pattern across all scenarios is that most problems originate inside the network rather than externally. Many threats resemble normal network behavior, making them difficult to identify. This highlights the importance of internal security controls on local area networks and what would happen without them.
 
 ## VM-Based Threat Evidence Hunt
 
@@ -125,7 +125,7 @@ Add a section: **“Task A — LAN Observation”**, including:
 2. Reflection (2–3 sentences):  
 How could an attacker misuse this information?
 
-This information allows an attacker to quickly map out the local network and identify important systems such as the default gateway and active hosts. ARP and neighbor tables expose the relationship between IP and MAC addresses, which could be exploited to impersonate trusted devices. Routing details also show where traffic flows, helping an attacker decide where to intercept or disrupt communication.
+This information allows an attacker to map out the local network and identify important systems like the default gateway and active hosts. ARP and neighbor tables expose the relationship between IP and MAC addresses, which could be exploited to impersonate trusted devices. Routing details also show where traffic flows, helping an attacker decide where to intercept or disrupt communication.
 
 ## Task B — Evidence-to-Threat Analysis
 
@@ -191,7 +191,7 @@ Include:
 - Answers to all four questions
 - A 3–4 sentence summary explaining how the threat abuses normal LAN behavior
 
-ARP spoofing succeeds because devices on a LAN accept ARP messages without validating their authenticity. An attacker can send fake ARP replies that associate their MAC address with the gateway’s IP address. Once the ARP table is poisoned, traffic is redirected through the attacker’s system. This works because ARP is designed for efficiency, not strong identity verification.
+ARP spoofing succeeds because devices on a LAN accept ARP messages without really validating their authenticity. An attacker can send fake ARP replies that associate their MAC address with the gateway’s IP address. Once the ARP table is poisoned, traffic is redirected through the attacker’s system. This works because ARP is designed to be efficinet and does not have strong security for verification.
 
 ### Step 4 — Pair Discussion
 Share key reasoning and compare similarities/differences.
@@ -495,7 +495,7 @@ Clear procedures reduce mistakes and ensure physical security measures are consi
 
 ## Digital Physical Security Diagram
 
-This diagram demonstrates how physical security supports network and cybersecurity by controlling access, monitoring activity, and protecting critical infrastructure. Strong physical controls ensure that technical security measures remain effective and trustworthy in a pharmaceutical research environment.
+This diagram demonstrates how physical security supports network and cybersecurity by controlling access, and monitoring activity. Strong physical controls ensure that technical security measures remain effective and trustworthy in a pharmaceutical research environment.
 
 ## Risk Justification and Priority Controls
 
@@ -505,4 +505,4 @@ Physical security also reinforces technical controls such as network segmentatio
 
 ## Conclusion
 
-Physical security is a foundational requirement for both network security and cybersecurity. Without effective physical protections, technical controls can be bypassed or rendered ineffective. A layered physical security strategy protects people, data, and infrastructure while supporting secure and reliable network operations.
+Physical security is a very important l requirement for both network security and cybersecurity. Without effective physical protections, technical controls can be bypassed or rendered ineffective. A layered physical security strategy protects people, data, and infrastructure while supporting secure and reliable network operations.
