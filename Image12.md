@@ -9,7 +9,7 @@ This class covers the fundamentals of computer networking
 
 [Command Line Interface](mapthemaze2.md)
 
-[Determining Security Controls](determiningsecuritycontrols.md)
+[Determining Security Controls](determiningsecuritycontrols.md)a
 pharmacynetworking.me)
 [implenenting sexurity](Implementingsecurity.md)
 
