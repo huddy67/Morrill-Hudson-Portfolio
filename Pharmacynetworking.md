@@ -112,6 +112,8 @@ Run and screenshot:
 - ip neigh
 - ip route show
 
+  ![](ipaddrshow.png)
+
 ### Step 2 — Identify
 - Your subnet
 - Your default gateway
@@ -206,8 +208,12 @@ Add:
 - One screenshot from VM #1  
 It shows active hosts, the default gateway, and IP-to-MAC mappings. This information could be used to identify targets or impersonate trusted devices.
 
+![](ipaddrshow.png)
+
 - One screenshot from VM #2  
 It highlights infrastructure-level communication and trusted network relationships, helping attackers understand how traffic moves through the LAN.
+
+![](22.png)
 
 ### Part 2 — Five Common Internal LAN Threats
 
@@ -262,12 +268,15 @@ ip addr
 ip route
 
 ![](22.png)
+![](665.png)
 
 STEP 2 — Start ARP Packet Capture on VM #2
 
 On VM #2, start listening for ARP traffic:
 
 sudo tcpdump -i arp
+
+![](555.png)
 
 sudo tcpdump -i enp0s1 arp
 
@@ -400,7 +409,7 @@ The diagram must be:
 
 ## LAN Attack Path Diagram (Homework)
 
-### Diagram Upload
+### Diagram 
 ￼
 
 ### Explanation
