@@ -434,16 +434,16 @@ People without the right clearance can walk into labs and research spaces. It ha
 There’s not always a clear line between public spaces and secure research zones. so some people who might be in a public area and accidentally walks i to a place that only people who need to be there should be allowed to be. This is a big security issue if these areas arent separated since people could mess something up or be somewhere they shouldnt be without even knowing.
 
 4. Weak Physical Security for Server and Data Rooms
-Server and network rooms don’t always have strong physical controls. It is important to have the physical security becuase it it was something that could be controlled remotely, then it could be hacked.
+Server and network rooms don’t always have strong physical controls. It is important to have physical security because if it were something that could be controlled remotely, then it could be hacked.
 
-5. Lax Visitor ID and Escort Processes
-Sometimes visitors aren’t properly checked in, logged, or escorted around. This usually happens at main entrances, reception desks, conference rooms, and nearby offices. When visitor movement isn’t controlled, it opens the door to spying, unauthorized snooping, or social engineering aimed at staff.
+5. Bad Visitor ID and Escort Processes
+Sometimes visitors aren’t properly checked in or watched by trusted people. You could make sure to have IDs for each employee, or maybe something like a face scanner so that the person could be verified that they are who they say they are.
 
-6. Poor Monitoring of Controlled Material Storage
-Storage spots for chemicals, samples, or prototypes don’t always get enough oversight. This is especially true in chemical storage rooms, cold storage, and vaults. Since these materials can be valuable, dangerous, or tightly regulated, weak monitoring means a higher risk of theft, misuse, or compliance issues.
+7. Poor Monitoring of Storage
+Storage areas don’t always have enough security so it is important to have people guarding these areas, because if someone stole something like research documents or haxardous materials it could be a major security risk.
 
-7. Incomplete Surveillance in Key Interior Areas
-Surveillance cameras often miss critical spots inside. Gaps like these show up at lab entrances, research hallways, storage areas, and rooms with important equipment. When coverage is spotty, it gets harder to spot intruders, look into incidents, or keep insider threats in check.
+8. Incomplete Surveillance in Key Interior Areas
+Surveillance cameras often do not cover everything inside a building. Security cameras need to have a 360 view so that no area is missed, and someone who may know about these areas cannot avoid them.
 
 ## Physical Security Plan — Pharmaceutical Research Facility
 
