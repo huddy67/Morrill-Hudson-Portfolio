@@ -261,7 +261,7 @@ On VM #2, open a terminal and run:
 ip addr
 ip route
 
-![](ipa.png)
+![](22.png)
 
 STEP 2 — Start ARP Packet Capture on VM #2
 
