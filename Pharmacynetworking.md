@@ -261,7 +261,7 @@ On VM #2, open a terminal and run:
 ip addr
 ip route
 
-[](ipa.png)
+![](ipa.png)
 
 STEP 2 — Start ARP Packet Capture on VM #2
 
@@ -499,7 +499,7 @@ Clear procedures reduce mistakes and ensure physical security measures are consi
 
 This diagram demonstrates how physical security supports network and cybersecurity by controlling access, and monitoring activity. Strong physical controls ensure that technical security measures remain effective and trustworthy in a pharmaceutical research environment.
 
-[](111.png)
+![](111.png)
 
 ## Risk Justification and Priority Controls
 
