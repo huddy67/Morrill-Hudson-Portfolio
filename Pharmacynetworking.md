@@ -112,7 +112,7 @@ Run and screenshot:
 - ip neigh
 - ip route show
 
-  ![](ipaddrshow.png)
+  ![](ipshowd1s1.png)
 
 ### Step 2 — Identify
 - Your subnet
@@ -208,7 +208,7 @@ Add:
 - One screenshot from VM #1  
 It shows active hosts, the default gateway, and IP-to-MAC mappings. This information could be used to identify targets or impersonate trusted devices.
 
-![](ipaddrshow.png)
+![](ipshowd1s1.png)
 
 - One screenshot from VM #2  
 It highlights infrastructure-level communication and trusted network relationships, helping attackers understand how traffic moves through the LAN.
