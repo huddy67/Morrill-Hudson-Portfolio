@@ -456,9 +456,8 @@ Surveillance cameras often do not cover everything inside a building. Security c
 This physical security plan uses a layered defense approach to protect people, data, and infrastructure.
 
 ### 1. Environmental Controls
-- Redundant cooling systems with automated alerts
-- Leak detection sensors beneath raised floors
-- Backup power supplies with controlled shutdown procedures
+- cooling systems with automated alerts
+- Backup power supplies
 - Sealed equipment racks to reduce dust exposure  
 
 **Protection Provided:**  
@@ -468,15 +467,15 @@ These controls reduce the risk of hardware failure, unexpected downtime, and dat
 - Smart ID badges tied to employee roles
 - Time-based access permissions for sensitive areas
 - Emergency lockout capability for critical rooms
-- Clearly defined security zones with escalating restrictions  
+- Clearly defined security zones with restrictions  
 
 **Protection Provided:**  
 Access controls ensure only approved individuals can enter sensitive spaces and limit movement within the facility.
 
 ### 3. Surveillance and Detection
-- Continuous camera monitoring with motion analytics
+- camera monitoring
 - Real-time alerts for unauthorized access attempts
-- Centralized security operations dashboard  
+- secure security room
 
 **Protection Provided:**  
 Monitoring systems deter misuse and allow security teams to quickly detect and respond to incidents.
@@ -485,16 +484,16 @@ Monitoring systems deter misuse and allow security teams to quickly detect and r
 - Lockable server racks with tamper alerts
 - Secured wiring closets with restricted access
 - Physically blocked unused network ports
-- Organized cable management to prevent accidental disconnections  
+- Organized cable management
 
 **Protection Provided:**  
 These controls prevent physical tampering, unauthorized device connections, and service disruptions.
 
 ### 5. Personnel and Procedures
-- Mandatory visitor check-in and escort policies
-- Quarterly access audits and badge reviews
-- Ongoing security training for employees
-- Formal approval process for installing or removing equipment  
+- Mandatory visitor check-in
+- badge reviews
+- security training for employees
+ 
 
 **Protection Provided:**  
 Clear procedures reduce mistakes and ensure physical security measures are consistently enforced.
