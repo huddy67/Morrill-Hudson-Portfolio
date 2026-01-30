@@ -515,7 +515,7 @@ This diagram demonstrates how physical security supports network and cybersecuri
 
 The highest priority physical controls are access control, surveillance, and hardware security. These measures directly reduce the risk of theft and data compromise. The security cameras make sure to gather evidence in case someone robbed a store or something.
 
-Physical security also reinforces things like network segmentation, access control lists, and monitoring systems. When infrastructure is physically protected, attackers cannot bypass logical defenses by plugging in rogue hardware or accessing exposed ports. Strong physical security ensures technical safeguards remain reliable across the enterprise.
+Physical security also reinforces things like network segmentation, access control lists, and monitoring systems. When infrastructure is physically protected, attackers cannot bypass defenses by plugging in rogue hardware or accessing exposed ports. Strong physical security ensures technical safeguards remain reliable across the enterprise. If you did not have physical security, you always could be risking something but having a physical way for it to be secure means that nothing could happen from somewhere else.
 
 ## Conclusion
 
