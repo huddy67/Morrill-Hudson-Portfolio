@@ -497,6 +497,8 @@ Clear procedures reduce mistakes and ensure physical security measures are consi
 
 This diagram demonstrates how physical security supports network and cybersecurity by controlling access, and monitoring activity. Strong physical controls ensure that technical security measures remain effective and trustworthy in a pharmaceutical research environment.
 
+[](111.png)
+
 ## Risk Justification and Priority Controls
 
 The highest priority physical controls are access control, surveillance, and hardware security. These measures directly reduce the risk of theft and data compromise. The security cameras make sure to gather evidence in case someone robbed a store or something.
