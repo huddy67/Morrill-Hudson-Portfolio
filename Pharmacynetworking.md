@@ -17,7 +17,7 @@ Write a paragraph responding to:
 1. Which device inside a LAN would be the easiest for an attacker to compromise, and why?
 2. Does proximity equal safety? How much can a device ‘see’ inside a LAN?
 
-The device most likely to be compromised inside a LAN is a user workstation or other endpoints that are not really managed. These systems want to be easier to use for the user as opposed to being more complicated and often accept network configuration details without verifying whether they are secure or where they come from. If an attacker gains access to the same LAN, they can take advantage of this trust that was automatically given and intercept traffic or impersonate network services. Physical closeness itself does not make a network safe because once connected, a device can receive broadcast traffic and communicate with nearby systems. Without controls like VLAN segmentation or authentication, devices could have a lot more visibillity than what it actually wanted to have.
+The device most likely to be compromised inside a LAN is a user workstation or other endpoints that are not really managed. These systems want to be easier to use for the user as opposed to being more complicated, and often accept network configuration details without verifying whether they are secure or where they come from. If an attacker gains access to the same LAN, they can take advantage of this trust that was automatically given and intercept traffic or impersonate network services. Physical closeness itself does not make a network safe because once connected, a device can receive broadcast traffic and communicate with nearby systems. Without controls like VLAN segmentation or authentication, devices could have a lot more visibillity than what it actually wanted to have.
 
 ## Threat Discovery Rotation Using Cards or Digital Tiles
 
@@ -423,41 +423,27 @@ Dynamic ARP Inspection would prevent this attack by validating ARP messages agai
 
 ---
 
-# Physical Security Controls for Network Devices and Physical Spaces
+Enterprise Physical Security Threat Analysis
 
-## Enterprise Physical Security Threat Analysis
+Here’s a rundown of the main physical security gaps you’ll find in pharmaceutical research settings. Each point spells out a weakness straight up, not a fix.
 
-The following physical vulnerabilities represent serious risks in a pharmaceutical research environment. Each vulnerability is written as a weakness and explains why it is dangerous in this industry.
+1. Unauthorized Access to Research Laboratories
+People without the right clearance can walk into labs and research spaces. It happens in labs, testing rooms, and places where experiments get developed. That’s a problem because these areas hold sensitive drug data, intellectual property, and regulated materials. If someone gets in than there could be theft.
 
-### 1. Unauthorized Access to Research Laboratories
-- **What:** Individuals without proper authorization can enter laboratory spaces.
-- **Where:** Research labs and clean rooms.
-- **Why Risky:** These areas contain sensitive drug research, biological samples, and proprietary data that must be protected from theft or tampering.
+2. Poor Separation Between Public and Restricted Areas
+There’s not always a clear line between public spaces and secure research zones. so some people who might be in a public area and accidentally walks i to a place that only people who need to be there should be allowed to be. This is a big security issue if these areas arent separated since people could mess something up or be somewhere they shouldnt be without even knowing.
 
-### 2. Inadequate Separation Between Public and Restricted Areas
-- **What:** Public office areas are not clearly separated from restricted zones.
-- **Where:** Corporate headquarters and research facilities.
-- **Why Risky:** Visitors or non-cleared staff could accidentally or intentionally enter secure areas.
+4. Weak Physical Security for Server and Data Rooms
+Server and network rooms don’t always have strong physical controls. It is important to have the physical security becuase it it was something that could be controlled remotely, then it could be hacked.
 
-### 3. Poor Environmental Controls for Network Equipment
-- **What:** Network closets and server rooms lack proper temperature and humidity control.
-- **Where:** On-site data center and wiring closets.
-- **Why Risky:** Overheating, condensation, or dust buildup can lead to hardware failure, outages, and potential data corruption.
+5. Lax Visitor ID and Escort Processes
+Sometimes visitors aren’t properly checked in, logged, or escorted around. This usually happens at main entrances, reception desks, conference rooms, and nearby offices. When visitor movement isn’t controlled, it opens the door to spying, unauthorized snooping, or social engineering aimed at staff.
 
-### 4. Insufficient Surveillance of Critical Spaces
-- **What:** Limited camera coverage and monitoring of sensitive areas.
-- **Where:** Server rooms, labs, and network closets.
-- **Why Risky:** Unauthorized access or sabotage may occur without being detected in time.
+6. Poor Monitoring of Controlled Material Storage
+Storage spots for chemicals, samples, or prototypes don’t always get enough oversight. This is especially true in chemical storage rooms, cold storage, and vaults. Since these materials can be valuable, dangerous, or tightly regulated, weak monitoring means a higher risk of theft, misuse, or compliance issues.
 
-### 5. Exposed Network Hardware
-- **What:** Server racks, switches, and network ports are not fully secured.
-- **Where:** Data centers and network closets.
-- **Why Risky:** Attackers could connect rogue devices or disrupt critical network connections.
-
-### 6. Weak Visitor and Personnel Procedures
-- **What:** Visitors are not always escorted and access reviews are inconsistent.
-- **Where:** Entire facility.
-- **Why Risky:** Human error can bypass both physical and technical security measures.
+7. Incomplete Surveillance in Key Interior Areas
+Surveillance cameras often miss critical spots inside. Gaps like these show up at lab entrances, research hallways, storage areas, and rooms with important equipment. When coverage is spotty, it gets harder to spot intruders, look into incidents, or keep insider threats in check.
 
 ## Physical Security Plan — Pharmaceutical Research Facility
 
