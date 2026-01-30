@@ -428,21 +428,27 @@ Enterprise Physical Security Threat Analysis
 Here’s a rundown of the main physical security gaps you’ll find in pharmaceutical research settings. Each point spells out a weakness straight up, not a fix.
 
 1. Unauthorized Access to Research Laboratories
+   
 People without the right clearance can walk into labs and research spaces. It happens in labs, testing rooms, and places where experiments get developed. That’s a problem because these areas hold sensitive drug data, intellectual property, and regulated materials. If someone gets in than there could be theft.
 
 2. Poor Separation Between Public and Restricted Areas
+   
 There’s not always a clear line between public spaces and secure research zones. so some people who might be in a public area and accidentally walks i to a place that only people who need to be there should be allowed to be. This is a big security issue if these areas arent separated since people could mess something up or be somewhere they shouldnt be without even knowing.
 
-4. Weak Physical Security for Server and Data Rooms
+3. Weak Physical Security for Server and Data Rooms
+   
 Server and network rooms don’t always have strong physical controls. It is important to have physical security because if it were something that could be controlled remotely, then it could be hacked.
 
-5. Bad Visitor ID and Escort Processes
+4. Bad Visitor ID and Escort Processes
+
 Sometimes visitors aren’t properly checked in or watched by trusted people. You could make sure to have IDs for each employee, or maybe something like a face scanner so that the person could be verified that they are who they say they are.
 
-7. Poor Monitoring of Storage
+5. Poor Monitoring of Storage
+
 Storage areas don’t always have enough security so it is important to have people guarding these areas, because if someone stole something like research documents or haxardous materials it could be a major security risk.
 
-8. Incomplete Surveillance in Key Interior Areas
+6. Incomplete Surveillance in Key Interior Areas
+
 Surveillance cameras often do not cover everything inside a building. Security cameras need to have a 360 view so that no area is missed, and someone who may know about these areas cannot avoid them.
 
 ## Physical Security Plan — Pharmaceutical Research Facility
