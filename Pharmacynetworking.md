@@ -156,8 +156,8 @@ Add this table:
 |----------------------|------------------------|--------------------------|
 | Default gateway shown in ip route show: [gateway IP] | ARP Spoofing | Knowing the gateway allows an attacker to impersonate it by sending forged ARP responses |
 | ARP/neighbor entry: [gateway IP → gateway MAC] | ARP Spoofing | ARP trusts updates without verification, making it easy to redirect traffic |
-| Visible hosts from arp -a / ip neigh: [list 2–4 IPs] | Lateral Movement | Seeing nearby systems helps an attacker select targets after an initial compromise |
-| Multiple MACs learned on one port | MAC Flooding | Overloading a switch’s MAC table can force it to broadcast traffic |
+| Visible hosts from arp -a / ip neigh: [list 2–4 IPs] | Rogue DHCP Server | Seeing nearby systems helps an attacker select targets after an initial compromise |
+| Multiple MACs learned on one port | Unauthorized plug in device | Overloading a switch’s MAC table can force it to broadcast traffic |
 
 Guiding questions:
 - What could an attacker change here?
@@ -248,7 +248,7 @@ For each threat, include:
 Write 3–4 sentences responding to:
 “Which internal LAN threat do you believe is the most difficult for a network administrator to detect, and why?”
 
-ARP spoofing is particularly difficult to detect because it blends into normal network activity. ARP tables change frequently during legitimate operation, which can hide malicious updates. Evidence from ARP and neighbor tables shows how easily mappings can be altered. This demonstrates how normal LAN behavior can conceal attacks.
+ARP spoofing is hard to detect because it blends into normal network activity. ARP tables change frequently during actual use, which can hide malicious updates. Evidence from ARP and neighbor tables shows how easily mappings can be altered. This demonstrates how normal LAN behavior can conceal attacks.
 
 ## Hands-On Lab — Observing ARP Requests and Replies (Bridged Mode)
 
