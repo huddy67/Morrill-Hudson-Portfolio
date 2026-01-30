@@ -155,9 +155,9 @@ Add this table:
 | Evidence from Your VM | Possible Threat Enabled | Why? (Your Explanation) |
 |----------------------|------------------------|--------------------------|
 | Default gateway shown in ip route show: [gateway IP] | ARP Spoofing | Knowing the gateway allows an attacker to impersonate it by sending forged ARP responses |
-| ARP/neighbor entry: [gateway IP → gateway MAC] | ARP Spoofing | ARP trusts updates without verification, making it easy to redirect traffic |
-| Visible hosts from arp -a / ip neigh: [list 2–4 IPs] | Rogue DHCP Server | Seeing nearby systems helps an attacker select targets after an initial compromise |
-| Multiple MACs learned on one port | Unauthorized plug in device | Overloading a switch’s MAC table can force it to broadcast traffic |
+| ARP/neighbor entry: [gateway IP → gateway MAC] | ARP Spoofing | ARP trusts updates without verification, making it easy to hack |
+| Visible hosts from arp -a / ip neigh: [list 2–4 IPs] | Rogue DHCP Server | Seeing nearby systems helps an attacker select targets after compromise |
+| Multiple MACs learned on one port | Unauthorized plug in device | A lot of Mac addresses could mean too many people are on a port |
 
 Guiding questions:
 - What could an attacker change here?
