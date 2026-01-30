@@ -521,4 +521,4 @@ Physical security also reinforces things like network segmentation, access contr
 
 ## Conclusion
 
-Physical security is a very important l requirement for both network security and cybersecurity. Without effective physical protections, technical controls can be bypassed or just not effective at all. A layered physical security strategy protects people, data, and infrastructure while supporting secure and reliable network operations, and if you did not have a layered one than you risk being attacked and are a lot more vulnerable, so it is important.
+Physical security is a very important l requirement for both network security and cybersecurity. Without effective physical protections, technical controls can be bypassed or just not effective at all. A layered physical security strategy protects people, data, and infrastructure while supporting secure and reliable network operations, and if you did not have a layered one than you risk being attacked and are a lot more vulnerable, so it is important for mitigating risks.
