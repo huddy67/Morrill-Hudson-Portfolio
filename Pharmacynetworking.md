@@ -415,9 +415,11 @@ The diagram must be:
 
 ### Explanation
 
-This attack succeeds because devices within the LAN automatically trust ARP traffic without validating where the source of it is. The attacker exploits this by sending ARP messages that mislead the user into sending traffic to the attacker instead of the legitimate gateway. Since this activity looks identical to normal ARP communication, it is accepted without any problems
 
-Dynamic ARP Inspection would prevent this attack by validating ARP messages against trusted IP-to-MAC bindings and blocking incorrect responses. VLAN segmentation would further reduce the impact by limiting how many devices the attacker could interact with. Together, these controls stop the attack before traffic can be redirected.
+
+The diagram shows that there are two switches where a hacker can send arp messages without them being verified. This attack works because devices within the LAN automatically trust ARP traffic without validating where the source of it is. The attacker exploits this by sending ARP messages that mislead the user into sending traffic to the attacker or hacker instead of the actual gateway. Since this looks identical to normal arp communication, it is accepted without any problems
+
+Dynamic ARP Inspection would prevent this attack by validating ARP messages against trusted IP to MAC bindings and blocking incorrect responses. VLAN segmentation would also reduce the impact by limiting how many devices the attacker could interact with. Together, these controls stop the attack before traffic can be redirected.
 
 ---
 
