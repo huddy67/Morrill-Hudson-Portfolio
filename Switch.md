@@ -9,6 +9,13 @@ A Local Area Network is often treated as secure simply because it exists inside 
 
 Even without special permissions, a normal device on the LAN can learn useful information about the network. Basic tools reveal the default gateway, nearby devices, and address relationships. Because internal traffic is generally assumed to be safe, this information is exposed with little resistance. This shows that switched LANs are vulnerable before any security controls are applied, mainly due to implicit trust and limited internal monitoring.
 
+## Objectives
+
+- Identify common attacks that target network switches  
+- Set up switch security features such as VLANs and port security  
+- Analyze possible external threats to the network  
+- Evaluate how switch security controls help prevent attacks  
+
 ---
 
 ## 2. Threat Scenario Analysis & Reasoning
