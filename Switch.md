@@ -75,6 +75,8 @@ DHCP Snooping, Dynamic ARP Inspection, and ACLs work together to enforce trust b
 
 ## Example Secure Network Design
 
+![](IMG_7682.jpeg)
+
 ### VLAN Layout
 - VLAN 10 — Students
 - VLAN 20 — Teachers
