@@ -42,6 +42,14 @@ A Linux virtual machine was used to observe internal network information. Comman
 
 This information would be valuable to an attacker because it allows internal network mapping and identification of key infrastructure. Knowing gateway addresses and nearby hosts makes it easier to influence trusted communication paths. The lack of alerts during this process shows how easily reconnaissance can occur within a switched LAN.
 
+## Common LAN Threats
+
+The network presents its most dangerous threats through devices which maintain active connections to the local area network. User devices such as desktops, laptops, or unmanaged workstations are often easier to compromise because they rely heavily on user behavior and may not be tightly controlled. An attacker can use a compromised device to monitor network operations while trying to gain unauthorized access and cause operational disruptions.
+
+The attacker benefits from their presence on the LAN because default trust policies apply to all internal network traffic. This permits attackers to carry out their activities without encountering immediate obstacles from perimeter security measures which mainly protect against external threats. Internal threats can include spoofed addresses, unauthorized device connections, or attempts to move laterally between systems to reach more sensitive resources.
+
+The switch system controls network traffic through its capacity to send data directly to specified endpoints but this function does not completely eliminate security threats. Attackers can obtain information about other devices on the network by using network protocol violations and improper switch settings. A switched LAN remains exposed to internal security threats which include reconnaissance activities and identity theft and traffic control attacks.
+
 ### Evidence, Risk, and Controls
 
 | Evidence | Risk | Control | Explanation |
