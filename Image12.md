@@ -22,3 +22,5 @@ pharmacynetworking.me)
 [physical addressing](physicaladdressing.md)
 
 [Determining Security](Pharmacynetworking.md)
+
+[switch controls](Switch.md)
