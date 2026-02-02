@@ -52,11 +52,18 @@ This information would be valuable to an attacker because it allows internal net
 
 A flat switched network allows all devices to communicate freely. This model assumes every device is trustworthy, increasing the impact of a single compromised system.
 
+![](IMG_7670.png)
+
 #### VLANs
 
 VLANs reduce broadcast traffic and limit unnecessary communication. However, they do not verify traffic authenticity on their own.
 
 #### Port Security
+
+
+![](IMG_7673.png)
+
+
 
 Port security limits which devices can connect to a switch port, helping control physical access. It does not prevent misuse by already authorized systems.
 
