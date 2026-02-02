@@ -13,6 +13,9 @@ Even without special permissions, a normal device on the LAN can learn useful in
 
 ## 2. Threat Scenario Analysis & Reasoning
 
+![](IMG_7666.jpeg)
+![](IMG_7667.jpeg)
+
 | Scenario | Symptoms | Hypothesis | Justification |
 |--------|----------|------------|---------------|
 | **Scenario A** | Devices stay connected but internet behavior is inconsistent | Internal traffic redirection is occurring | Connectivity remains intact while routing behavior changes, suggesting manipulation rather than an outage |
