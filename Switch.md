@@ -38,6 +38,8 @@ Even without special permissions, a normal device on the LAN can learn useful in
 
 A Linux virtual machine was used to observe internal network information. Commands such as `arp` and `ip neigh` revealed the default gateway’s address, neighboring devices, and router presence without requiring administrative access.
 
+![](987.png)
+
 ### Evidence Explanation
 
 This information would be valuable to an attacker because it allows internal network mapping and identification of key infrastructure. Knowing gateway addresses and nearby hosts makes it easier to influence trusted communication paths. The lack of alerts during this process shows how easily reconnaissance can occur within a switched LAN.
