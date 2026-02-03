@@ -4,64 +4,71 @@
 
 ## 1. Planning & Conceptual Understanding
 
-### Initial Reflection — Internal Trust and LAN Exposure
+### Clear Evidence of Planning and Conceptual Understanding  
+*(Understanding of flat LAN risk, internal trust, and physical vs technical security)*
 
-In a typical local area network, the device most likely to be compromised is a standard user workstation or unmanaged endpoint. These systems are optimized for ease of use rather than strict verification of network information. As a result, they automatically trust services such as ARP and DHCP to provide accurate addressing and routing details. If an attacker gains access to the same LAN, they can exploit this implicit trust to impersonate infrastructure devices or quietly observe internal traffic.
+In a local area network, the easiest device for an attacker to compromise is usually a standard user workstation or other lightly managed endpoint. These devices are built for convenience and productivity, not for verifying every piece of network information they receive. Because of this, they automatically trust services like ARP and DHCP to provide correct addresses and routing details. If an attacker connects to the same LAN, they can take advantage of this trust to impersonate network infrastructure or quietly observe traffic without needing to break into the device directly.
 
-Being physically close to a network does not imply safety. Once connected, a device can receive broadcast traffic and participate in discovery protocols that reveal nearby hosts, gateways, and routing behavior. In flat LAN designs, this visibility expands significantly, allowing devices to see more of the network than intended. This demonstrates a fundamental weakness of internal networks: trust is assumed by default, making internal threats especially dangerous without segmentation and access controls.
+Physical proximity does not mean safety inside a LAN. Once a device is connected, it can receive broadcast traffic and participate in discovery processes that reveal nearby hosts, gateways, and general network structure. In a flat LAN, this visibility becomes even greater because there are no boundaries separating devices. This demonstrates a major flat LAN risk: internal trust is assumed by default. Technical security controls help manage traffic and access logically, while physical security controls prevent unauthorized devices from joining the network in the first place. Both are necessary to reduce internal exposure.
 
 ---
 
-### LAN Threat Scenario Rotation — Hypothesis Development
+### Distinguishing Threats, Vulnerabilities, and Controls — LAN Threat Scenario Rotation
 
 | Scenario | Symptoms (Summary) | Hypothesis | Justification |
 |--------|-------------------|------------|---------------|
-| A | Default gateway suddenly incorrect | ARP manipulation | Gateway information changing suggests traffic redirection |
-| B | Switch CPU spike; many MACs learned on one port | MAC flooding | Excessive MAC learning forces broadcast behavior |
-| C | Clients receive IP settings from unknown source | Rogue DHCP | DHCP clients accept the first valid offer |
-| D | New device communicates broadly | Unauthorized internal device | Lack of port controls allows wide visibility |
-| E | Host accesses restricted systems | Lateral movement | Internal trust enables unintended access |
+| A | Default gateway suddenly incorrect | ARP manipulation | Gateway changes suggest traffic redirection rather than random error |
+| B | Switch CPU spikes; many MACs learned on one port | MAC flooding attack | Overloading the MAC table forces broadcast behavior |
+| C | Clients receive IP settings from unknown source | Rogue DHCP server | DHCP clients trust the first valid response |
+| D | New device communicates broadly | Unauthorized plug-in device | Weak access control allows wide visibility |
+| E | Host accesses restricted systems | Lateral movement | Internal trust enables access beyond permissions |
 
 ---
 
-### Group Reflection
+### Group Reflection — Patterns of Internal LAN Risk
 
-The strongest conclusions were drawn from Scenarios B and C because their symptoms closely align with known switch and DHCP behaviors when abused. Scenario D proved the most difficult to interpret, as similar network behavior could also result from misconfiguration rather than malicious intent. Discussion with another group emphasized that many LAN threats rely on abusing trust instead of exploiting obvious vulnerabilities. Across all scenarios, a clear pattern emerged: internal threats are harder to detect because they resemble normal traffic. This reinforces the importance of internal monitoring and segmentation.
+The strongest conclusions were made for Scenarios B and C because their symptoms closely matched how switches and DHCP behave when they are abused. Scenario D was the hardest to interpret, since similar behavior could also happen because of poor configuration rather than an attack. Talking with another group helped highlight that many LAN threats do not look suspicious at first and often blend into normal traffic. A major pattern across all scenarios is that most threats start inside the network, not outside it. This reinforces how dangerous internal trust can be when proper controls are missing.
 
 ---
 
 ## 2. Technical & Security Development
 
-### Task A — LAN Observation
+### Execution of LAN Security Investigation and Security Reasoning
+
+### Task A — LAN Observation (VM-Based Evidence)
 
 **Evidence**
 
 ![](ipshowd1s1.png)
 
-**Reflection**
+**Reflection — Vulnerabilities Exposed Through Observation**
 
-ARP and routing outputs expose active hosts, IP-to-MAC mappings, and the default gateway. This information allows an attacker to identify trusted devices and plan impersonation or interception attempts. Visibility into routing behavior also helps attackers determine how traffic flows through the network.
+The ARP and routing outputs show active devices, IP-to-MAC mappings, and the default gateway. This information can be misused by an attacker to identify important systems and plan impersonation or interception attempts. Seeing how devices learn about each other reveals a vulnerability in how much information is shared by default. Without protections, this visibility gives attackers a strong advantage once inside the LAN.
 
 ---
 
-### Task B — Evidence-to-Threat Mapping
+### Task B — Vulnerability-to-Control Mapping
 
 | Evidence from VM | Possible Threat | Explanation |
 |------------------|----------------|-------------|
-| Default gateway listed in routing table | ARP spoofing | Enables gateway impersonation |
-| IP-to-MAC mappings in ARP table | ARP spoofing | ARP trusts updates without validation |
-| Visible neighboring hosts | Lateral movement | Reveals internal targets |
-| Multiple MAC addresses tied to one port | MAC flooding | Forces switch into broadcast mode |
+| Default gateway in routing table | ARP spoofing | Gateway identity can be impersonated |
+| IP-to-MAC mappings | ARP spoofing | ARP updates are trusted automatically |
+| Visible neighboring hosts | Lateral movement | Reveals potential internal targets |
+| Multiple MACs on one port | MAC flooding | Forces switch into broadcast mode |
+
+This mapping shows how normal LAN behavior can turn into a vulnerability when attackers exploit trust assumptions. Security controls are designed to limit or verify these behaviors rather than remove them completely.
 
 ---
 
-### Task C — Internal Threat Simulation Summary
+### Task C — Threat Analysis and Abuse of Normal LAN Behavior
 
-ARP spoofing is effective because devices on a LAN accept ARP messages without verifying authenticity. An attacker can send forged replies that associate their MAC address with the gateway’s IP. Once ARP tables are poisoned, traffic is redirected through the attacker. This behavior blends into normal LAN operations, making detection difficult.
+ARP spoofing works because ARP is designed for speed and simplicity, not verification. Devices accept ARP messages and update their tables without checking whether the information is legitimate. An attacker can send forged ARP replies that associate their MAC address with the gateway’s IP address. Once this happens, traffic is redirected through the attacker’s system. Because this traffic looks normal, the attack is difficult to notice without additional security controls.
 
 ---
 
 ## 3. Testing, Observation & Risk Evaluation
+
+### Interpretation of Evidence and Risk-Based Reasoning
 
 ### VM Evidence
 
@@ -75,45 +82,45 @@ ARP spoofing is effective because devices on a LAN accept ARP messages without v
 
 ---
 
-### Packet Observation and Analysis
+### Observation of ARP Behavior and Broadcast Scope
 
-ARP traffic reveals how devices resolve IP addresses to MAC addresses and assumes all responses are legitimate. Because ARP lacks authentication, attackers can inject false mappings without resistance. Bridged networking was required so both VMs existed in the same broadcast domain, allowing ARP requests and replies to be observed directly.
+ARP traffic reveals how devices resolve IP addresses to MAC addresses and how much trust exists within the LAN. The protocol assumes that all responses are truthful, which creates a major vulnerability. Bridged networking was required so both virtual machines existed in the same broadcast domain, allowing ARP traffic to be observed and analyzed. This setup reflects how real internal networks behave.
 
 ---
 
-### Risk Evaluation Reflection
+### Risk Evaluation — Likelihood and Impact
 
-ARP spoofing is one of the most difficult internal LAN threats to detect because it closely resembles legitimate traffic. ARP tables naturally change during normal operation, which masks malicious updates. Evidence from neighbor and ARP outputs shows how easily mappings can be altered. This demonstrates how routine LAN behavior can conceal active attacks.
+ARP spoofing is one of the hardest internal LAN threats to detect because it blends into everyday network behavior. ARP tables change frequently during normal operation, which makes malicious updates difficult to identify. The evidence collected shows how easily these mappings can be altered without triggering warnings. Because attackers can intercept or modify traffic silently, the potential impact on confidentiality and integrity is high. This makes ARP spoofing a serious internal risk.
 
 ---
 
 ## 4. Professional Integration & Portfolio Quality
 
-### Internal LAN Threat Catalog
+### Internal LAN Threat Catalog — Clear and Professional Documentation
 
 - **ARP Spoofing** — Impersonates trusted devices using forged ARP replies.
-- **MAC Flooding** — Overwhelms switch MAC tables to force broadcast traffic.
-- **Rogue DHCP** — Issues unauthorized IP configurations.
+- **MAC Flooding** — Overloads switch MAC tables to force broadcast traffic.
+- **Rogue DHCP** — Issues unauthorized IP configurations to clients.
 - **Unauthorized Plug-In Device** — Gains access through open network ports.
-- **Lateral Movement** — Exploits internal trust to access additional systems.
+- **Lateral Movement** — Exploits internal trust to reach additional systems.
 
 ---
 
-### LAN Attack Path Diagram
+### LAN Attack Path Diagram — Professional Artifact
 
 ![](diagram.png)
 
 **Explanation**
 
-The diagram illustrates how an attacker impersonates the default gateway using ARP spoofing. Devices trust ARP traffic without validating its source, allowing traffic redirection. Dynamic ARP Inspection would prevent this attack by validating ARP messages against trusted bindings, while VLAN segmentation would limit the broadcast scope and reduce impact.
+The diagram shows how an attacker can impersonate the default gateway using ARP spoofing. Devices trust ARP traffic without validating its source, allowing traffic to be redirected through the attacker. Dynamic ARP Inspection would stop this attack by validating ARP messages against trusted bindings. VLAN segmentation would further reduce the impact by limiting broadcast visibility.
 
 ---
 
-### Physical Security Integration — Pharmaceutical Research Facility
+### Physical Security Integration — Physical vs Technical Security
 
 #### Identified Physical Vulnerabilities
 - Unauthorized access to laboratories
-- Weak separation between public and restricted zones
+- Weak separation between public and restricted areas
 - Poor protection of server and network rooms
 - Inconsistent visitor monitoring
 - Limited surveillance coverage
@@ -121,22 +128,22 @@ The diagram illustrates how an attacker impersonates the default gateway using A
 
 ---
 
-### Physical Security Plan
+### Physical Security Plan — Layered Defense
 
 **Environmental Controls**  
-Climate monitoring, backup power, and sealed equipment racks reduce the risk of hardware failure and data loss.
+Protect equipment from failure and downtime.
 
 **Access Control**  
-Role-based ID badges and restricted zones limit who can access sensitive areas.
+Limit entry based on roles and permissions.
 
 **Surveillance**  
-Cameras and monitoring systems deter misuse and support incident response.
+Detect and deter unauthorized activity.
 
 **Hardware Security**  
-Locked racks, secured wiring closets, and disabled unused ports prevent tampering.
+Prevent tampering and rogue device connections.
 
 **Personnel Procedures**  
-Visitor escort policies and security training reduce human error.
+Reduce human error and enforce security policies.
 
 ---
 
@@ -148,10 +155,10 @@ Visitor escort policies and security training reduce human error.
 
 ### Risk Justification and Priority Controls
 
-Access control, surveillance, and hardware security are the highest-priority physical protections because they directly prevent unauthorized access to infrastructure. Physical security reinforces technical controls by stopping attackers from bypassing defenses through direct network access. Strong physical safeguards ensure that logical security mechanisms remain effective.
+Access control, surveillance, and hardware security are the most important physical controls because they directly prevent unauthorized access to network infrastructure. Strong physical security supports technical controls like VLANs, ACLs, and monitoring systems. When physical protections are weak, attackers can bypass technical defenses by simply plugging into the network. A layered approach ensures that both physical and technical security work together.
 
 ---
 
 ## Conclusion
 
-This portfolio demonstrates a comprehensive understanding of internal LAN threats supported by VM evidence, technical analysis, and physical security integration. By connecting observation, testing, and control selection, the assessment shows how layered defenses reduce both technical and physical attack paths. Strong internal controls are essential for maintaining secure and resilient network environments.
+This portfolio provides clear evidence of planning, investigation, and risk analysis related to internal LAN security. Through observation, testing, and threat analysis, it demonstrates how internal trust and flat network design increase risk. The inclusion of both technical and physical security controls shows an understanding of how layered defenses reduce attack paths. Overall, this assessment highlights why strong internal controls are essential for secure and reliable network operations.
