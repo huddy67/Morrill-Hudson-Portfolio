@@ -30,9 +30,7 @@ These ranges include:
 - 172.16.0.0 to 172.31.255.255  
 - 192.168.0.0 to 192.168.255.255  
 
-Because the address displayed in the interface configuration falls inside one of these ranges, it is intended only for communication inside the local network environment.
-
-Private addresses can be reused by many different organizations or households because they are not globally unique. This is why multiple networks around the world may contain devices with identical private IP addresses.
+Because the address displayed in the interface configuration falls inside one of these ranges, it is intended only for communication inside the local network environment. Private addresses can be reused by many different organizations or households because they are not globally unique. This is why multiple networks around the world may contain devices with identical private IP addresses.
 
 ---
 
@@ -47,9 +45,7 @@ Private addresses can be reused by many different organizations or households be
 
 ### Reflection
 
-The machine appears to have two different IP addresses because it participates in two different addressing contexts. The private address is used for communication inside the local network, while the public address represents the network when communicating with the internet. This occurs because the router performs **Network Address Translation (NAT)**. When packets leave the local network, the router replaces the internal source address with its public IP address. When responses return, the router translates the destination address back to the correct internal device.
-
-Because of this process, multiple internal systems can access the internet while sharing a single public IP address.
+The machine appears to have two different IP addresses because it participates in two different addressing contexts. The private address is used for communication inside the local network, while the public address represents the network when communicating with the internet. This occurs because the router performs **Network Address Translation (NAT)**. When packets leave the local network, the router replaces the internal source address with its public IP address. When responses return, the router translates the destination address back to the correct internal device. Because of this process, multiple internal systems can access the internet while sharing a single public IP address.
 
 ---
 
@@ -131,9 +127,7 @@ When traffic is sent to the loopback address, the packets never leave the device
 
 ### Reflection
 
-When packets are sent to another device within the same network, the routing table identifies the destination as directly connected. The system therefore sends the packet straight to the destination without using the default gateway.
-
-Another concept demonstrated during this stage is **TTL (Time To Live)**. Each router that forwards a packet reduces the TTL value by one. If the value reaches zero, the packet is discarded to prevent routing loops.
+When packets are sent to another device within the same network, the routing table identifies the destination as directly connected. The system therefore sends the packet straight to the destination without using the default gateway. Another concept demonstrated during this stage is **TTL (Time To Live)**. Each router that forwards a packet reduces the TTL value by one. If the value reaches zero, the packet is discarded to prevent routing loops.
 Traceroute relies on this mechanism by intentionally sending packets with small TTL values.
 
 ---
