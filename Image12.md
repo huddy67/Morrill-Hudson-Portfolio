@@ -24,3 +24,5 @@ pharmacynetworking.me)
 [Determining Security](Pharmacynetworking.md)
 
 [switch controls](Switch.md)
+
+[routing](routing.md)
