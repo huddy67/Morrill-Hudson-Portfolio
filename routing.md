@@ -2,11 +2,11 @@
 
 ### Virtual Machine 1
 
-![VM Network Output](1.png)
+![VM Network Output](35.png)
 
 ### Virtual Machine 2
 
-![VM Network Output](2.png)
+![VM Network Output](36.png)
 
 ### Reflection
 
