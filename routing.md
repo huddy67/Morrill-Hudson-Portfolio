@@ -18,7 +18,7 @@ The screenshots above show traceroute commands both to google and 8.8.8.8. It sh
 
 ## Internal Network Identity
 
-![IP Address Configuration](3.png)
+![IP Address Configuration](3.jpeg)
 
 ### Reflection
 
