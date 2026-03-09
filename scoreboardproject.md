@@ -290,6 +290,10 @@ Did you meet your deadlines?
 
 - Videos of the scoreboard working with an NBA game. The NFL does not have any games until the fall, so I had to pick a different sport to display how the scoreboard will work. In the Google Drive linked below, there is a time-lapse to show how the scoreboard works for a longer portion of the game, as well as a regular video, which makes it easier to see how everything updates.
 
+#### Picture of Scoreboard
+
+[](scoreboard.png)
+
 [Videos](https://drive.google.com/drive/u/1/folders/1W4EseaekX1IRiQ3N3lFisRfh8MS-XwA6)
 
 
