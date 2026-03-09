@@ -97,6 +97,77 @@ Prepared for upcoming coding, electronics testing, and fabrication. Finalized sh
 
 I decided to change some of my projects. Originally, I had planned to laser-cut the logo onto a wooden board. However, I felt like it would be more creative to make my board multilayered, laser cutting a different part of the stadium on each board, which, when combined, would create a 3d effect similar to the image below. Additionally, I found it too difficult to do the scores of the athletic games of Charlotte Latin, because doing so would not allow me to do what I had intended to do, which was to update the scores live. After talking to Mr. Teets, I found out that this was not possible to do for Charlotte Latin. Instead, I shifted the focus to doing the scores of NFL games, specifically Panthers games. The stadium is for an aesthetic effect, and below the words "Carolina Panthers" will be engraved, as well as the logo. Below this will be the LED display. 
 
+### 1-9-2026
+
+- I worked on creating the files that I will be using for the stadium cutout. I followed the tutorial linked below to achieve this.
+  
+ https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.youtube.com/watch%3Fv%3DNtvDkJ6fSHA&ved=2ahUKEwjf1vWchJOTAxUC5ckDHYFVPK4QwqsBegQIFxAB&usg=AOvVaw0bay2pX-SBXOl57I8WC2bt
+
+### 1-13-2026
+
+- I finished working on the stadium layers and am now able to start laser cutting my boards
+
+### 1-15-2026
+
+- I laser cut the first two layers of the plywood using the design I created. I was only able to get 2 layers done because each layer took a really long time, roughly 45 minutes for each. I came in after school to work on this.
+
+### 1-21-2026
+
+- I laser cut the 3rd layer and only need to do one more layer
+
+### 1-23-2026
+
+- I was able to get the last layer complete. All 3 of the previous layers turned out perfect, but this layer was a little off-center. After thinking through how to fix this, I decided it would be best to cut off a little wood from both this layer and the other 3 layers to make everything match up. I will sand down the sides if anything is uneven.
+
+### 1-27-2026
+
+- I sanded down the sides of the board to make everything match up. I was able to get it looking pretty good, but ultimately will need to sand down the sides to get it looking how I want it to be.
+
+### 1-29-2026
+
+- I sanded down the sides to make everything even. While I was using the sanding machine, I also sanded the entirety of each wood piece using 220-grit sandpaper. This was prep for staining the wood so that everything would apply evenly, as well as just making the board feel smoother.
+
+### 2-3-2026
+
+- I worked on staining the wood today. I went outside and applied Prestain, let it sit for about 10-15 minutes, and then applied the stain. I did this for all 4 boards. Once the stain had sat on the wood for 5 or so minutes, I wiped off the excess until the paper towels were clean. I let this dry overnight.
+
+### 2-5-2026
+
+- Since my boards were still potentially wet, I did some research on the screens I will be using. I decided on the 1.5-inch i2c screens since these seem to be the best for my project and not too expensive.
+
+[](100.png)
+
+### 2-10-2026
+
+- The wood had finished drying so I put the polycrylic coating on everything. This made it smoother, protects the wood long term, and makes it more shiny.
+
+### 2-12-2026
+
+- I put on a second layer of polycrylic coating to make the previously listed effects more apparent
+
+### 2-18-2026
+
+- I worked on coding at home. I found out that the screens I ordered were not going to work. I was struggling with getting the screens to display something, like making the entire screen blue, for example. The screens turned on, but the screens not responding meant that there was a lack of communication. I figured this was a coding issue because the screens may have just not been very compatible with what I was doing, so I ordered new ILI9341 screens.
+
+### 2-20-2026
+
+The new screens arrived, and I was able to get them to respond. The next thing i will need to do is implement the ESPN API so that they can display scores.
+
+### 2-24-2026
+
+I finalized the code and was able to get everything to work for the screens.
+
+### 2-26-2026
+
+- I glued the wood pieces together and let them dry overnight. I used wood glue and clamped everything down to let it dry.
+
+### 3-3-2026
+
+- The wood dried, and the project was mostly complete, other than removing the tape I had used to ensure that if any glue got on the 3d stadium, it would not damage the wood and would be able to be removed. I started working on my slide presentation, which is linked below.
+
+[Slides](https://docs.google.com/presentation/d/1-kbJa4P99hYIVPB8eSnyjjQ61_I4RpYqxASMjxnAdSI/edit?slide=id.gd431007ba2_0_208#slide=id.gd431007ba2_0_208)
+
+
 ### Description of final project choice, why chosen, and what successful project would do
 
 The project that I will be doing is a wooden scoreboard that displays the scores from NFL games, specifically the Carolina Panthers games. The project will automatically update the scores based on the game live. So, for example, if the Panthers score a touchdown, the score will then be displayed on the screens on the board. This is achievable by using the ESPN public API, and creating a code that will search for games and scores and retrieve them.
