@@ -99,17 +99,17 @@ I decided to change some of my project. originally, I had planned to laser cut t
 
 ### Description of final project choice, why chosen, and what successful project would do
 
-The project that I will be doing is a wooden scoreboard that displays the scores from athletic gmes at Charlotte latin. Because charlotte Latin is a small school, they do not live update scores for games so the way that this scoreboard will work is that it will display the final scores. 
+The project that I will be doing is a wooden scoreboard that displays the scores from NFL games, specifically the carolina panthers games. The project will automatically update the scores based on the game live. So for example, if the panthers score a touchdown, the score will then be displayed on the screens on the board. This is achievable by using the ESPN public API, and creating a code that will search fir games and scores and retrieve them.
 
 ### Attribution of project serving as inspiration, including the original author/maker and source (adafruit, instructables, etc.)
 
 https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://github.com/mikemountain/nfl-led-scoreboard&ved=2ahUKEwi81qLmx8iRAxWDt4QIHfQpEyUQFnoECA0QAQ&usg=AOvVaw0yMOJSYy-Hm38hfJqaSJoA
 
-This is the project that inspired me since the creator made a scoreboard for NFL games.
+This is the project that inspired me since the creator made a scoreboard for NFL games. My project is different in the sense that the board is made completely out of wood, only uses 2 screens that are wired differently, as well as a 3d stadium design made up of 4 layers of wood.
 
 ### Description of how project is different than source
 
-The project that I used as inspiration is completely made out of LED's but my scoreboard will be wooden and only a small part will be LED. The inspiration also does NFL scores and updates live, while mine does the scores at Charlotte Latin and does not update live.
+The project that I used as inspiration is completely made out of LED's but my scoreboard will be wooden with a 3d stadium and only a small part will be LED. The inspiration also does NFL scores and updates live like mine, but it is a completely different project and design.
 
 ### Design Specification Considerations _ document that you completed
 
@@ -129,11 +129,24 @@ The project that I used as inspiration is completely made out of LED's but my sc
 
 ![](cost.png)
 
+- wood
+  - The wood I used for the project was provided by the lab so there were no external costs associated with it
+- LED Modules
+  - I used 2 LED modules which I ordered from amazon at a price of 10 dollars each or 20 dollars total. The screens were roughly 2.8 inches tall and 1.6 inches wide
+- Wood Stain
+  - I used wood stain to make my wood darker. This was not provided by the lab but luckily Colin Kanofsky provided me with some of the stain that he did not use
+- Polycrylic Protective Coating
+  - This was provided by the lab and used as a protective layer to add shine so there were no external costs
+- Female to Female Jumper Wires
+  - These were provided by the lab so there were no external costs
+- Raspberry Pi 2 W
+  - I bought this item since there were no raspberry pis in the lab that i could use for my project. This cost me about 30 dollars
+
 ### What tools will you use? Including hand tools and Fab Lab equipment. Did you include machine settings?
 
 - sanding machine
 - laser cutter
-- cnc machine
+- Soldering Iron
 
 ### What files did you include? Arduino, Corel Draw, Fusion 360,… these are your digital design and manufacturing file
 
@@ -146,9 +159,9 @@ The project that I used as inspiration is completely made out of LED's but my sc
 
 ### Inclusion of important decisions you are making and why you are making them
 
-- Deciding whether or not to do school games or NFL games - I decided to do school games so it could be displayed at school for others to see how our teams are doing  - 
+- Deciding whether or not to do school games or NFL games - I decided to do NFL games because after talking with Mr. Teets, who is involved with updating and managing the scores of the sports programs, I found out that I would not be able to achieve my goal because the scores wouldnt be able to update live
 - Choosing a wooden scoreboard for durability
-- Selecting walnut wood for its strength and appearance
+- Selecting plywood because it is the right size and was already provided
 - Using LED digit modules for clear visibility and easy score updates
 - Incorporating a Raspberry Pi to allow flexibility for future upgrades
 - Designing the scoreboard to be portable while remaining stable
