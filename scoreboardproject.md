@@ -184,7 +184,7 @@ I worked on staining the wood today. I went outside and applied Prestain, let it
 
 Since my boards were still potentially wet, I did some research on the screens I will be using. I decided on the 1.5-inch i2c screens since these seem to be the best for my project and are not too expensive.
 
-[](100.png)
+[Scoreboard](100.png)
 
 ### 2-10-2026
 
