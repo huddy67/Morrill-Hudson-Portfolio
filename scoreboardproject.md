@@ -42,9 +42,9 @@
 
 10-9 - I added more things to the Google Doc that I linked for 10-6 to give me a better idea of how I would do my project
 
-10-10 - I finished the spreadsheet with all of my materials and included the ones that we may have at the fabla,b like wiring, sandpaper, wood varnish, resin, etc... https://docs.google.com/spreadsheets/d/1inqLF94JXjDDkbQPFtxw10qv6yk3-GvXojiwrM2xEpA/edit?gid=0#gid=0
+10-10 - I finished the spreadsheet with all of my materials and included the ones that we may have at the fabla, like wiring, sandpaper, wood varnish, resin, etc... https://docs.google.com/spreadsheets/d/1inqLF94JXjDDkbQPFtxw10qv6yk3-GvXojiwrM2xEpA/edit?gid=0#gid=0
 
-10-13 - I worked on 3d printing and laser cutting. I printed a snake, and then while it was printing reviewed my project for any missing materials.
+10-13 - I worked on 3d printing and laser cutting. I printed a snake, and then while it was printing, I reviewed my project for any missing materials.
 
 ### Daily Journal Entries
 
@@ -52,7 +52,7 @@
 Worked on general fabrication prep by using the laser cutter and 3D printer. While working, I reviewed my wooden scoreboard project plan and checked for any missing materials or tools that might be needed later.
 
 **10-15**  
-Began early planning for the scoreboard design. Thought through overall layout, size, and how scores would be displayed. Considered how electronics could fit cleanly inside a wooden structure.
+Began early planning for the scoreboard design. Thought through overall layout, size, and how scores would be displayed. Consider how electronics could fit cleanly inside a wooden structure.
 
 **10-22**  
 Researched possible electronic components for the scoreboard, including LED displays and basic wiring layouts. Looked into how scores could be updated manually or through simple code.
@@ -61,16 +61,16 @@ Researched possible electronic components for the scoreboard, including LED disp
 Reviewed material needs and potential build steps. Identified wood thickness, finishing materials, and basic electronics requirements. Noted areas of the design that may need to change once fabrication begins.
 
 **11-6**  
-Reviewed project requirements and focused on visibility and readability of the scoreboard. Considered how far away scores should be readable and how placement would affect viewing.
+Reviewed project requirements and focused on the visibility and readability of the scoreboard. Considered how far away scores should be readable and how placement would affect viewing.
 
 **11-7**  
 Researched different methods for displaying numbers on a scoreboard, including LED digit modules and light strips. Compared options based on simplicity and reliability.
 
 **11-8**  
-Sketched different scoreboard layout ideas, including placement of scores, labels, and electronics access panels. Considered how internal spacing would affect wiring and maintenance.
+Sketched different scoreboard layout ideas, including placement of scores, labels, and electronics access panels. Consider how internal spacing would affect wiring and maintenance.
 
 **11-13**  
-Started outlining the physical structure of the scoreboard. Considered frame construction, mounting or stand options, and how to keep the scoreboard stable while remaining portable.
+Started outlining the physical structure of the scoreboard. Consider frame construction, mounting or stand options, and how to keep the scoreboard stable while remaining portable.
 
 **11-14**  
 Looked into basic Raspberry Pi and Arduino control options for driving LED displays. Reviewed example projects to understand how scores could be updated through code.
@@ -85,7 +85,7 @@ Reviewed the overall scoreboard concept and identified areas that still needed r
 Planned next steps for coding and testing the display logic. Organized research notes and examples to prepare for writing and testing code.
 
 **12-13**  
-Continued refining ideas for how final scores would be displayed clearly and consistently. Considered how the user would interact with the scoreboard to update scores.
+Continued refining ideas for how final scores would be displayed clearly and consistently. Consider how the user would interact with the scoreboard to update scores.
 
 **12-14**  
 Reviewed safety considerations related to electrical components and wood construction. Noted areas where edges should be rounded and electronics enclosed.
@@ -95,11 +95,11 @@ Prepared for upcoming coding, electronics testing, and fabrication. Finalized sh
 
 1-6-2025
 
-I decided to change some of my project. originally, I had planned to laser cut the logo onto a wooden board. However, I felt like it would be more creative to make my board multilayered, laser cutting a different part of the stadium on each board, which when combined, would create a 3d effect similar to the image below. Additionally, I found it too difficult to do the scores of the athletic games of charlotte Latin, because doing so would not allow me to do what i had intended to do which was to update the scores live. After talking to Mr. Teets I found out that this wad not possible to do for Charlotte Latin. Instead, I shifted the focus to doing the scores of NFL games, specifically Panthers games. The stadium is for an aesthetic effect, and below the words "Carolina panthers" will be engraved, as well as the logo. Below this will be the led display. This will either be small led boards or a neon light display which will feature the panthers name in the retro font. actually retro font for name listed above but something else to display scores probably.
+I decided to change some of my projects. Originally, I had planned to laser-cut the logo onto a wooden board. However, I felt like it would be more creative to make my board multilayered, laser cutting a different part of the stadium on each board, which, when combined, would create a 3d effect similar to the image below. Additionally, I found it too difficult to do the scores of the athletic games of Charlotte Latin, because doing so would not allow me to do what I had intended to do, which was to update the scores live. After talking to Mr. Teets, I found out that this was not possible to do for Charlotte Latin. Instead, I shifted the focus to doing the scores of NFL games, specifically Panthers games. The stadium is for an aesthetic effect, and below the words "Carolina Panthers" will be engraved, as well as the logo. Below this will be the LED display. 
 
 ### Description of final project choice, why chosen, and what successful project would do
 
-The project that I will be doing is a wooden scoreboard that displays the scores from NFL games, specifically the carolina panthers games. The project will automatically update the scores based on the game live. So for example, if the panthers score a touchdown, the score will then be displayed on the screens on the board. This is achievable by using the ESPN public API, and creating a code that will search fir games and scores and retrieve them.
+The project that I will be doing is a wooden scoreboard that displays the scores from NFL games, specifically the Carolina Panthers games. The project will automatically update the scores based on the game live. So, for example, if the Panthers score a touchdown, the score will then be displayed on the screens on the board. This is achievable by using the ESPN public API, and creating a code that will search for games and scores and retrieve them.
 
 ### Attribution of project serving as inspiration, including the original author/maker and source (adafruit, instructables, etc.)
 
@@ -109,7 +109,7 @@ This is the project that inspired me since the creator made a scoreboard for NFL
 
 ### Description of how project is different than source
 
-The project that I used as inspiration is completely made out of LED's but my scoreboard will be wooden with a 3d stadium and only a small part will be LED. The inspiration also does NFL scores and updates live like mine, but it is a completely different project and design.
+The project that I used as inspiration is completely made out of LEDs's but my scoreboard will be wooden with a 3d stadium, and only a small part will be LED. The inspiration also does NFL scores and updates live like mine, but it is a completely different project and design.
 
 ### Design Specification Considerations _ document that you completed
 
@@ -130,36 +130,52 @@ The project that I used as inspiration is completely made out of LED's but my sc
 ![](cost.png)
 
 - wood
-  - The wood I used for the project was provided by the lab so there were no external costs associated with it
+  - The wood I used for the project was provided by the lab, so there were no external costs associated with it
 - LED Modules
-  - I used 2 LED modules which I ordered from amazon at a price of 10 dollars each or 20 dollars total. The screens were roughly 2.8 inches tall and 1.6 inches wide
+  - I used 2 LED modules, which I ordered from Amazon for 10 dollars each or 20 dollars total. The screens were roughly 2.8 inches tall and 1.6 inches wide
 - Wood Stain
-  - I used wood stain to make my wood darker. This was not provided by the lab but luckily Colin Kanofsky provided me with some of the stain that he did not use
+  - I used wood stain to make my wood darker. This was not provided by the lab, but luckily, Colin Kanofsky provided me with some of the stain that he did not use
 - Polycrylic Protective Coating
-  - This was provided by the lab and used as a protective layer to add shine so there were no external costs
+  - This was provided by the lab and used as a protective layer to add shine, so there were no external costs
 - Female to Female Jumper Wires
-  - These were provided by the lab so there were no external costs
+  - These were provided by the lab, so there were no external costs
 - Raspberry Pi 2 W
-  - I bought this item since there were no raspberry pis in the lab that i could use for my project. This cost me about 30 dollars
+  - I bought this item since there were no Raspberry Pis in the lab that I could use for my project. This cost me about 30 dollars
+
+
+## Project Management
+
+Did you include a plan?
+
+- Yes, I did outline a plan and was able to follow it for the most part, but went out of order for some things like the coding and did most of it at home since i did not have time to do it at school.
+
+Did you meet your deadlines?
+
+- Yes, I felt like I met the deadlines since I was able to have the project completed by the time we did our presentations. There are some little things i still need to do like stain the back of the board and sand it, but that is pretty much it.
+
 
 ### What tools will you use? Including hand tools and Fab Lab equipment. Did you include machine settings?
 
-- sanding machine
-- laser cutter
-- Soldering Iron
+- sanding machine - This will be used to sand down the wood, which is necessary to make it smoother, as well as so that when applying the stain, it will be even
+- laser cutter - This will be used to make the 3d stadium design out of the 4 layers, as well as cut the holes for the screens to fit through
+- Soldering Iron - This is mainly for attaching the pin header on the Raspberry Pi and maybe soldering 2 wires together if there are any shared pins between screen 1 and 2
 
-### What files did you include? Arduino, Corel Draw, Fusion 360,… these are your digital design and manufacturing file
+### What files did you include? Arduino, Corel Draw, Fusion 360,… these are your digital design and manufacturing files
 
-- I currently do not have any files since I am working on coding my project
+- The only file used for this project is the ones linked below, which are the stadium layers
+
+  [Stadium Layers](https://drive.google.com/drive/u/4/folders/1wfCeDENAcJTLqPhomfxzF8sW2yyE52ty)
 
 ### Detailed photos and or videos. Can the media be accessed?
 
-- I do not have any photos
+- Videos of the scoreboard working with an NBA game. The NFL does not have any games until the fall, so I had to pick a different sport to display how the scoreboard will work. In the Google Drive linked below, there is a time-lapse to show how the scoreboard works for a longer portion of the game, as well as a regular video, which makes it easier to see how everything updates.
+
+ [Videos](https://drive.google.com/drive/u/1/folders/1W4EseaekX1IRiQ3N3lFisRfh8MS-XwA6)
 
 
 ### Inclusion of important decisions you are making and why you are making them
 
-- Deciding whether or not to do school games or NFL games - I decided to do NFL games because after talking with Mr. Teets, who is involved with updating and managing the scores of the sports programs, I found out that I would not be able to achieve my goal because the scores wouldnt be able to update live
+- Deciding whether or not to do school games or NFL games - I decided to do NFL games because, after talking with Mr. Teets, who is involved with updating and managing the scores of the sports programs, I found out that I would not be able to achieve my goal because the scores wouldn't be able to update live
 - Choosing a wooden scoreboard for durability
 - Selecting plywood because it is the right size and was already provided
 - Using LED digit modules for clear visibility and easy score updates
@@ -169,9 +185,4 @@ The project that I used as inspiration is completely made out of LED's but my sc
 
 ### Discussion of mistakes, issues, challenges, and how you overcome them
 
-
-At this stage of the project, most challenges have occurred during the planning and coding phase rather than the physical construction. These include:
-
-- Realizing that displaying live scores was too complex for the project and shifted the goal to final scores only
-- Encountering difficulty deciding how scores will be stored and updated within the code
-- Needing to learn new Raspberry Pi libraries and display control methods
+I encountered a few challenges during this project. The first issue was that I underestimated how long this would take, and it required me to come in a lot after school to work on some of the things. I also changed my plan on this project a few times. Initially, I had not planned to stain the wood, but I thought in the end it would make everything look better. I also did not plan to use the Polycrylic coating on the wood, but after figuring out its purpose and the benefit of using it, I decided to put 2 layers of it on the board. The biggest issue I had was with the screens. I had ordered 2 I2C screens because they only required 4 pins and were the right size for my board. However, I found out that for my specific project, there were not enough libraries to use, and the entire coding piece of this would be very difficult. I tried to make these work for a few days, but ultimately knew it would be better to find different screens since it was so close to the due date of the project. I ended up switching to the ili9341 screens, which were much easier to work with.
