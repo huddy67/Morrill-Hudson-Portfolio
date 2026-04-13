@@ -29,4 +29,4 @@ pharmacynetworking.me)
 
 [Ports](Second.md)
 
-[Subnetting](Subnetting.md)
+[Subnetting](subnetting.md)
