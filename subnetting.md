@@ -2,23 +2,13 @@
 
 ### Subnet and IP Challenges
 
-(image)
-
 The first number in the IP address has to match. For example, 192.50.40.111 and 192.35.36.120 would follow this idea.
-
-(image)
 
 In this case, the first two numbers must match. For example, 192.50.40.111 and 192.50.36.120.
 
-(image)
-
 Here, the first three numbers need to be the same, and the last number can be anything from 0 to 255. For example, 192.50.40.111 and 192.50.40.120.
 
-(image)
-
 Subnet masks always start with a continuous string of 1s in binary.
-
-(image)
 
 In binary form, subnet masks have all their 1s grouped at the beginning with no breaks. For example: 255.255.192.0.
 
@@ -29,23 +19,21 @@ In binary form, subnet masks have all their 1s grouped at the beginning with no 
 ### Assignment 1
 
 #### Part 1: Build the Network
-(image)
+![Basic Switch Network](k.png)
 
 #### Part 2: Investigate Communication
 - ping 192.168.1.25 (succeeded)
 
-(image)
-
 - ping 192.168.2.10 (failed)
 
-(image)
+![Ping Failure Output](z.png)
 
 A ping only works when both devices are on the same network. If they are on different networks and there is no router connecting them, the ping will fail.
 
 #### Part 3: Modify and Test Again
 - ping 192.168.2.10 (failed)
 
-(image)
+![Ping Still Failing](z.png)
 
 At first, nothing changed because the devices were still on different networks. Since the subnet mask wasn’t adjusted and no router was added, communication still failed.
 
@@ -56,7 +44,7 @@ Change all subnet masks to **255.0.0.0** and test again.
 
 - ping 192.168.2.10 (succeeded)
 
-(image)
+![Successful Ping After Subnet Change](l.png)
 
 ---
 
@@ -90,14 +78,14 @@ Two PCs that look different but **are** on the same network:
 #### Scenario C: Small Business Workspace
 
 ##### Part 1: Device Exploration
-(image)
+![Small Business Network Layout](x.png)
 
 The network includes several PCs, a switch, and a wireless device. Everything is clearly labeled and laid out in a way that makes the connections easy to follow and understand.
 
 ---
 
 ##### Part 2: Design Decisions & Part 3: Final Network Layout
-(image)
+![Final Network Design](v.png)
 
 The final design focuses on being clean and efficient. All devices are labeled and connected through switches to keep communication organized. Wired connections are used for devices that need consistent speed and reliability, like desktop computers, while wireless connections allow for flexibility when needed.
 
@@ -110,25 +98,21 @@ The final design focuses on being clean and efficient. All devices are labeled a
 #### Part 1: Add the Router & Part 2: Configure Router Interfaces
 Fully configured setup with a working router
 
-(image)
-
-(image)
+![Router Network Layout](m.png)
 
 ---
 
 #### Part 3: Configure Default Gateway on PCs
 Default gateways and IP addresses set on a PC in each LAN
 
-(image)
-
-(image)
+![IP Configuration](n.png)
 
 ---
 
 #### Part 4: Test Communication
 Communication from LAN 1 to LAN 2
 
-(image)
+![Successful Cross-Network Ping](l.png)
 
 The router connects separate networks (LANs) and allows devices on different networks to communicate with each other.
 
@@ -140,15 +124,15 @@ The router connects separate networks (LANs) and allows devices on different net
 
 1. **Ping (Command Prompt)**  
    - ping 192.168.2.10 (failed)  
-   (image)
+   ![Ping Failure](z.png)
 
 2. **IP Configuration**  
    PC2 IP Configuration  
-   (image)
+   ![IP Config Screen](n.png)
 
 3. **Visual Inspection**  
    Physical layout  
-   (image)
+   ![Network Layout](m.png)
 
 4. **Router CLI**  
    Router IOS command line interface  
@@ -166,14 +150,14 @@ The second terminal had not been configured yet.
 #### Step 3: Apply a Fix
 Working layout
 
-(image)
+![Fixed Network](m.png)
 
 ---
 
 #### Step 4: Test Again
 - ping 192.168.2.10 (working)
 
-(image)
+![Successful Ping](l.png)
 
 ---
 
@@ -208,4 +192,3 @@ One issue I ran into was that a device couldn’t communicate with another netwo
 I also used the router’s command line interface to help diagnose the issue. The fix was to properly configure the device with the correct IP address and settings. After making the change, I tested again with ping, and it worked. This confirmed that everything was functioning as it should.
 
 ---
-
